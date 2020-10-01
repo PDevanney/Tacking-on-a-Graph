@@ -1,9 +1,9 @@
 # Timelog
 
-* PROJECT NAME
-* YOUR NAME
-* STUDENT_ID
-* SUPERVISOR NAME
+* Tracking on a Graph
+* Patrick Justin Devanney
+* 2329979D
+* Dr. Jessica Enright
 
 ## Guidance
 
@@ -14,13 +14,13 @@
 
 ## Week 1
 
-### 19 Oct 2019
+### 29 September 2020
 
-* *4 hours* Read the project guidance notes
-* *0.5 hour* Created GitLab repository and cloned the cookiecutter for the projects
-* *1 hour* Modified dissertation template, compiled  
+* *0.5 hour* Reading and disecting the project proposal 
+* *1 hour* Research into fundamental and basic Graph theory -- covered in prior years
 
-## 20 Oct 2019
+### 30 September 2020
 
-* *1 hour* meeting with supervisor
-* *2 hours* writing initial version of test harness
+* *0.5 hour* Making notes and Writing up a Meeting summary 
+* *1 hour* Initial meeting with supervisor and producing meeting minutes
+* *0.5 hour* Created GitLab repository and populated issues
