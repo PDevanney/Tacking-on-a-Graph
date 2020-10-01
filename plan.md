@@ -1,9 +1,9 @@
 # Plan
 
-* PROJECT TITLE
-* YOUR NAME
-* STUDENT ID
-* SUPERVISOR NAME
+* Tracking on a Graph
+* Patrick Justin Devanney
+* 2329979D
+* Dr. Jessica Enright
 
 Week-by-week plan for the whole project. Update this as you go along.
 
