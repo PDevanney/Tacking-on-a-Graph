@@ -33,7 +33,14 @@
 
 ### 03 October 2020
 
-* *1.5 hour* Continued using NetworkX. Drawing an 100 node graph with 3 towers spawned randomly. 
+* *1.5 hours* Continued using NetworkX. Drawing an 100 node graph with 3 towers spawned randomly. 
+* *2 hours* Continued developing Python script. Generated Erdoss Renyi graph. Mapped the distance to the Target from each tower using Dijsktras 
+
+### 04 October 2020
+
+* *3.5 hours* Completed working Python script. That now simulates the first turn of the game. And returns to the user the possible Nodes the target is at. If only one, then target has been found.
+
+
 
 
 
