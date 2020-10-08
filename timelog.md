@@ -40,6 +40,13 @@
 
 * *3.5 hours* Completed working Python script. That now simulates the first turn of the game. And returns to the user the possible Nodes the target is at. If only one, then target has been found.
 
+## Week 3
+
+### 07 October 2020
+
+* *1 hour* Prep and Supervisor meeting. Meeting minutes created and posted to GitHub
+
+
 
 
 
