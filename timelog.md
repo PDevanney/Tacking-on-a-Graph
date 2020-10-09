@@ -46,6 +46,11 @@
 
 * *1 hour* Prep and Supervisor meeting. Meeting minutes created and posted to GitHub
 
+### 09 October 2020
+
+* *3 hours* Trying to implement Turn functionality and improve existing code base
+
+
 
 
 
