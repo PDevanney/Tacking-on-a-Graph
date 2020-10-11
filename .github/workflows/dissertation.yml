@@ -1,15 +1,21 @@
-name: Compile LaTex Dissertation
+name: Compile LaTeX Dissertation
 on: [push, pull_request]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v1
-      - name: Compile LaTeX Document
-        uses: vinay0410/tectonic-action@v1.1.2
+      - name: Compile LaTex Document
+        uses: fudan-mse/latex-action@v0.0.1
         with:
-          # Path of Tex File:
-          tex_path: dissertation/l4proj.tex
-          # String stating whether to push output PDF, PDF will only be pushed in case of "yes"
-          push: yes # optional, default is no
+          # The root LaTeX file to be compiled
+          root_file: dissertation/l4proj.tex
+          # The working directory for the LaTeX engine
+          working_directory: # optional
+          # The LaTeX engine to be invoked
+          compiler: # optional, default is latexmk
+          # Extra arguments to be passed to the LaTeX engine
+          args: # optional, default is -pdf -file-line-error -interaction=nonstopmode
+          # Install extra packages by tlmgr
+          extra_packages: # optional
+          # Install extra packages by apk
+          extra_system_packages: # optional
