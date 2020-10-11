@@ -9,7 +9,7 @@ Week-by-week plan for the whole project. Update this as you go along.
 
 ## Winter semester
 
-* **Week 1 -- Complete (All Targets Met) **
+* **Week 1 -- Complete (All Targets Met)**
   * Rank Project Proposals
 * **Week 2 -- Complete (All Target Met)**
   * Meet supervisor for initial meeting
