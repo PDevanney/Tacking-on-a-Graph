@@ -1,6 +1,6 @@
 # Tracking on a Graph - Dr. Jessica Enright
 ## Description
->
+> This Project will create a Python script that will attempt to locate a Target on a graph in the most optimal number of moves possible as per the specification described below.
 ---
 ## Installation
 >
