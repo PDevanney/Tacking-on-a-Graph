@@ -50,7 +50,14 @@
 
 * *3 hours* Trying to implement Turn functionality and improve existing code base
 
+### 10 October 2020
 
+* *1.5 hours* Completing of Turn functionality - allows the User to select which node to move to.
+* *0.5 hours* Converting plan.md from Word document to Markdown to allow for submission to GitHub
+
+### 11 October 2020
+
+* *1 hour* Beginning to implement optimisations for the Tower positions
 
 
 
