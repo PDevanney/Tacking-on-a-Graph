@@ -67,6 +67,9 @@
 
 * *4 hours* Completed implementation of optimisations for the Tower positions. Removed Prior bugs and tidied code. Separated code into files.
 
+### 14 October 2020
 
+* *1 hour* Met with supervisor and Prepared Minutes of the meeting
+* *0.5 hours* Prepared for meeting, watched research video
 
 
