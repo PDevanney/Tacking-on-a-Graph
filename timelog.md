@@ -63,7 +63,9 @@
 
 * *2 hours* Continuing to implement optimisations for the Tower positions. Changed Distance measuring function to account for this.
 
+### 13 October 2020
 
+* *4 hours* Completed implementation of optimisations for the Tower positions. Removed Prior bugs and tidied code. Separated code into files.
 
 
 
