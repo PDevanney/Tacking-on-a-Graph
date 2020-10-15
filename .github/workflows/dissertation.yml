@@ -8,9 +8,9 @@ jobs:
         uses: fudan-mse/latex-action@v0.0.1
         with:
           # The root LaTeX file to be compiled
-          root_file: -cd dissertation l4proj.tex
+          root_file: l4proj.tex
           # The working directory for the LaTeX engine
-          working_directory: ..
+          working_directory: -cd dissertation
           # The LaTeX engine to be invoked
           compiler: latexmk
           # Extra arguments to be passed to the LaTeX engine
