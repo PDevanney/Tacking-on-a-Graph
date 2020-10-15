@@ -2,20 +2,11 @@ name: Compile LaTeX Dissertation
 on: [push, pull_request]
 jobs:
   build_latex:
+    name: Compile Dissertation
     runs-on: ubuntu-latest
-    steps:
-      - name: Compile LaTex Document
-        uses: fudan-mse/latex-action@v0.0.1
-        with:
-          # The root LaTeX file to be compiled
-          root_file: l4proj.tex
-          # The working directory for the LaTeX engine
-          working_directory: -cd dissertation
-          # The LaTeX engine to be invoked
-          compiler: latexmk
-          # Extra arguments to be passed to the LaTeX engine
-          args: -pdf -file-line-error -interaction=nonstopmode
-          # Install extra packages by tlmgr
-          extra_packages: # optional
-          # Install extra packages by apk
-          extra_system_packages: # optional
+    uses: hspaans/latexmk-action@v1.0.6
+    with:
+    # File format to generate
+      format: -pdf 
+    # Source file name
+      filename: dissertation/l4proj.tex
