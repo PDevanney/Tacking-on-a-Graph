@@ -1,12 +1,16 @@
-name: Compile LaTeX Dissertation
+name: Compile LaTex Dissertation
 on: [push, pull_request]
 jobs:
   build_latex:
-    name: Compile Dissertation
     runs-on: ubuntu-latest
-    uses: hspaans/latexmk-action@v1.0.6
-    with:
-    # File format to generate
-      format: -pdf 
-    # Source file name
-      filename: dissertation/l4proj.tex
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v1
+        
+      - name: Compile LaTeX document
+        uses: vinay0410/tectonic-action@v1.1.2
+        with:
+          # Path of Tex File:
+          tex_path: dissertation/l4proj.tex
+          # String stating whether to push output PDF, PDF will only be pushed in case of "yes"
+          push: yes # optional, default is no
