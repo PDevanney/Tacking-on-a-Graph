@@ -35,15 +35,16 @@ def get_target_location(number_of_nodes):
 #   Graph G
 # Output:
 #   Array[int] tower_location
-def get_optimal_tower_locations(G, tower_count):
+def get_optimal_tower_locations(G, tower_count, target_location):
     unique_distances = []
     for node in G.nodes:
         unique_distances.append(len(set((populate_distance_table(G, node)).values())))
 
     optimal = []
-    for i in range(tower_count):
-        print(np.argmax(unique_distances))
-        optimal.append(np.argmax(unique_distances))
-        unique_distances[np.argmax(unique_distances)] = -1
+    while len(optimal) != tower_count:
+        optimal_index = np.argmax(unique_distances)
 
+        if optimal_index != target_location:
+            optimal.append(optimal_index)
+            unique_distances[optimal_index] = -1
     return optimal

@@ -67,9 +67,18 @@
 
 * *4 hours* Completed implementation of optimisations for the Tower positions. Removed Prior bugs and tidied code. Separated code into files.
 
+## Week 4
+
 ### 14 October 2020
 
 * *1 hour* Met with supervisor and Prepared Minutes of the meeting
 * *0.5 hours* Prepared for meeting, watched research video
 
+### 17 October 2020
 
+* *2.5 hours* Implementing Unit Testing for the Project 
+
+### 19 October 2020
+
+* *1 hours* Implementing Optimal Search Algorithm
+* *3 hours* Researching the Optimal Movement Algoithmn, looked at Greedy approaches and heuristic approaches to find the longest 	un-discoverable path

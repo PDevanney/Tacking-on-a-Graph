@@ -32,6 +32,9 @@ Week-by-week plan for the whole project. Update this as you go along.
     * Gather evidence on why they will improve the code
   * Continue with optimisations
     * For Tower and Target
+  * Edit:
+    * Begin to implement Testing	
+
 * **Week 5**
   * Once optimisations are completed, begin to assess different Aspects
     * Effect of Optimisations on different graphs
