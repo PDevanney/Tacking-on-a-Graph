@@ -82,3 +82,7 @@
 
 * *1 hours* Implementing Optimal Search Algorithm
 * *3 hours* Researching the Optimal Movement Algoithmn, looked at Greedy approaches and heuristic approaches to find the longest 	un-discoverable path
+
+### 20 October 2020
+
+* *1 hour* Continued Implementing Unit Tests for the Project 
