@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from distances import *
 from search import *
 from initial_locations import *
-from movement import *
 
 
 def tracking(tower_count, target_location, last_target_location, tower_location, visited_nodes, node_pos):
@@ -84,13 +83,14 @@ if __name__ == '__main__':
         visited_nodes.append(tower)
 
     # Position the Nodes so they do not change each turn
-    node_positions= nx.fruchterman_reingold_layout(G, seed=42)
+    node_positions = nx.fruchterman_reingold_layout(G, seed=42)
 
     # Each turn
     while not found:
         print("Current Node: ", target_location)
         print("Last Node: ", last_target_location)
-        found = tracking(tower_count, target_location, last_target_location, tower_location, visited_nodes, node_positions)
+        found = tracking(tower_count, target_location, last_target_location,
+                         tower_location, visited_nodes, node_positions)
 
         if not found:
             visited_nodes.append(target_location)
