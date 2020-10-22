@@ -86,3 +86,9 @@
 ### 20 October 2020
 
 * *1 hour* Continued Implementing Unit Tests for the Project 
+
+## Week 5
+
+### 21 October 2020
+
+* *1.5 hours* Met with Supervisor - Prepared plan and curated Minutes of the meeting
