@@ -1,5 +1,14 @@
 name: Compile LaTex Dissertation
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+      - master
+      - development
+  pull_request:
+    branches: 
+      - master
+      - development
+    
 jobs:
   build_latex:
     runs-on: ubuntu-latest
