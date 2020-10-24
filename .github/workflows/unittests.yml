@@ -16,4 +16,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Build and Run
       run: |
-        python test.py
+        python src/test/test_distances.py
