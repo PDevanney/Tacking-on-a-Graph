@@ -16,4 +16,4 @@ jobs:
         pip install -r src/requirements.txt
     - name: Build and Run
       run: |
-        python -m unittest discover -s test -t src
+        python -m unittest discover -s src/test -t src
