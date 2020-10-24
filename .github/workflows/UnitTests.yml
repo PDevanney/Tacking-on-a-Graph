@@ -12,6 +12,7 @@ jobs:
         python-version: '3.x'
     - name: Upgrade pip
       run: |
+        python3 -m venv venv
         python -m pip install --upgrade pip
     - name: Install dependencies
       run: pip3 install -r src/requirements.txt
