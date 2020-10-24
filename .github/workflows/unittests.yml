@@ -1,9 +1,7 @@
 name: Test Python Code
 
 on:
-  push:
-    branches: 
-      - master
+  push
 jobs:
   Test:
     runs-on: ubuntu-latest
