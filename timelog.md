@@ -87,8 +87,24 @@
 
 * *1 hour* Continued Implementing Unit Tests for the Project 
 
+
 ## Week 5
 
 ### 21 October 2020
 
 * *1.5 hours* Met with Supervisor - Prepared plan and curated Minutes of the meeting
+
+### 23 October 2020
+
+* *0.5 hours* Adapted branching strategy. Made Issues on GitHub
+* *1 hour* Worked on GitHub workflow
+
+### 24 October 2020
+
+* *2 hours* Worked on GitHub UnitTesting workflow. Now Working
+
+
+### 25 October 2020
+
+* *1 hour* Worked on GitHub UnitTesting workflow. Now Working
+* *2.5 hours* Worked on UnitTesting. Fixed Bugs.
