@@ -103,8 +103,11 @@
 
 * *2 hours* Worked on GitHub UnitTesting workflow. Now Working
 
-
 ### 25 October 2020
 
 * *1 hour* Worked on GitHub UnitTesting workflow. Now Working
 * *2.5 hours* Worked on UnitTesting. Fixed Bugs.
+
+### 26 October 2020
+
+* *4 hours* Researching into Optimal Movement -- Combinatorial Search.
