@@ -22,3 +22,4 @@ jobs:
         with:
           root_file: l4proj.tex
           working_directory: dissertation
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -f
