@@ -1,5 +1,5 @@
 name: Compile LaTex Dissertation
-on push
+on: [push]
 
 # on: 
 #  push:
