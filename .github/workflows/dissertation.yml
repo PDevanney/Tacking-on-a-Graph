@@ -10,14 +10,17 @@ on: [push]
 #    branches: 
 #      - master
 #      - development
+
 jobs:
-  build_latex:
+  latex-job:
     runs-on: ubuntu-latest
+    name: A job to Compile Latex file
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v2
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: l4proj.tex
-          working_directory: dissertation/
+    - uses: actions/checkout@v1
+    - name: Compilation
+      uses: vinay0410/tectonic-action@master
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tex_path: 'dissertation/l4proj.tex'
+        push: 'yes'
