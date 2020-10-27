@@ -111,3 +111,8 @@
 ### 26 October 2020
 
 * *4 hours* Researching into Optimal Movement -- Combinatorial Search.
+
+### 27 October 2020
+
+* *1 hour* Preparing for Meeting. Compiling Written Notes. Inital Set-Up of Wiki
+* *1 hour* Working on Dissertation Workflow.
