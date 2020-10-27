@@ -14,12 +14,8 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-#      - name: Latexmk
-#        uses: hspaans/latexmk-action@v1.0.6
-#        with:
-#          format: pdf
-#          filename: l4proj.tex
-#          working_directory: dissertation/
+      - name: Set up Git repository
+        uses: actions/checkout@v2
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
