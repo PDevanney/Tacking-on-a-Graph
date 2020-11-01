@@ -25,4 +25,4 @@ jobs:
         python -m pip install --upgrade pip setuptools wheel
         pip install -r src/requirements.txt
     - name: Build and Run
-      run: python -m unittest
+      run: python -m unittest discover src/tests

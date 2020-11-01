@@ -5,9 +5,8 @@ from unittest import TestCase
 from context import distances
 
 
-
 class Test(TestCase):
-    def setup(self):
+    def setUp(self):
         # Create a Pappus Graph +  Add a node to Simulate a disconnected Graph
         self.G = nx.pappus_graph()
         self.G.add_node(43)
