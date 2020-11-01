@@ -5,7 +5,6 @@ on:
     branches:
       - master
       - development
-      - Task/MovementOptimisation
   pull_request:
     branches: 
        - master
