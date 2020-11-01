@@ -26,6 +26,5 @@ jobs:
         pip install -r src/requirements.txt
     - name: Build and Run
       run: |
-        pip install pytest
-        pip install pytest-cov
-        pytest src/ --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+	python -m unittest discover -s src/tests -p "test_*.py"
+
