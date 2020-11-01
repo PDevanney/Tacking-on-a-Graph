@@ -87,7 +87,6 @@
 
 * *1 hour* Continued Implementing Unit Tests for the Project 
 
-
 ## Week 5
 
 ### 21 October 2020
@@ -116,3 +115,24 @@
 
 * *1 hour* Preparing for Meeting. Compiling Written Notes. Inital Set-Up of Wiki
 * *1 hour* Working on Dissertation Workflow.
+
+## Week 6
+
+### 28 October 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Minutes. Minor Updates to WiKi
+
+### 31 October 2020
+
+* *1 hour* Updating WiKi. Fixing issue with GitHub repository.
+
+### 1 November 2020
+
+* *2 hours* Converting workflow to unittests. updating unittests. Merging branches to ensure all are up to date.
+* *2 hours* Began implementation of Optimal Movement algorithmn 
+
+
+
+
+
+
