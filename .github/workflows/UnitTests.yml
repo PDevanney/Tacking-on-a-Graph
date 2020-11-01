@@ -1,6 +1,16 @@
 name: Test Python Code
+
 on: 
-  push
+  push:
+    branches:
+      - master
+      - development
+      - Task/MovementOptimisation
+  pull_request:
+    branches: 
+       - master
+       - development
+
 jobs:
   build:
     runs-on: ubuntu-latest
