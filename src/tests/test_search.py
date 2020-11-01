@@ -11,8 +11,6 @@ class Test(TestCase):
         self.G = nx.pappus_graph()
         self.G.add_node(43)
 
-        self.C = nx.complete_graph(3)
-
     def test_optimal_possible_nodes(self):
         last_target_location = 1
         confirmed = [7, 8, 9, 10, 11, 12]
@@ -52,8 +50,3 @@ class Test(TestCase):
 
     def test_confirmed_node(self):
         pass
-<<<<<<< HEAD:src/tests/test_search.py
-        #self.fail()
-=======
-        # self.fail()
->>>>>>> Task/MovementOptimisation:src/test/test_search.py
