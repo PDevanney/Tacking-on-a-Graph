@@ -130,6 +130,7 @@
 
 * *2 hours* Converting workflow to unittests. updating unittests. Merging branches to ensure all are up to date.
 * *2 hours* Began implementation of Optimal Movement algorithmn 
+* *2 hours* Fixed Bugs. Began updating Optimal Movement to use a Tree Structure. 
 
 
 
