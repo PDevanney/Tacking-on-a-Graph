@@ -52,4 +52,8 @@ class Test(TestCase):
 
     def test_confirmed_node(self):
         pass
+<<<<<<< HEAD:src/tests/test_search.py
+        #self.fail()
+=======
         # self.fail()
+>>>>>>> Task/MovementOptimisation:src/test/test_search.py
