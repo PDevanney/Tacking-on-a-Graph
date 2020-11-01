@@ -1,7 +1,7 @@
 import networkx as nx
 
 from unittest import TestCase
-from search import *
+from context import search
 
 
 class Test(TestCase):
@@ -14,18 +14,30 @@ class Test(TestCase):
         self.C = nx.complete_graph(3)
 
     def test_optimal_possible_nodes(self):
-        pass
-        #self.fail()
+        last_target_location = 1
+        confirmed = [7, 8, 9, 10, 11, 12]
+        turn = 1
+        optimal = search.optimal_possible_nodes(self.G, last_target_location, confirmed, turn)
+
+        self.assertEqual(optimal, [8])
+
+    def test_optimal_possible_nodes_turn0(self):
+        last_target_location = 1
+        confirmed = [7, 8, 9, 10, 11, 12]
+        turn = 0
+        optimal = search.optimal_possible_nodes(self.G, last_target_location, confirmed, turn)
+
+        self.assertEqual(optimal, confirmed)
 
     def test_get_possible_nodes_no_visited_single_tower(self):
         target_to_every_node = [{0: 1, 1: 0, 2: 1}]
         tower_to_target = [0]
-        self.assertEqual([[1]], get_possible_nodes(target_to_every_node, tower_to_target, []))
+        self.assertEqual([[1]], search.get_possible_nodes(target_to_every_node, tower_to_target, []))
 
     def test_get_possible_nodes_no_visited_multi_tower(self):
         target_to_every_node = [{0: 1, 1: 0, 2: 1}, {0: 1, 1: 0, 2: 1}]
         tower_to_target = [0, 1]
-        self.assertEqual([[1], [0, 2]], get_possible_nodes(target_to_every_node, tower_to_target, []))
+        self.assertEqual([[1], [0, 2]], search.get_possible_nodes(target_to_every_node, tower_to_target, []))
 
     def test_get_possible_nodes_some_visited_single_tower(self):
         pass
@@ -36,8 +48,12 @@ class Test(TestCase):
     def test_get_possible_nodes_no_nodes(self):
         target_to_every_node = [{0: 1, 1: 0, 2: 1}, {0: 1, 1: 0, 2: 1}]
         tower_to_target = [-1, -1]
-        self.assertEqual([], get_possible_nodes(target_to_every_node, tower_to_target, [0, 1, 2]))
+        self.assertEqual([[], []], search.get_possible_nodes(target_to_every_node, tower_to_target, [0, 1, 2]))
 
     def test_confirmed_node(self):
         pass
+<<<<<<< HEAD:src/tests/test_search.py
         #self.fail()
+=======
+        # self.fail()
+>>>>>>> Task/MovementOptimisation:src/test/test_search.py

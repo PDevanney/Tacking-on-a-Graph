@@ -8,7 +8,6 @@
 # Output:
 #   Array of Nodes
 def optimal_possible_nodes(G, last_target_location, confirmed, turn):
-
     if turn > 0:
         optimal_nodes = []
         neighbours = G.neighbors(last_target_location)
@@ -19,6 +18,7 @@ def optimal_possible_nodes(G, last_target_location, confirmed, turn):
         return optimal_nodes
     else:
         return confirmed
+
 
 # Return a list of indexes for each tower of the possible nodes
 # Parameters:
