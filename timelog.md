@@ -132,7 +132,10 @@
 * *2 hours* Began implementation of Optimal Movement algorithmn 
 * *2 hours* Fixed Bugs. Began updating Optimal Movement to use a Tree Structure. 
 
+### 3 November 2020
 
+* *2 hours* Created Tree for a given graph
+* *1 hours* Began to explore ways of refining this graph down to paths that have been found
 
 
 
