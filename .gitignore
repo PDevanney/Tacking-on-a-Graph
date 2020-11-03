@@ -1,5 +1,6 @@
 /src/.idea/
 /src/__pycache__/
 /src/tests/__pycache__/
-src/tests/__pycache__/test_distances.cpython-38.pyc
+
+/.idea/
 *.pyc

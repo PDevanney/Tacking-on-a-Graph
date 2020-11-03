@@ -1,7 +1,7 @@
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
-from treelib import Tree, Node
+from treelib import *
 
 from search import *
 
@@ -30,11 +30,20 @@ nx.draw_networkx(G, with_labels=True, font_weight='bold')
 plt.show()
 
 all_path = Tree()
-all_path.create_node("Root", [target_node])
-for n in G.neighbors(target_node):
-    all_path.create_node([n]+[target_node], [n]+[target_node], parent=target_node)
+all_path.create_node(target_node, str(target_node))
 
-    for i in G.neighbors(n):
-        all_path.create_node(i, i, parent=n)
+
+def build_tree(t, node, parent):
+    v = [int(n) for n in parent.split(',')]
+    for n in G.neighbors(node):
+        if n not in v:
+            ident = parent + "," + str(n)
+
+            t.create_node(n, ident, parent=parent)
+
+            build_tree(t, n, parent + "," + str(n))
+
+
+build_tree(all_path, target_node, str(target_node))
 
 all_path.show()
