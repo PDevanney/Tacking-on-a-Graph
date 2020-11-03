@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-from distances import *
-from search import *
-from initial_locations import *
+from src.distances import *
+from src.search import *
+from src.initial_locations import *
 
 
 def tracking(tower_count, target_location, last_target_location, tower_location, visited_nodes, node_pos):

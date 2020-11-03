@@ -3,26 +3,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 from treelib import *
 
-from search import *
+from src.distances import *
+from src.search import *
 
-
-# Need Graph G
-# Need the Starting Node
-# Distance to other Nodes
-def optimal_path_from_start(G, start_node, distance):
-    all_paths = Tree()
-
-    all_paths.create_node(1, 1)
-    all_paths.show()
 
 
 def isfound(node, visited):
     # Check if this path will be found.
-    pass
+    return False
 
 
 G = nx.pappus_graph()
 target_node = 1
+towers = [0]
+
+distance_table = populate_distance_table(G, 0)
+current_distance_to_target(G, 0, target_node)
+get_possible_nodes()
 
 # Draw Graph
 plt.subplot(111)
@@ -35,15 +32,21 @@ all_path.create_node(target_node, str(target_node))
 
 def build_tree(t, node, parent):
     v = [int(n) for n in parent.split(',')]
+    v = v + towers
     for n in G.neighbors(node):
         if n not in v:
             ident = parent + "," + str(n)
 
             t.create_node(n, ident, parent=parent)
 
-            build_tree(t, n, parent + "," + str(n))
+            if not isfound(n, v):
+                build_tree(t, n, parent + "," + str(n))
 
 
 build_tree(all_path, target_node, str(target_node))
 
 all_path.show()
+
+leaves = all_path.leaves()
+
+print(leaves)
