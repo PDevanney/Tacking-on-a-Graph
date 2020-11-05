@@ -137,6 +137,9 @@
 * *2 hours* Created Tree for a given graph
 * *1 hours* Began to explore ways of refining this graph down to paths that have been found
 
+### 4 November 2020
+
+* *2 hours* Updated UnitTests and Workflows. Fixed Bugs based on UnitTests
 
 
 
