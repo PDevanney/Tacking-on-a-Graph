@@ -49,13 +49,17 @@ def get_possible_nodes(distance_to_every_node, distance_to_target, visited_nodes
 #   Array of Intersection of Input Array
 def confirmed_node(possible_nodes):
     # Remove Empty Lists from Possible Nodes
-    possible_nodes = [x for x in possible_nodes if x != []]
 
-    if len(possible_nodes) == 1:
-        return possible_nodes[0]
+    if len(possible_nodes) == 0:
+        return []
+    else:
+        possible_nodes = [x for x in possible_nodes if x != []]
 
-    setList = []
-    for arr in possible_nodes:
-        setList.append(set(arr))
+        if len(possible_nodes) == 1:
+            return possible_nodes[0]
 
-    return list(set.intersection(*setList))
+        setlist = []
+        for arr in possible_nodes:
+            setlist.append(set(arr))
+
+        return list(set.intersection(*setlist))

@@ -2,10 +2,10 @@ import unittest
 import networkx as nx
 
 from unittest import TestCase
-from context import distances
+from src.tests.context import distances
 
 
-class Test(TestCase):
+class TestDistances(TestCase):
     def setUp(self):
         # Create a Pappus Graph +  Add a node to Simulate a disconnected Graph
         self.G = nx.pappus_graph()
@@ -24,15 +24,15 @@ class Test(TestCase):
         t = distances.populate_distance_table(self.G, 1)
         tt = {0: 1, 1: 0, 2: 1, 3: 2, 4: 3, 5: 2, 6: 3, 7: 2, 8: 1, 9: 2, 10: 3, 11: 4, 12: 3, 13: 2, 14: 3, 15: 4,
               16: 3, 17: 2, 43: -1}
-        self.assertEqual(t, tt)
+        self.assertEqual(tt, t)
 
     def test_populate_distance_table_connected(self):
         t = distances.populate_distance_table(self.C, 1)
         tt = {0: 1, 1: 0, 2: 1}
-        self.assertEqual(t, tt)
+        self.assertEqual(tt, t)
 
     def test_populate_distance_table_disconnected(self):
         self.C.add_node(3)
         t = distances.populate_distance_table(self.C, 1)
         tt = {0: 1, 1: 0, 2: 1, 3: -1}
-        self.assertEqual(t, tt)
+        self.assertEqual(tt, t)

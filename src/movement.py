@@ -19,7 +19,7 @@ towers = [0]
 
 distance_table = populate_distance_table(G, 0)
 current_distance_to_target(G, 0, target_node)
-get_possible_nodes()
+#get_possible_nodes()
 
 # Draw Graph
 plt.subplot(111)

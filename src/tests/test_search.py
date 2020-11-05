@@ -1,10 +1,10 @@
 import networkx as nx
 
 from unittest import TestCase
-from context import search
+from src.tests.context import search
 
 
-class Test(TestCase):
+class TestSearch(TestCase):
 
     def setUp(self):
         # Create a Pappus Graph +  Add a node to Simulate a disconnected Graph
@@ -38,15 +38,25 @@ class Test(TestCase):
         self.assertEqual([[1], [0, 2]], search.get_possible_nodes(target_to_every_node, tower_to_target, []))
 
     def test_get_possible_nodes_some_visited_single_tower(self):
-        pass
+        target_to_every_node = [{0: 1, 1: 1, 2: 1}, {0: 1, 1: 0, 2: 1}]
+        tower_to_target = [1, 1]
+        self.assertEqual([[1], []], search.get_possible_nodes(target_to_every_node, tower_to_target, [0, 2]))
 
     def test_get_possible_nodes_all_visited(self):
-        pass
+        target_to_every_node = [{0: 1, 1: 1, 2: 1}, {0: 1, 1: 0, 2: 1}]
+        tower_to_target = [1, 1]
+        self.assertEqual([[], []], search.get_possible_nodes(target_to_every_node, tower_to_target, [0, 1, 2]))
 
     def test_get_possible_nodes_no_nodes(self):
         target_to_every_node = [{0: 1, 1: 0, 2: 1}, {0: 1, 1: 0, 2: 1}]
         tower_to_target = [-1, -1]
         self.assertEqual([[], []], search.get_possible_nodes(target_to_every_node, tower_to_target, [0, 1, 2]))
 
-    def test_confirmed_node(self):
+    def test_confirmed_node_confirmation_1_item(self):
+        self.assertEqual([0, 1, 2, 3], search.confirmed_node([0, 1, 2, 3]))
+
+    def test_confirmed_node_no_confirmation(self):
+        self.assertEqual([], search.confirmed_node([]))
+
+    def test_confirmed_node_empty(self):
         pass

@@ -2,7 +2,7 @@ import random
 
 import numpy as np
 
-from distances import populate_distance_table
+from src.distances import populate_distance_table
 
 
 # Return an Array of unique integers
