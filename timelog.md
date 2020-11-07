@@ -141,5 +141,9 @@
 
 * *2 hours* Updated UnitTests and Workflows. Fixed Bugs based on UnitTests
 
+## Week 7
 
+### 5 November 2020
+
+* *1.5 hours* Meeting with Supervisor. Compiling Meeting Minutes
 
