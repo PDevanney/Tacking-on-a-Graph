@@ -147,3 +147,12 @@
 
 * *1.5 hours* Meeting with Supervisor. Compiling Meeting Minutes
 
+### 11 November 2020
+
+* *3 hours* Re-working code. Creating Flowchart diagrams.
+
+## Week 8
+
+### 12 November 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
