@@ -156,3 +156,8 @@
 ### 12 November 2020
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+
+### 14 November 2020
+
+* *2 hours* Adapting prior functions in the code 
