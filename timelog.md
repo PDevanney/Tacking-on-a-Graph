@@ -161,3 +161,13 @@
 ### 14 November 2020
 
 * *2 hours* Adapting prior functions in the code 
+
+
+### 15 November 2020
+
+* *3 hours* Cnotinuing to update code
+
+
+### 16 November 2020
+
+* *3 hours* Altering UnitTests to match with current codebase. Finalised updates from Dictionary to Numpy Array.
