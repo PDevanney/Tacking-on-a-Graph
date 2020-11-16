@@ -170,4 +170,4 @@
 
 ### 16 November 2020
 
-* *3 hours* Altering UnitTests to match with current codebase. Finalised updates from Dictionary to Numpy Array.
+* *4 hours* Altering UnitTests to match with current codebase. Finalised updates from Dictionary to Numpy Array.
