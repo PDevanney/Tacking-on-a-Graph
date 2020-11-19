@@ -1,7 +1,4 @@
 import operator
-import networkx as nx
-import numpy as np
-import matplotlib.pyplot as plt
 from treelib import *
 
 from src.distances import *
@@ -15,25 +12,7 @@ def isfound(graph, target, tower, visited, distances):
         return True
     return False
 
-
-G = nx.pappus_graph()
-target_node = 1
-towers = [0, 2, 3]
-
-distance_table = []
-for t in towers:
-    distance_table.append(populate_distance_table(G, t))
-
-# Draw Graph
-plt.subplot(111)
-nx.draw_networkx(G, with_labels=True, font_weight='bold')
-plt.show()
-
-all_path = Tree()
-all_path.create_node(target_node, str(target_node))
-
-
-def build_tree(t, node, parent):
+def build_tree(G, t, node, parent, distance_table, towers):
     pass
     v = [int(n) for n in parent.split(',')]
     v = v + towers
@@ -44,23 +23,47 @@ def build_tree(t, node, parent):
             t.create_node(n, ident, parent=parent)
 
             if not isfound(G, n, towers, v, distance_table):
-                build_tree(t, n, parent + "," + str(n))
+                build_tree(G, t, n, parent + "," + str(n), distance_table, towers)
 
 
-def optimal_path():
+def optimal_path(G, target, towers):
 
-    build_tree(all_path, target_node, str(target_node))
+    all_path = Tree()
+    all_path.create_node(target, str(target))
+
+    distance_table = []
+    for t in towers:
+        distance_table.append(populate_distance_table(G, t))
+
+    build_tree(G, all_path, target, str(target), distance_table, towers)
     leaves = all_path.leaves()
     depth = {}
     for l in leaves:
         depth[l.identifier] = all_path.depth(l)
 
-    print(depth)
-    longest_path = max(depth.items(), key=operator.itemgetter(1))[0]
+    longest_path_string = max(depth.items(), key=operator.itemgetter(1))[0]
+    longest_path = longest_path_string.split(',')
 
-    print(longest_path.split(','))
-
-    return 0
+    return len(longest_path), longest_path
 
 
-optimal_path()
+def find_optimal_node(G, towers):
+    path_size = []
+
+    for n in G.nodes():
+        if n not in towers:
+            opt = optimal_path(G, n, towers)
+            print(n, ": ", opt)
+            path_size.append(opt)
+
+    longest_distance = max(path_size)[0]
+
+    return_arr = []
+    for d in path_size:
+        if d[0] == longest_distance:
+            return_arr.append(d[1])
+
+    return return_arr
+
+
+print(find_optimal_node(nx.pappus_graph(), [0,2,3]))
