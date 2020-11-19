@@ -1,25 +1,28 @@
+import operator
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 from treelib import *
 
 from src.distances import *
-from src.search import *
+from src.driver import search_driver
 
 
+def isfound(graph, target, tower, visited, distances):
+    s = search_driver(graph, target, tower, visited, distances)
 
-def isfound(node, visited):
-    # Check if this path will be found.
+    if len(s) == 1:
+        return True
     return False
 
 
 G = nx.pappus_graph()
 target_node = 1
-towers = [0]
+towers = [0, 2, 3]
 
-distance_table = populate_distance_table(G, 0)
-current_distance_to_target(G, 0, target_node)
-#get_possible_nodes()
+distance_table = []
+for t in towers:
+    distance_table.append(populate_distance_table(G, t))
 
 # Draw Graph
 plt.subplot(111)
@@ -31,6 +34,7 @@ all_path.create_node(target_node, str(target_node))
 
 
 def build_tree(t, node, parent):
+    pass
     v = [int(n) for n in parent.split(',')]
     v = v + towers
     for n in G.neighbors(node):
@@ -39,14 +43,24 @@ def build_tree(t, node, parent):
 
             t.create_node(n, ident, parent=parent)
 
-            if not isfound(n, v):
+            if not isfound(G, n, towers, v, distance_table):
                 build_tree(t, n, parent + "," + str(n))
 
 
-build_tree(all_path, target_node, str(target_node))
+def optimal_path():
 
-all_path.show()
+    build_tree(all_path, target_node, str(target_node))
+    leaves = all_path.leaves()
+    depth = {}
+    for l in leaves:
+        depth[l.identifier] = all_path.depth(l)
 
-leaves = all_path.leaves()
+    print(depth)
+    longest_path = max(depth.items(), key=operator.itemgetter(1))[0]
 
-print(leaves)
+    print(longest_path.split(','))
+
+    return 0
+
+
+optimal_path()
