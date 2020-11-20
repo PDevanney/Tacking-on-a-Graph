@@ -171,3 +171,14 @@
 ### 16 November 2020
 
 * *4 hours* Altering UnitTests to match with current codebase. Finalised updates from Dictionary to Numpy Array.
+
+### 18 November 2020
+
+* *4.5 hours* Reverting code back. Implementing isFound() function. Completing optimal movement function. 
+
+
+## Week 9
+
+### 19 November 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
