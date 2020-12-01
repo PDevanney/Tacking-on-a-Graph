@@ -182,3 +182,15 @@
 ### 19 November 2020
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+
+## Week 10
+
+### 26 November 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+
+### 1 December 2020
+
+* *2 hours* Minor changes made to code
