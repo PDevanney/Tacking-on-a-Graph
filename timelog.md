@@ -102,8 +102,83 @@
 
 * *2 hours* Worked on GitHub UnitTesting workflow. Now Working
 
-
 ### 25 October 2020
 
 * *1 hour* Worked on GitHub UnitTesting workflow. Now Working
 * *2.5 hours* Worked on UnitTesting. Fixed Bugs.
+
+### 26 October 2020
+
+* *4 hours* Researching into Optimal Movement -- Combinatorial Search.
+
+### 27 October 2020
+
+* *1 hour* Preparing for Meeting. Compiling Written Notes. Inital Set-Up of Wiki
+* *1 hour* Working on Dissertation Workflow.
+
+## Week 6
+
+### 28 October 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Minutes. Minor Updates to WiKi
+
+### 31 October 2020
+
+* *1 hour* Updating WiKi. Fixing issue with GitHub repository.
+
+### 1 November 2020
+
+* *2 hours* Converting workflow to unittests. updating unittests. Merging branches to ensure all are up to date.
+* *2 hours* Began implementation of Optimal Movement algorithmn 
+* *2 hours* Fixed Bugs. Began updating Optimal Movement to use a Tree Structure. 
+
+### 3 November 2020
+
+* *2 hours* Created Tree for a given graph
+* *1 hours* Began to explore ways of refining this graph down to paths that have been found
+
+### 4 November 2020
+
+* *2 hours* Updated UnitTests and Workflows. Fixed Bugs based on UnitTests
+
+## Week 7
+
+### 5 November 2020
+
+* *1.5 hours* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 11 November 2020
+
+* *3 hours* Re-working code. Creating Flowchart diagrams.
+
+## Week 8
+
+### 12 November 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+
+### 14 November 2020
+
+* *2 hours* Adapting prior functions in the code 
+
+
+### 15 November 2020
+
+* *3 hours* Cnotinuing to update code
+
+
+### 16 November 2020
+
+* *4 hours* Altering UnitTests to match with current codebase. Finalised updates from Dictionary to Numpy Array.
+
+### 18 November 2020
+
+* *4.5 hours* Reverting code back. Implementing isFound() function. Completing optimal movement function. 
+
+
+## Week 9
+
+### 19 November 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes

@@ -3,18 +3,11 @@
 > This Project will create a Python script that will attempt to locate a Target on a graph in the most optimal number of moves possible as per the specification described below.
 ---
 ## Installation
->
----
-## Usage
->
+> ** ToDo Update Installation **
 ---
 ## Authors and Acknowledgement
->
+> Patrick Justin Devanney -- patrickdevanney28@gmail.com
 ---
-## License
->
----
-
 ## Initial Project Specification
 > I am interested in the following pursuit game: imagine that I have a number of tracking towers that I can place on a graph. 
 On each turn, an opponent is going to move from one vertex to another in the graph. I then get to know how far that opponent is from each of my towers. 
