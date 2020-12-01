@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 
 from src.distances import *
+from src.driver import search_driver
 from src.search import *
 from src.initial_locations import *
 
@@ -11,26 +12,18 @@ def tracking(tower_count, target_location, last_target_location, tower_location,
 
     # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
 
-    distance_to_target = []
     distance_to_every_node = []
-    for t in tower_location:
-        distance_to_every_node.append(populate_distance_table(G, t))
-        distance_to_target.append(current_distance_to_target(G, t, target_location))
+    for location in tower_location:
+        distance_to_every_node.append(populate_distance_table(G, location))
 
-    possible_nodes = get_possible_nodes(distance_to_every_node, distance_to_target, visited_nodes)
-
-    for n in range(tower_count):
-        print("Possible nodes from tower %d: " % n, possible_nodes)
+    confirmed = search_driver(G, target_location, tower_location, visited_nodes, distance_to_every_node)
 
     # Draw Graph
     plt.subplot(111)
     nx.draw_networkx(G, with_labels=True, font_weight='bold', node_color=node_colours, pos=node_pos)
     plt.show()
 
-    confirmed = confirmed_node(possible_nodes)
-
-    optimal = optimal_possible_nodes(G, last_target_location, confirmed, turn_number)
-    print(optimal)
+    print('Optimal Search: ', optimal_possible_nodes(G, last_target_location, confirmed, turn_number))
 
     if len(confirmed) == 1:
         print("The target is at %d" % confirmed[0])

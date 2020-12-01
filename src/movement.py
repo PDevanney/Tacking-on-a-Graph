@@ -1,3 +1,9 @@
+# Smart vs. Dumb towers.
+# This process will iterate through every possible position
+# of Tower and calculate the Longest path available when these towers are placed,
+# this process will be repeated and output the best tower positions.
+
+
 import operator
 from treelib import *
 
@@ -38,13 +44,20 @@ def optimal_path(G, target, towers):
     build_tree(G, all_path, target, str(target), distance_table, towers)
     leaves = all_path.leaves()
     depth = {}
-    for l in leaves:
-        depth[l.identifier] = all_path.depth(l)
+    for leaf in leaves:
+        length = all_path.depth(leaf) + 1
+        if length in depth.keys():
+            depth[length].append(leaf.identifier)
+        else:
+            depth[length] = [leaf.identifier]
 
-    longest_path_string = max(depth.items(), key=operator.itemgetter(1))[0]
-    longest_path = longest_path_string.split(',')
+    longest_path = []
+    longest_path_list = depth[max(depth)]
 
-    return len(longest_path), longest_path
+    for longest_path_string in longest_path_list:
+        longest_path.append(longest_path_string.split(','))
+
+    return max(depth), longest_path
 
 
 def find_optimal_node(G, towers):
@@ -67,7 +80,3 @@ def find_optimal_node(G, towers):
 
 
 print(find_optimal_node(nx.pappus_graph(), [0, 2, 3]))
-
-# Adapt optimal_path to return every path not just one.
-# Adapt overs to fit this schematic
-# Adapt tracking() to use search driver function
