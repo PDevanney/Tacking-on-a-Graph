@@ -12,6 +12,7 @@ def isfound(graph, target, tower, visited, distances):
         return True
     return False
 
+
 def build_tree(G, t, node, parent, distance_table, towers):
     pass
     v = [int(n) for n in parent.split(',')]
@@ -27,7 +28,6 @@ def build_tree(G, t, node, parent, distance_table, towers):
 
 
 def optimal_path(G, target, towers):
-
     all_path = Tree()
     all_path.create_node(target, str(target))
 
@@ -66,4 +66,8 @@ def find_optimal_node(G, towers):
     return return_arr
 
 
-print(find_optimal_node(nx.pappus_graph(), [0,2,3]))
+print(find_optimal_node(nx.pappus_graph(), [0, 2, 3]))
+
+# Adapt optimal_path to return every path not just one.
+# Adapt overs to fit this schematic
+# Adapt tracking() to use search driver function
