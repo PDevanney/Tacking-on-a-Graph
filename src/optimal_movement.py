@@ -1,9 +1,3 @@
-# Smart vs. Dumb towers.
-# This process will iterate through every possible position
-# of Tower and calculate the Longest path available when these towers are placed,
-# this process will be repeated and output the best tower positions.
-
-
 import operator
 from treelib import *
 
@@ -11,7 +5,7 @@ from src.distances import *
 from src.driver import search_driver
 
 
-def isfound(graph, target, tower, visited, distances):
+def is_found(graph, target, tower, visited, distances):
     s = search_driver(graph, target, tower, visited, distances)
 
     if len(s) == 1:
@@ -20,7 +14,6 @@ def isfound(graph, target, tower, visited, distances):
 
 
 def build_tree(G, t, node, parent, distance_table, towers):
-    pass
     v = [int(n) for n in parent.split(',')]
     v = v + towers
     for n in G.neighbors(node):
@@ -29,7 +22,7 @@ def build_tree(G, t, node, parent, distance_table, towers):
 
             t.create_node(n, ident, parent=parent)
 
-            if not isfound(G, n, towers, v, distance_table):
+            if not is_found(G, n, towers, v, distance_table):
                 build_tree(G, t, n, parent + "," + str(n), distance_table, towers)
 
 
@@ -66,17 +59,13 @@ def find_optimal_node(G, towers):
     for n in G.nodes():
         if n not in towers:
             opt = optimal_path(G, n, towers)
-            print(n, ": ", opt)
             path_size.append(opt)
 
-    longest_distance = max(path_size)[0]
+    longest_distance = max(path_size, key=operator.itemgetter(0))[0]
 
     return_arr = []
     for d in path_size:
         if d[0] == longest_distance:
             return_arr.append(d[1])
 
-    return return_arr
-
-
-print(find_optimal_node(nx.pappus_graph(), [0, 2, 3]))
+    return longest_distance, return_arr
