@@ -194,3 +194,7 @@
 ### 1 December 2020
 
 * *2 hours* Minor changes made to code
+
+### 2 December 2020
+
+* *3.5 hours* Implemented heuristic tower locations. Added appropriate tests 
