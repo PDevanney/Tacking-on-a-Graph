@@ -190,7 +190,6 @@
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
 
-
 ### 1 December 2020
 
 * *2 hours* Minor changes made to code
@@ -198,3 +197,20 @@
 ### 2 December 2020
 
 * *3.5 hours* Implemented heuristic tower locations. Added appropriate tests 
+
+
+## Week 11
+
+###  3 December 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 7 December 2020
+
+* *1.5 hours* Compiling weekly plan for Project. Looking at prior work to see what needs to be done. Began upadting WiKi
+
+### 8 December 2020
+
+* *4 hours* Discussion Sessions for Individual Project
+* *3 hours* Reading research paper into prior graphing work.
+* *1 hour* Began planning additional heuristic algorithms to be implemented
