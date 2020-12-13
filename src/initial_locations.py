@@ -3,6 +3,10 @@ import random
 import numpy as np
 
 from src.distances import populate_distance_table
+from itertools import combinations
+import networkx as nx
+
+
 
 
 # Return an Array of unique integers
@@ -12,6 +16,9 @@ from src.distances import populate_distance_table
 #   int target_location
 # Output:
 #   Array[int] tower_location
+from src.optimal_movement import find_optimal_node
+
+
 def get_tower_locations(tower_count, number_of_nodes, target_location):
     tower_location = []
     while len(tower_location) != tower_count:
@@ -48,3 +55,18 @@ def get_optimal_tower_locations(G, tower_count, target_location):
             optimal.append(optimal_index)
             unique_distances[optimal_index] = -1
     return optimal
+
+
+def heuristic_optimal_location(G, tower_count):
+    tower_combinations = combinations(list(G.nodes), tower_count)
+
+    optimal_tower = len(G.nodes) + 1
+
+    for comb in list(tower_combinations):
+        path_length = find_optimal_node(G, list(comb))[0]
+
+        if path_length < optimal_tower:
+            optimal_comb = list(comb)
+            optimal_tower = path_length
+
+    return optimal_comb

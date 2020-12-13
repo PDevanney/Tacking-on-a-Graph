@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
+import networkx as nx
+import time
+from tabulate import tabulate
 
 from src.distances import *
+from src.driver import search_driver
 from src.search import *
 from src.initial_locations import *
 
@@ -11,26 +15,18 @@ def tracking(tower_count, target_location, last_target_location, tower_location,
 
     # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
 
-    distance_to_target = []
     distance_to_every_node = []
-    for t in tower_location:
-        distance_to_every_node.append(populate_distance_table(G, t))
-        distance_to_target.append(current_distance_to_target(G, t, target_location))
+    for location in tower_location:
+        distance_to_every_node.append(populate_distance_table(G, location))
 
-    possible_nodes = get_possible_nodes(distance_to_every_node, distance_to_target, visited_nodes)
-
-    for n in range(tower_count):
-        print("Possible nodes from tower %d: " % n, possible_nodes)
+    confirmed = search_driver(G, target_location, tower_location, visited_nodes, distance_to_every_node)
 
     # Draw Graph
     plt.subplot(111)
     nx.draw_networkx(G, with_labels=True, font_weight='bold', node_color=node_colours, pos=node_pos)
     plt.show()
 
-    confirmed = confirmed_node(possible_nodes)
-
-    optimal = optimal_possible_nodes(G, last_target_location, confirmed, turn_number)
-    print(optimal)
+    print('Optimal Search: ', optimal_possible_nodes(G, last_target_location, confirmed, turn_number))
 
     if len(confirmed) == 1:
         print("The target is at %d" % confirmed[0])
@@ -59,6 +55,45 @@ def get_node_colours(number_of_nodes, tower_location, target_location):
             node_colours.append(unvisited_colour)
 
     return node_colours
+
+
+def driver(graph_type, graph_size, tower_count=3,
+           tower_pos="random", target_pos="random",
+           tower_search="normal", target_movement="random"):
+
+    graph_types = {"complete" + str(graph_size): nx.complete_graph(graph_size),
+                   "erdos" + str(graph_size): nx.erdos_renyi_graph(graph_size, 0.15)
+                   }
+
+    graph = graph_types[graph_type + str(graph_size)]
+
+    # Establish initial positioning
+    location_start_time = time.time()
+
+    #
+
+    location_finish_time = time.time()
+    location_elapsed_time = location_finish_time - location_start_time
+
+    # movement / searching
+    # play the game
+    plt.subplot(111)
+    nx.draw_networkx(graph, with_labels=True, font_weight='bold')
+    plt.show()
+
+    print("Time for Location: ", location_elapsed_time, end="")
+    print(" Using Tower - ", tower_pos, " Target - ", target_pos)
+    print(tabulate([
+        ['Tower Position', tower_pos, location_elapsed_time],
+        ['Target Position', target_pos, location_elapsed_time],
+
+        ['Tower Searching', tower_pos, location_elapsed_time, 7],
+        ['Target Movement', target_pos, location_elapsed_time, 5]
+
+    ], headers=['', 'Type', 'Time', 'Turns']))
+
+    # Return loc_pos,
+    return
 
 
 if __name__ == '__main__':
