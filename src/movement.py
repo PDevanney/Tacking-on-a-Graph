@@ -7,7 +7,6 @@ from src.driver import search_driver
 
 def is_found(graph, target, tower, visited, distances):
     s = search_driver(graph, target, tower, visited, distances)
-
     if len(s) == 1:
         return True
     return False
@@ -69,3 +68,6 @@ def find_optimal_node(G, towers):
             return_arr.append(d[1])
 
     return longest_distance, return_arr
+
+
+

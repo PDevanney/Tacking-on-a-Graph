@@ -107,11 +107,11 @@ if __name__ == '__main__':
     # populate the initial target location with a random location
     # place the 3 towers
     G = nx.erdos_renyi_graph(graph_size, 0.15)
-    target_location = get_target_location(graph_size)
-    last_target_location = target_location
 
     # tower_location = get_tower_locations(tower_count, graph_size, target_location)
-    tower_location = get_optimal_tower_locations(G, tower_count, target_location)
+    tower_location = heuristic_tower_location(G, tower_count)
+    target_location = random_target_location(graph_size, tower_location)
+    last_target_location = target_location
 
     # Add towers to visited so that Target cannot go there
     for tower in tower_location:

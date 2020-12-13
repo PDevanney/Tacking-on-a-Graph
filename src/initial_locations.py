@@ -5,8 +5,7 @@ import numpy as np
 from src.distances import populate_distance_table
 from itertools import combinations
 import networkx as nx
-
-
+from src.movement import find_optimal_node
 
 
 # Return an Array of unique integers
@@ -16,14 +15,11 @@ import networkx as nx
 #   int target_location
 # Output:
 #   Array[int] tower_location
-from src.optimal_movement import find_optimal_node
-
-
-def get_tower_locations(tower_count, number_of_nodes, target_location):
+def random_tower_location(tower_count, number_of_nodes):
     tower_location = []
     while len(tower_location) != tower_count:
         position = random.randrange(0, number_of_nodes)
-        if position != target_location and position not in tower_location:
+        if position not in tower_location:
             tower_location.append(position)
     return tower_location
 
@@ -33,8 +29,21 @@ def get_tower_locations(tower_count, number_of_nodes, target_location):
 #   int number_of_nodes
 # Output:
 #   int tower_location
-def get_target_location(number_of_nodes):
-    return random.randrange(0, number_of_nodes)
+def random_target_location(number_of_nodes, tower_locations):
+    random_location = random.randrange(0, number_of_nodes)
+
+    while random_location in tower_locations:
+        random_location = random.randrange(0, number_of_nodes)
+
+    return random_location
+
+
+def heuristic_target_location(G):
+    common_distances = []
+    for node in G.nodes:
+        common_distances.append(len(set((populate_distance_table(G, node)).values())))
+
+    return np.argmin(common_distances)
 
 
 # Return an Array of optimal tower_locations
@@ -42,7 +51,7 @@ def get_target_location(number_of_nodes):
 #   Graph G
 # Output:
 #   Array[int] tower_location
-def get_optimal_tower_locations(G, tower_count, target_location):
+def heuristic_tower_location(G, tower_count, target_location):
     unique_distances = []
     for node in G.nodes:
         unique_distances.append(len(set((populate_distance_table(G, node)).values())))
@@ -57,7 +66,7 @@ def get_optimal_tower_locations(G, tower_count, target_location):
     return optimal
 
 
-def heuristic_optimal_location(G, tower_count):
+def optimal_tower_location(G, tower_count):
     tower_combinations = combinations(list(G.nodes), tower_count)
 
     optimal_tower = len(G.nodes) + 1
@@ -70,3 +79,17 @@ def heuristic_optimal_location(G, tower_count):
             optimal_tower = path_length
 
     return optimal_comb
+
+
+def optimal_target_location(G, tower_count):
+    tower_combinations = combinations(list(G.nodes), tower_count)
+    longest_path_length = -1
+
+    for comb in list(tower_combinations):
+        optimal_node = find_optimal_node(G, list(comb))
+
+        if optimal_node[0] > longest_path_length:
+            optimal_target = optimal_node[1][0][0][0]
+            longest_path_length = optimal_node[0]
+
+    return optimal_target
