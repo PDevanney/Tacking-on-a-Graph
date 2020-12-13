@@ -61,11 +61,12 @@ def heuristic_optimal_location(G, tower_count):
     tower_combinations = combinations(list(G.nodes), tower_count)
 
     optimal_tower = len(G.nodes) + 1
+
     for comb in list(tower_combinations):
         path_length = find_optimal_node(G, list(comb))[0]
 
         if path_length < optimal_tower:
-            optimal_comb = comb
+            optimal_comb = list(comb)
             optimal_tower = path_length
 
     return optimal_comb
