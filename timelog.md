@@ -214,3 +214,11 @@
 * *4 hours* Discussion Sessions for Individual Project
 * *3 hours* Reading research paper into prior graphing work.
 * *1 hour* Began planning additional heuristic algorithms to be implemented
+
+### 9 December 2020
+
+* *2 hours* Complete Planning of work to be done.  Begin looking at implementation.
+
+### 12 December 2020
+
+* *3 hours* Work on driver function of the code.
