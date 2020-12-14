@@ -222,3 +222,11 @@
 ### 12 December 2020
 
 * *3 hours* Work on driver function of the code.
+
+
+
+### 13 December 2020
+
+* *2 hours* Continuing work on driver function of the code.
+* *6 hours* Implementing heuristic algorithms
+
