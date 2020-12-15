@@ -230,3 +230,10 @@
 * *2 hours* Continuing work on driver function of the code.
 * *6 hours* Implementing heuristic algorithms
 
+
+
+### 14 December 2020
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+* *2 hours* Implementing heuristic algorithms
+* *1 hour* Working on combining Positioning and Movement of Target stage.
