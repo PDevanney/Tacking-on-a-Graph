@@ -219,21 +219,24 @@
 
 * *2 hours* Complete Planning of work to be done.  Begin looking at implementation.
 
+
+## Week 12
+
 ### 12 December 2020
 
 * *3 hours* Work on driver function of the code.
-
-
 
 ### 13 December 2020
 
 * *2 hours* Continuing work on driver function of the code.
 * *6 hours* Implementing heuristic algorithms
 
-
-
 ### 14 December 2020
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
 * *2 hours* Implementing heuristic algorithms
 * *1 hour* Working on combining Positioning and Movement of Target stage.
+
+### 15 December 2020
+
+* *5 hours* Refactoring code so that Random/Heuristic/Optimal Target/Towers are in individual classes. Working on Driver Function. Working on Driver Function. Making Minor Changes to exisiting code base.
