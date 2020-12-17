@@ -30,8 +30,6 @@ class RandomTarget:
 class HeuristicTarget:
 
     def initial_location(self, G, tower_locations):
-        print(tower_locations)
-
         common_distances = []
         for node in G.nodes:
             common_distances.append(len(set((populate_distance_table(G, node)).values())))
@@ -59,10 +57,13 @@ class OptimalTarget:
         for comb in list(tower_combinations):
             longest_paths = find_optimal_node(G, list(comb))
 
-            if longest_paths[0] > longest_path_length:
-                ret_path = longest_paths[1][0][0]
-                longest_path_length = longest_paths[0]
+            path_length = longest_paths[0]
 
+            if path_length > longest_path_length:
+                ret_path = longest_paths[1][0][0]
+                longest_path_length = path_length
+
+        print(ret_path)
         return ret_path
 
 

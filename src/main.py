@@ -25,12 +25,7 @@ def tracking(target_location, tower_location, visited, node_pos, distance):
     nx.draw_networkx(G, with_labels=True, font_weight='bold', node_color=node_colours, pos=node_pos)
     plt.show()
 
-    if len(confirmed) == 1:
-        print("The target is at %d" % confirmed[0])
-        return True
-    else:
-        print("Target unknown: ", confirmed)
-        return False
+    return len(confirmed) == 1
 
 
 def get_node_colours(number_of_nodes, tower_location, target_location):
@@ -54,39 +49,39 @@ def get_node_colours(number_of_nodes, tower_location, target_location):
     return node_colours
 
 
-def driver(graph_type, graph_size, tower_count=3,
-           tower_pos="random", target_pos="random",
-           tower_search="normal", target_movement="random"):
-    graph_types = {"complete" + str(graph_size): nx.complete_graph(graph_size),
-                   "erdos" + str(graph_size): nx.erdos_renyi_graph(graph_size, 0.15)
-                   }
-
-    graph = graph_types[graph_type + str(graph_size)]
-
-    # Establish initial positioning
-    location_start_time = time.time()
-
-    #
-
-    location_finish_time = time.time()
-    location_elapsed_time = location_finish_time - location_start_time
-
-    # movement / searching
-    # play the game
-    plt.subplot(111)
-    nx.draw_networkx(graph, with_labels=True, font_weight='bold')
-    plt.show()
-
-    print("Time for Location: ", location_elapsed_time, end="")
-    print(" Using Tower - ", tower_pos, " Target - ", target_pos)
-    print(tabulate([
-        ['Tower Position', tower_pos, location_elapsed_time],
-        ['Target Position', target_pos, location_elapsed_time],
-
-        ['Tower Searching', tower_pos, location_elapsed_time, 7],
-        ['Target Movement', target_pos, location_elapsed_time, 5]
-
-    ], headers=['', 'Type', 'Time', 'Turns']))
+# def driver(graph_type, graph_size, tower_count=3,
+#           tower_pos="random", target_pos="random",
+#           tower_search="normal", target_movement="random"):
+#    graph_types = {"complete" + str(graph_size): nx.complete_graph(graph_size),
+#                   "erdos" + str(graph_size): nx.erdos_renyi_graph(graph_size, 0.15)
+#                   }
+#
+#    graph = graph_types[graph_type + str(graph_size)]
+#
+#    # Establish initial positioning
+#    location_start_time = time.time()
+#
+#    #
+#
+#    location_finish_time = time.time()
+#    location_elapsed_time = location_finish_time - location_start_time
+#
+#    # movement / searching
+#    # play the game
+#    plt.subplot(111)
+#    nx.draw_networkx(graph, with_labels=True, font_weight='bold')
+#    plt.show()
+#
+#    print("Time for Location: ", location_elapsed_time, end="")
+#    print(" Using Tower - ", tower_pos, " Target - ", target_pos)
+#    print(tabulate([
+#        ['Tower Position', tower_pos, location_elapsed_time],
+#        ['Target Position', target_pos, location_elapsed_time],
+#
+#        ['Tower Searching', tower_pos, location_elapsed_time, 7],
+#        ['Target Movement', target_pos, location_elapsed_time, 5]
+#
+#    ], headers=['', 'Type', 'Time', 'Turns']))
 
 
 # ToDo Fix Bug for a node with no possible movements (Disconnected graph)
@@ -119,11 +114,13 @@ if __name__ == '__main__':
             tower_location = tower.initial_position(G, tower_count)
             print("Initial Tower Location -- ", tower_location)
 
+            # ToDo Logic of this section
             if type(target) == OptimalTarget:
+                print("tower -- ", tower_location)
                 longest_path = find_optimal_node(G, tower_location)[1][0][0]
-                #longest_path = target.optimal_path(G, tower_count)
-                longest_path = list(map(int, longest_path))
+                print("lp -- ", longest_path)
 
+                longest_path = list(map(int, longest_path))
                 target_location = target.initial_location(G, longest_path)
             else:
                 target_location = target.initial_location(G, tower_location)
@@ -147,7 +144,6 @@ if __name__ == '__main__':
 
                 if not found:
                     visited_nodes.append(target_location)
-                    print(visited_nodes)
                     possible_moves = []
                     for i in G.neighbors(target_location):
                         if i not in visited_nodes:

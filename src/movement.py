@@ -13,10 +13,7 @@ def is_found(graph, target, tower, visited, distances):
 
     # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
     s = search(distances, distance_to_target, visited)
-
-    if len(s) == 1:
-        return True
-    return False
+    return len(s) == 1
 
 
 def build_tree(G, t, node, parent, distance_table, towers):
@@ -44,6 +41,7 @@ def optimal_path(G, target, towers):
         distance_table.append(populate_distance_table(G, t))
 
     build_tree(G, all_path, target, str(target), distance_table, towers)
+
     leaves = all_path.leaves()
     depth = {}
     for leaf in leaves:
@@ -61,7 +59,7 @@ def optimal_path(G, target, towers):
 
     return max(depth), longest_path
 
-
+# Return the longest path(s) for given Towers
 def find_optimal_node(G, towers):
     path_size = []
 

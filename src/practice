@@ -1,7 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-from src.initial_locations import optimal_tower_location
 from src.tower import *
 from src.target import *
 from src.movement import find_optimal_node
@@ -19,7 +18,11 @@ nx.draw_networkx(target_test_graph, with_labels=True, font_weight='bold')
 plt.show()
 
 tower = OptimalTower
+target = OptimalTarget
+print("-------------------------------")
+print(target.optimal_path(target_test_graph, 1))
 print(find_optimal_node(target_test_graph, [100]))
+print("-------------------------------")
 
 
 tower_test_graph = nx.path_graph(6)
@@ -29,7 +32,7 @@ plt.subplot(111)
 nx.draw_networkx(tower_test_graph, with_labels=True, font_weight='bold')
 plt.show()
 
-print(optimal_tower_location(tower_test_graph, 1))
+#print(optimal_tower_location(tower_test_graph, 1))
 
 
 
