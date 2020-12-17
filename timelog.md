@@ -245,3 +245,8 @@
 ### 16 December 2020
 
 * *7 hours* Completed Target/Tower Refactoring, working on driver function and game functionality. Got driver functionality working however uncovered bugs with previous code. 
+
+
+### 17 December 2020
+
+* *7.5 hours* Continued work on Driver functionality. Attempted to fix prior bugs. Refactored code removing redundant code. 
