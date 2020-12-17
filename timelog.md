@@ -240,3 +240,8 @@
 ### 15 December 2020
 
 * *5 hours* Refactoring code so that Random/Heuristic/Optimal Target/Towers are in individual classes. Working on Driver Function. Working on Driver Function. Making Minor Changes to exisiting code base.
+
+
+### 16 December 2020
+
+* *7 hours* Completed Target/Tower Refactoring, working on driver function and game functionality. Got driver functionality working however uncovered bugs with previous code. 
