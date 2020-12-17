@@ -7,6 +7,6 @@ def search_driver(G, target_location, tower_locations, visited_nodes, distance_t
     for t in tower_locations:
         distance_to_target.append(current_distance_to_target(G, t, target_location))
 
-    possible_nodes = get_possible_nodes(distance_to_all, distance_to_target, visited_nodes)
+    possible_nodes = search(distance_to_all, distance_to_target, visited_nodes)
 
-    return confirmed_node(possible_nodes)
+    return possible_nodes
