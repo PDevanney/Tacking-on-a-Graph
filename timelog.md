@@ -250,3 +250,7 @@
 ### 17 December 2020
 
 * *7.5 hours* Continued work on Driver functionality. Attempted to fix prior bugs. Refactored code removing redundant code. 
+
+### 18 December 2020
+
+* *3 hours* Writing up Status Report.
