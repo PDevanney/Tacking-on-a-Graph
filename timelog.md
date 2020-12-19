@@ -254,3 +254,4 @@
 ### 18 December 2020
 
 * *3 hours* Writing up Status Report.
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
