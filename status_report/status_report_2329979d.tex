@@ -1,0 +1,79 @@
+    
+\documentclass[11pt]{article}
+\usepackage{times}
+\usepackage{fullpage}
+
+\title{Tracking on a Graph}
+\author{Patrick Devanney - 2329979D }
+
+\begin{document}
+\maketitle
+
+\section{Status report}
+
+\subsection{Proposal}\label{proposal}
+
+\subsubsection{Motivation}\label{motivation}
+
+Graphs are a very widely researched area of study in both Computer Science and Mathematical fields. This project introduces a new approach into the tracking on a graph problem, as it looks at tracking a moving target from stationary towers as opposed to the "probing" approach seen in previous research conducted. The project will analyse the Time vs. Accuracy of each combination of Target/Tower and also provide a graphical "playable" view of the "game". This project can be mapped to various real life scenarios, such as signal triangulation.
+
+\subsubsection{Aims}\label{aims}
+
+This project will develop python scripts that will allow for the evaluation of different Towers and Targets in the Tracking Problem, laid out in the initial specification, for different Graph Types. The project will create different levels of both Tower and Target - Random/Heuristic/Exhaustive in order to perform analysis. The evaluations carried out will map the relationship to the Time taken / Complexity of the algorithm against the Accuracy of each approach (i.e. turns taken to evade/locate the towers/target) for different graph types (Erdos-Renyi, Complete Graph, Tree). The results of this project will allow for meaningful deductions to be made regarding these findings.
+
+\subsection{Progress}\label{progress}
+\begin{itemize}
+\tightlist
+\item Created a basic game that allows the user to play as the target against randomly positioned towers.
+\item Planned out Random/Heuristic/Exhaustive approaches for the Positioning/Movement of the Tower/Target.
+\item Began implementing the various approaches.
+\item created unit tests for most of the work previously completed.
+\item Minimal research into prior work on the topic.
+\item Began implementation of a driver that will allow for evaluations to be completed.
+\item Implemented a function that will locate the Longest un-found path for the Target.
+\end{itemize}
+
+\subsection{Problems and risks}\label{problems-and-risks}
+
+\subsubsection{Problems}\label{problems}
+
+The following issues were encountered in the project so far.
+\begin{itemize}
+    \tightlist
+\item Understanding the logic behind the specification and the different aspects of the relationship between Target and Tower
+\item Locating prior research similar to this project specification.
+\item Creating heuristic approaches. 
+\end{itemize}
+
+\subsubsection{Risks}\label{risks}
+
+\begin{itemize}
+\tightlist
+\item   Locating relevant research papers to perform. \textbf{Mitigation}: will expand the searching criteria for the research papers.
+\item Calculating the complexity of each of the different functions \textbf{Mitigation}: will require background research on how to calculate these complexities.
+\item Ensuring all test cases are covered \textbf{Will perform extensive testing on all different graph types to ensure the code works as expected}
+\end{itemize}
+
+\subsection{Plan}\label{plan}
+\begin{itemize}
+    \tightlist
+    \item
+      Week 1-2: Complete Implementation of the Project. \textbf{Deliverable: A fully working project that outputs meaningful results for analysis. The code will successfully evaluate the different levels of Tower/Target against each other for differing types of Graph. Code completed. All Unit Tests passing with success status and high test coverage.} 
+    \item
+      Week 3-5: With the code completed. Perform evaluation of the various tower types, and begin to discuss the evaluation section of the dissertation. \textbf{Deliverable: Results of the evaluation that successfully measure the Time vs. Accuracy of the objects on different graphs. A rough plan of the evaluation section of the dissertation. The complexity of each function calculated and compared.}
+    \item
+      Week 5/6-7: Literature Review. 
+      \textbf{Deliverable: First draft of Literature Review Completed and Written up. Focusing primarily on research into prior work into this project}
+    \item
+      Week 8-9: Dissertation Work. 
+      \textbf{Deliverable: First draft of Dissertation Completed, Written up, and submitted to supervisor}
+    \item
+      Week 10-11: Continue on dissertation work. \textbf{Deliverable: Make revisions to dissertation. Make any revisions needed to the project. Complete all outstanding work}
+    \end{itemize}
+    
+    
+\subsection{Ethics and data}\label{ethics}
+
+This project does not involve human subjects or data. No approval required. The evaluation conducted in this project will not need any human involvement therefore, no ethical approval is required. 
+
+\end{document}
