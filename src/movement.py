@@ -1,8 +1,8 @@
 import operator
 from treelib import *
 
-from src.distances import *
-from src.search import search
+from distances import *
+from search import search
 
 
 # ToDo Improve this code

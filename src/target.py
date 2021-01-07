@@ -3,8 +3,8 @@ import numpy as np
 import networkx as nx
 from itertools import combinations
 
-from src.distances import populate_distance_table
-from src.movement import find_optimal_node
+from distances import populate_distance_table
+from movement import find_optimal_node
 
 
 # Return a random integer for the target_location

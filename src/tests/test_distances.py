@@ -6,6 +6,7 @@ from src.tests.context import distances
 
 
 class TestDistances(TestCase):
+
     def setUp(self):
         # Create a Pappus Graph +  Add a node to Simulate a disconnected Graph
         self.G = nx.pappus_graph()

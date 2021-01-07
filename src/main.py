@@ -3,10 +3,10 @@ import networkx as nx
 import time
 from tabulate import tabulate
 
-from src.distances import *
-from src.search import *
-from src.target import *
-from src.tower import *
+from distances import *
+from search import *
+from target import *
+from tower import *
 
 
 def tracking(target_location, tower_location, visited, node_pos, distance):
