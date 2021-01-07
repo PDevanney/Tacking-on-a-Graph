@@ -2,20 +2,26 @@ import operator
 from treelib import *
 
 from src.distances import *
-from src.driver import search_driver
+from src.search import search
 
 
+# ToDo Improve this code
 def is_found(graph, target, tower, visited, distances):
-    s = search_driver(graph, target, tower, visited, distances)
+    distance_to_target = []
+    for t in tower:
+        distance_to_target.append(current_distance_to_target(graph, t, target))
 
-    if len(s) == 1:
-        return True
-    return False
+    # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
+    s = search(distances, distance_to_target, visited)
+    return len(s) == 1
 
 
 def build_tree(G, t, node, parent, distance_table, towers):
     v = [int(n) for n in parent.split(',')]
-    v = v + towers
+
+    for tower in towers:
+        v.append(tower)
+
     for n in G.neighbors(node):
         if n not in v:
             ident = parent + "," + str(n)
@@ -35,6 +41,7 @@ def optimal_path(G, target, towers):
         distance_table.append(populate_distance_table(G, t))
 
     build_tree(G, all_path, target, str(target), distance_table, towers)
+
     leaves = all_path.leaves()
     depth = {}
     for leaf in leaves:
@@ -52,7 +59,7 @@ def optimal_path(G, target, towers):
 
     return max(depth), longest_path
 
-
+# Return the longest path(s) for given Towers
 def find_optimal_node(G, towers):
     path_size = []
 
