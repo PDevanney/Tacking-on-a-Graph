@@ -1,4 +1,5 @@
 import unittest
+
 import networkx as nx
 
 from unittest import TestCase
@@ -37,3 +38,6 @@ class TestDistances(TestCase):
         t = distances.populate_distance_table(self.C, 1)
         tt = {0: 1, 1: 0, 2: 1, 3: -1}
         self.assertEqual(tt, t)
+
+if __name__ == '__main__':
+    unittest.main()
