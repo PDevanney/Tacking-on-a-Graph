@@ -255,3 +255,9 @@
 
 * *3 hours* Writing up Status Report.
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+## Christmas Break
+
+### 07 January 2021
+
+* *2.5 hours* Getting up to speed with where the code is. Re-evaluating the plan. Adapting code to run and analysing the results. Adding appropriate tests.
