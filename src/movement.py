@@ -59,6 +59,8 @@ def optimal_path(G, target, towers):
 
     return max(depth), longest_path
 
+
+# ToDo Remove Redundant Square Brackets
 # Return the longest path(s) for given Towers
 def find_optimal_node(G, towers):
     path_size = []

@@ -11,7 +11,7 @@ from tower import *
 
 def tracking(target_location, tower_location, visited, node_pos, distance):
     # Set node colours for the graph
-    node_colours = get_node_colours(graph_size, tower_location, target_location)
+    node_colours = get_node_colours(graph_size, tower_location, target_location, visited_nodes)
 
     distance_to_target = []
     for tower in tower_location:
@@ -28,20 +28,17 @@ def tracking(target_location, tower_location, visited, node_pos, distance):
     return len(confirmed) == 1
 
 
-def get_node_colours(number_of_nodes, tower_location, target_location):
-    node_colours = []
+def get_node_colours(number_of_nodes, tower_location, target_location, visited,
+                     target_colour='blue', tower_colour='red', unvisited_colour='gray', visited_colour= 'green'):
 
-    target_colour = 'blue'
-    tower_colour = 'red'
-    unvisited_colour = 'gray'
-    visited_colour = 'green'
+    node_colours = []
 
     for node in range(number_of_nodes):
         if node in tower_location:
             node_colours.append(tower_colour)
         elif node == target_location:
             node_colours.append(target_colour)
-        elif node in visited_nodes:
+        elif node in visited:
             node_colours.append(visited_colour)
         else:
             node_colours.append(unvisited_colour)

@@ -39,5 +39,6 @@ class TestDistances(TestCase):
         tt = {0: 1, 1: 0, 2: 1, 3: -1}
         self.assertEqual(tt, t)
 
+
 if __name__ == '__main__':
     unittest.main()
