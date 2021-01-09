@@ -269,3 +269,4 @@
 ### 09 January 2021
 
 * *1 hours* Adding additional unit tests.
+* *3 hours* Adding additional unit tests for Tower positioning.
