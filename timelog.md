@@ -261,3 +261,7 @@
 ### 07 January 2021
 
 * *2.5 hours* Getting up to speed with where the code is. Re-evaluating the plan. Adapting code to run and analysing the results. Adding appropriate tests.
+
+### 08 January 2021
+
+* *3 hours* Adding additional unit tests. Removing redundant code.
