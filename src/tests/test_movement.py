@@ -12,6 +12,14 @@ class TestMovement(unittest.TestCase):
         self.small = nx.complete_graph(3)
         self.xsmall = nx.complete_graph(2)
 
+        self.test_graph = nx.Graph()
+        self.test_graph.add_nodes_from([1, 10])
+        self.test_graph.add_node(100)
+        self.test_graph.add_edges_from(
+            [(1, 2), (2, 3), (3, 4), (4, 5), (3, 100),
+             (6, 7), (7, 100), (100, 8), (8, 9), (9, 10)]
+        )
+
     def test_is_found(self):
         target = 0
         tower = [1, 2]
@@ -41,9 +49,13 @@ class TestMovement(unittest.TestCase):
         towers = [1, 2]
         self.assertEqual((1, [['0']]), movement.optimal_path(self.small, target, towers))
 
-    def test_find_optimal_node(self):
+    def test_find_optimal_node_no_tower(self):
         towers = []
-        self.assertEqual((2, [[['0', '1']], [['1', '0']]]), movement.find_optimal_node(self.xsmall, towers))
+        self.assertEqual((2, [['0', '1'], ['1', '0']]), movement.find_optimal_node(self.xsmall, towers))
+
+    def test_find_optimal_node_tower(self):
+        towers = [100]
+        self.assertEqual((5, [['1', '2', '3', '4', '5'], ['5', '4', '3', '2', '1']]), movement.find_optimal_node(self.test_graph, towers))
 
 
 if __name__ == '__main__':

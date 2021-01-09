@@ -75,6 +75,6 @@ def find_optimal_node(G, towers):
     return_arr = []
     for d in path_size:
         if d[0] == longest_distance:
-            return_arr.append(d[1])
+            return_arr = return_arr + (d[1])
 
     return longest_distance, return_arr

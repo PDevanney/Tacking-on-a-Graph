@@ -20,10 +20,11 @@ plt.show()
 tower = OptimalTower
 target = OptimalTarget
 print("-------------------------------")
-print(target.optimal_path(target_test_graph, 1))
-print(find_optimal_node(target_test_graph, [100]))
+#print(target.optimal_path(target_test_graph, 1))
+#print(find_optimal_node(target_test_graph, [100]))
 print("-------------------------------")
 
+print(find_optimal_node(target_test_graph, [100]))
 
 tower_test_graph = nx.path_graph(6)
 
@@ -32,9 +33,18 @@ plt.subplot(111)
 nx.draw_networkx(tower_test_graph, with_labels=True, font_weight='bold')
 plt.show()
 
-#print(optimal_tower_location(tower_test_graph, 1))
+print(tower.initial_position(tower, tower_test_graph, 1))
+print(tower.initial_position(tower, tower_test_graph, 2))
 
+print(tower.initial_position(tower, target_test_graph, 1))
 
+t_test_graph = nx.complete_graph(3)
+t_test_graph.add_node(3)
+t_test_graph.add_edge(1, 3)
+
+plt.subplot(111)
+nx.draw_networkx(t_test_graph, with_labels=True, font_weight='bold')
+plt.show()
 
 possible_nodes = []
 

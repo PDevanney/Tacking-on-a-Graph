@@ -8,16 +8,8 @@ from movement import find_optimal_node
 
 class RandomTower:
 
-    # ToDo Done? - Array of Unique Random Values?
     def initial_position(self, G, tower_count):
         return random.sample(G.nodes, tower_count)
-
-        #tower_location = []
-        #while len(tower_location) != tower_count:
-        #    position = random.randrange(0, number_of_nodes)
-        #    if position not in tower_location:
-        #        tower_location.append(position)
-        #return tower_location
 
 
 class HeuristicTower:

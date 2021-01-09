@@ -7,3 +7,5 @@ import src.search as search
 import src.movement as movement
 import src.main as main
 import src.movement as movement
+import src.tower as tower
+import src.target as target
