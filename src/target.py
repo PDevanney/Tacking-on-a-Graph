@@ -49,7 +49,6 @@ class HeuristicTarget:
 
 class OptimalTarget:
 
-    # ToDo Decide if Towers are fed in or not...
     def optimal_path(self, G, tower_count):
         tower_combinations = combinations(list(G.nodes), tower_count)
         longest_path_length = -1
@@ -58,12 +57,9 @@ class OptimalTarget:
             longest_paths = find_optimal_node(G, list(comb))
 
             path_length = longest_paths[0]
-
             if path_length > longest_path_length:
-                ret_path = longest_paths[1][0][0]
+                ret_path = longest_paths[1][0]
                 longest_path_length = path_length
-
-        print(ret_path)
         return ret_path
 
 

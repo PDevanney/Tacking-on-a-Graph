@@ -40,6 +40,7 @@ class MyTestCase(unittest.TestCase):
         location = self.optimal_tower.initial_position(self.path, 1)
         self.assertCountEqual([0], list(location))
 
+    # ToDo fix bug with odd number of nodes
     def test_optimal_path_multi(self):
         location = self.optimal_tower.initial_position(self.path, 2)
         self.assertCountEqual([0, 1], list(location))

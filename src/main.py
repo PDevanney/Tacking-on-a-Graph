@@ -114,7 +114,7 @@ if __name__ == '__main__':
             # ToDo Logic of this section
             if type(target) == OptimalTarget:
                 print("tower -- ", tower_location)
-                longest_path = find_optimal_node(G, tower_location)[1][0][0]
+                longest_path = find_optimal_node(G, tower_location)[1][0]
                 print("lp -- ", longest_path)
 
                 longest_path = list(map(int, longest_path))

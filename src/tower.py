@@ -34,15 +34,16 @@ class HeuristicTower:
 class OptimalTower:
 
     def initial_position(self, G, tower_count):
+        # Get all possible combinations of Tower locations
         tower_combinations = combinations(list(G.nodes), tower_count)
 
-        optimal_tower = len(G.nodes) + 1
-
+        short_tower_path_length = len(G.nodes) + 1
         for comb in list(tower_combinations):
-            path_length = find_optimal_node(G, list(comb))[0]
+            # Get the longest path for the given Tower combination
+            current_path_length = find_optimal_node(G, list(comb))[0] # Problem here?
 
-            if path_length < optimal_tower:
+            if current_path_length < short_tower_path_length:
                 optimal_comb = list(comb)
-                optimal_tower = path_length
+                short_tower_path_length = current_path_length
 
         return optimal_comb
