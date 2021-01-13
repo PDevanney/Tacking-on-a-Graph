@@ -271,8 +271,15 @@
 * *1 hours* Adding additional unit tests.
 * *3 hours* Adding additional unit tests for Tower positioning.
 
-
 ### 10 January 2021
 
 * *1.5 hours* Adding additional unit tests.
 * *3 hours* Fixing bug in getting Optimal Target path
+
+### 11 January 2021
+
+* *2 hours* Completing bug fix for Optimal Target Path
+
+### 13 January 2021
+
+* *3 hours* Implementing Heurisitc Target Next Move function
