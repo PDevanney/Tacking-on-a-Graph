@@ -4,8 +4,7 @@ import networkx as nx
 from itertools import combinations
 
 from distances import populate_distance_table
-from movement import find_optimal_node
-
+from movement import find_optimal_node, is_found
 
 # Return a random integer for the target_location
 # Parameters:
@@ -23,7 +22,7 @@ class RandomTarget:
 
         return random_location
 
-    def next_move(self, possible_moves, turn):
+    def next_move(self, possible_moves, turn=-1):
         return possible_moves[random.randrange(0, len(possible_moves))]
 
 
@@ -42,9 +41,25 @@ class HeuristicTarget:
 
         return index
 
-    def next_move(self, possible_moves, turn):
-        # ToDo Implement Heuristic Target Movement
-        return possible_moves[random.randrange(0, len(possible_moves))]
+    def heuristic_target_next_move(self, graph, towers, visited, distances, possible_moves):
+        one_step = []
+        two_step = []
+
+        for move in possible_moves:
+            if not is_found(graph, move, towers, visited, distances):
+                one_step.append(move)
+
+            if len(one_step) > 0:
+                for move_1 in one_step:
+                    if not is_found(graph, move_1, towers, visited+[move], distances):
+                        two_step.append(move)
+
+                if len(two_step) > 0:
+                    return random.choice(two_step)
+                else:
+                    return random.choice(one_step)
+            else:
+                return random.choice(possible_moves)
 
 
 class OptimalTarget:

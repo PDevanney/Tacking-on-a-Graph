@@ -85,15 +85,14 @@ def get_node_colours(number_of_nodes, tower_location, target_location, visited,
 if __name__ == '__main__':
     found = False
     playable = False
-    graph_size = 18
+    graph_size = 20
     tower_count = 3
 
     tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
     target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
 
     # Create the initial graph
-    # G = nx.erdos_renyi_graph(graph_size, 0.15)
-    G = nx.pappus_graph()
+    G = nx.erdos_renyi_graph(graph_size, 0.15)
 
     # Loop through all combinations of the Tower/Target
     for tower in tower_type:
@@ -172,12 +171,14 @@ if __name__ == '__main__':
                                 value = possible_moves[0]
                             target_location = int(value)
                     else:
-
+                        turn_number += 1
                         if type(target) == OptimalTarget:
-                            turn_number += 1
                             target_location = target.next_move(longest_path, turn_number)
+                        elif type(target) == HeuristicTarget:
+                            target_location = target.heuristic_target_next_move(G, tower_location, visited_nodes,
+                                                                                distance_to_every_node, possible_moves)
+
                         else:
-                            turn_number += 1
                             target_location = target.next_move(possible_moves, turn_number)
 
             print("Target found in %d turns" % turn_number)
