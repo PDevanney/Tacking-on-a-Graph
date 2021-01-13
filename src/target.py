@@ -48,18 +48,16 @@ class HeuristicTarget:
         for move in possible_moves:
             if not is_found(graph, move, towers, visited, distances):
                 one_step.append(move)
-
-            if len(one_step) > 0:
-                for move_1 in one_step:
-                    if not is_found(graph, move_1, towers, visited+[move], distances):
+                for neighbor in graph.neighbours(move):
+                    if not is_found(graph, neighbor, towers, visited+[move], distances):
                         two_step.append(move)
+                        break
 
-                if len(two_step) > 0:
-                    return random.choice(two_step)
-                else:
-                    return random.choice(one_step)
-            else:
-                return random.choice(possible_moves)
+        if len(one_step) > 0:
+            if len(two_step) > 0:
+                return random.choice(two_step)
+            return random.choice(one_step)
+        return random.choice(possible_moves)
 
 
 class OptimalTarget:
