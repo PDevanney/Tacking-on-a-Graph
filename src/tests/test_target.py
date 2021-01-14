@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from context import target
 
 
-class MyTestCase(unittest.TestCase):
+class TestTarget(unittest.TestCase):
 
     def setUp(self):
         self.random_target = target.RandomTarget()
@@ -20,8 +20,10 @@ class MyTestCase(unittest.TestCase):
         self.test_graph.add_edge(1, 3)
         self.tower_count = 3
 
-        self.heuristic_graph = nx.path_graph(4)
-        self.heuristic_graph.add_edges_from([(0, 3), (0, 4), (1, 4), (2, 4), (3, 4)])
+        self.heuristic_loc_graph = nx.path_graph(4)
+        self.heuristic_loc_graph.add_edges_from([(0, 3), (0, 4), (1, 4), (2, 4), (3, 4)])
+
+        self.heuristic_move_graph = nx.path_graph(3)
 
     def test_random_location_not_tower(self):
         towers = [0, 1, 2]
@@ -40,16 +42,61 @@ class MyTestCase(unittest.TestCase):
 
     def test_heuristic_location(self):
         towers = [0, 1]
-        location = self.heuristic_target.initial_location(self.heuristic_graph, towers)
+        location = self.heuristic_target.initial_location(self.heuristic_loc_graph, towers)
 
         self.assertEqual(location, 4)
 
-    # ToDo Implement this Test
-    def test_heuristic_next_move(self):
-        towers = [0, 1]
-        location = self.heuristic_target.initial_location(self.heuristic_graph, towers)
+    def test_heuristic_next_move_0_step_single(self):
+        graph = self.heuristic_move_graph
+        towers = [0]
+        visited = [2]
+        distances = [{0:0, 1:1, 2:2}]
+        possible_moves = [1]
 
-        self.assertEqual(location, 4)
+        next_move = self.heuristic_target.heuristic_target_next_move(graph, towers, visited, distances, possible_moves)
+
+        self.assertEqual(next_move, 1)
+
+    def test_heuristic_next_move_0_step_multi(self):
+        graph = self.heuristic_move_graph
+        graph.add_nodes_from([3, 4])
+        graph.add_edges_from([(1, 3), (3, 4), (2, 4)])
+
+        towers = [0]
+        visited = [2]
+        distances = [{0: 0, 1: 1, 2: 2, 3: 2, 4: 3}]
+        possible_moves = [1, 4]
+
+        next_move = self.heuristic_target.heuristic_target_next_move(graph, towers, visited, distances, possible_moves)
+        self.assertIn(next_move, [1, 4])
+
+    def test_heuristic_next_move_1_step_single(self):
+        graph = self.heuristic_move_graph
+        graph.add_nodes_from([3, 4])
+        graph.add_edges_from([(1, 3), (3, 4), (2, 4), (1, 3)])
+
+        towers = [0]
+        visited = [2]
+        distances = [{0: 0, 1: 1, 2: 2, 3: 2, 4: 2}]
+        possible_moves = [1, 4]
+
+        next_move = self.heuristic_target.heuristic_target_next_move(graph, towers, visited, distances, possible_moves)
+
+        self.assertEqual(next_move, 4)
+
+    def test_heuristic_next_move_2_step(self):
+        graph = self.heuristic_move_graph
+        graph.add_nodes_from([3, 4, 5])
+        graph.add_edges_from([(2, 3), (2, 4), (2, 5), (4, 5)])
+
+        towers = [0]
+        visited = [2]
+        distances = [{0: 0, 1: 1, 2: 2, 3: 3, 4: 3, 5: 3}]
+        possible_moves = [1, 3, 4, 5]
+
+        next_move = self.heuristic_target.heuristic_target_next_move(graph, towers, visited, distances, possible_moves)
+
+        self.assertIn(next_move, [4, 5])
 
     def test_optimal_location(self):
         pass
@@ -59,7 +106,6 @@ class MyTestCase(unittest.TestCase):
 
     def test_optimal_path(self):
         pass
-
 
 if __name__ == '__main__':
     unittest.main()

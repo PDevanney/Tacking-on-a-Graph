@@ -5,7 +5,7 @@ import numpy as np
 from context import tower
 
 
-class MyTestCase(unittest.TestCase):
+class TestTower(unittest.TestCase):
 
     def setUp(self):
         self.random_tower = tower.RandomTower()

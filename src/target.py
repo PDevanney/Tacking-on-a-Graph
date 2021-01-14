@@ -48,8 +48,8 @@ class HeuristicTarget:
         for move in possible_moves:
             if not is_found(graph, move, towers, visited, distances):
                 one_step.append(move)
-                for neighbor in graph.neighbours(move):
-                    if not is_found(graph, neighbor, towers, visited+[move], distances):
+                for neighbour in [x for x in graph.neighbors(move) if x not in visited]:
+                    if not is_found(graph, neighbour, towers, visited+[move], distances):
                         two_step.append(move)
                         break
 
