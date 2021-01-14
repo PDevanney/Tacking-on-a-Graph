@@ -276,6 +276,8 @@
 * *1.5 hours* Adding additional unit tests.
 * *3 hours* Fixing bug in getting Optimal Target path
 
+## Week 13
+
 ### 11 January 2021
 
 * *2 hours* Completing bug fix for Optimal Target Path
@@ -283,3 +285,4 @@
 ### 13 January 2021
 
 * *3 hours* Implementing Heurisitc Target Next Move function
+* *2.5 hours* Adding unitttests for Heurisitc Target Next Move method. Fixing bugs in the method. 
