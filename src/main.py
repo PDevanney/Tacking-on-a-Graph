@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import networkx as nx
-import tabulate as tabulate
 
 from distances import *
 from search import *
