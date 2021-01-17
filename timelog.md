@@ -292,3 +292,4 @@
 ### 14 January 2021
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+* *0.5 hour* Ensuring plan.md is up-to-date.
