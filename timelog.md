@@ -286,3 +286,9 @@
 
 * *3 hours* Implementing Heurisitc Target Next Move function
 * *2.5 hours* Adding unitttests for Heurisitc Target Next Move method. Fixing bugs in the method. 
+
+## Week 14
+
+### 14 January 2021
+
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
