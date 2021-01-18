@@ -1,17 +1,15 @@
 import matplotlib.pyplot as plt
 import networkx as nx
-import time
-from tabulate import tabulate
 
-from src.distances import *
-from src.search import *
-from src.target import *
-from src.tower import *
+from distances import *
+from search import *
+from target import *
+from tower import *
 
-
+# ToDo adapt to use is_found method
 def tracking(target_location, tower_location, visited, node_pos, distance):
     # Set node colours for the graph
-    node_colours = get_node_colours(graph_size, tower_location, target_location)
+    node_colours = get_node_colours(graph_size, tower_location, target_location, visited_nodes)
 
     distance_to_target = []
     for tower in tower_location:
@@ -28,20 +26,17 @@ def tracking(target_location, tower_location, visited, node_pos, distance):
     return len(confirmed) == 1
 
 
-def get_node_colours(number_of_nodes, tower_location, target_location):
-    node_colours = []
+def get_node_colours(number_of_nodes, tower_location, target_location, visited,
+                     target_colour='blue', tower_colour='red', unvisited_colour='gray', visited_colour= 'green'):
 
-    target_colour = 'blue'
-    tower_colour = 'red'
-    unvisited_colour = 'gray'
-    visited_colour = 'green'
+    node_colours = []
 
     for node in range(number_of_nodes):
         if node in tower_location:
             node_colours.append(tower_colour)
         elif node == target_location:
             node_colours.append(target_colour)
-        elif node in visited_nodes:
+        elif node in visited:
             node_colours.append(visited_colour)
         else:
             node_colours.append(unvisited_colour)
@@ -88,15 +83,14 @@ def get_node_colours(number_of_nodes, tower_location, target_location):
 if __name__ == '__main__':
     found = False
     playable = False
-    graph_size = 18
+    graph_size = 10
     tower_count = 3
 
     tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
     target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
 
     # Create the initial graph
-    # G = nx.erdos_renyi_graph(graph_size, 0.15)
-    G = nx.pappus_graph()
+    G = nx.erdos_renyi_graph(graph_size, 0.15)
 
     # Loop through all combinations of the Tower/Target
     for tower in tower_type:
@@ -117,7 +111,7 @@ if __name__ == '__main__':
             # ToDo Logic of this section
             if type(target) == OptimalTarget:
                 print("tower -- ", tower_location)
-                longest_path = find_optimal_node(G, tower_location)[1][0][0]
+                longest_path = find_optimal_node(G, tower_location)[1][0]
                 print("lp -- ", longest_path)
 
                 longest_path = list(map(int, longest_path))
@@ -175,12 +169,14 @@ if __name__ == '__main__':
                                 value = possible_moves[0]
                             target_location = int(value)
                     else:
-
+                        turn_number += 1
                         if type(target) == OptimalTarget:
-                            turn_number += 1
                             target_location = target.next_move(longest_path, turn_number)
+                        elif type(target) == HeuristicTarget:
+                            target_location = target.heuristic_target_next_move(G, tower_location, visited_nodes,
+                                                                                distance_to_every_node, possible_moves)
+
                         else:
-                            turn_number += 1
                             target_location = target.next_move(possible_moves, turn_number)
 
             print("Target found in %d turns" % turn_number)

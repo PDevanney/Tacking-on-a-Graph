@@ -1,8 +1,8 @@
 import operator
 from treelib import *
 
-from src.distances import *
-from src.search import search
+from distances import *
+from search import search
 
 
 # ToDo Improve this code
@@ -33,14 +33,18 @@ def build_tree(G, t, node, parent, distance_table, towers):
 
 
 def optimal_path(G, target, towers):
+    # Create initial Tree structure with start node as the ROOT
     all_path = Tree()
     all_path.create_node(target, str(target))
 
+    # Create the distance table for each tower
     distance_table = []
     for t in towers:
         distance_table.append(populate_distance_table(G, t))
 
-    build_tree(G, all_path, target, str(target), distance_table, towers)
+    # Check if the root node is found
+    if not is_found(G, target, towers, towers, distance_table):
+        build_tree(G, all_path, target, str(target), distance_table, towers)
 
     leaves = all_path.leaves()
     depth = {}
@@ -59,6 +63,7 @@ def optimal_path(G, target, towers):
 
     return max(depth), longest_path
 
+
 # Return the longest path(s) for given Towers
 def find_optimal_node(G, towers):
     path_size = []
@@ -73,6 +78,5 @@ def find_optimal_node(G, towers):
     return_arr = []
     for d in path_size:
         if d[0] == longest_distance:
-            return_arr.append(d[1])
-
+            return_arr = return_arr + (d[1])
     return longest_distance, return_arr

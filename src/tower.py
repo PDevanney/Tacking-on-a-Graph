@@ -2,22 +2,14 @@ import random
 from itertools import combinations
 
 import numpy as np
-from src.distances import populate_distance_table
-from src.movement import find_optimal_node
+from distances import populate_distance_table
+from movement import find_optimal_node
 
 
 class RandomTower:
 
-    # ToDo Done? - Array of Unique Random Values?
     def initial_position(self, G, tower_count):
         return random.sample(G.nodes, tower_count)
-
-        #tower_location = []
-        #while len(tower_location) != tower_count:
-        #    position = random.randrange(0, number_of_nodes)
-        #    if position not in tower_location:
-        #        tower_location.append(position)
-        #return tower_location
 
 
 class HeuristicTower:
@@ -42,15 +34,16 @@ class HeuristicTower:
 class OptimalTower:
 
     def initial_position(self, G, tower_count):
+        # Get all possible combinations of Tower locations
         tower_combinations = combinations(list(G.nodes), tower_count)
 
-        optimal_tower = len(G.nodes) + 1
-
+        short_tower_path_length = len(G.nodes) + 1
         for comb in list(tower_combinations):
-            path_length = find_optimal_node(G, list(comb))[0]
+            # Get the longest path for the given Tower combination
+            current_path_length = find_optimal_node(G, list(comb))[0] # Problem here?
 
-            if path_length < optimal_tower:
+            if current_path_length < short_tower_path_length:
                 optimal_comb = list(comb)
-                optimal_tower = path_length
+                short_tower_path_length = current_path_length
 
         return optimal_comb

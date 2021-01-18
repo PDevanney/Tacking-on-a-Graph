@@ -1,4 +1,5 @@
 import unittest
+
 import networkx as nx
 
 from unittest import TestCase
@@ -6,6 +7,7 @@ from src.tests.context import distances
 
 
 class TestDistances(TestCase):
+
     def setUp(self):
         # Create a Pappus Graph +  Add a node to Simulate a disconnected Graph
         self.G = nx.pappus_graph()
@@ -36,3 +38,7 @@ class TestDistances(TestCase):
         t = distances.populate_distance_table(self.C, 1)
         tt = {0: 1, 1: 0, 2: 1, 3: -1}
         self.assertEqual(tt, t)
+
+
+if __name__ == '__main__':
+    unittest.main()
