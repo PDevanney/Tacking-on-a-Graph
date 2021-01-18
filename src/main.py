@@ -6,7 +6,7 @@ from search import *
 from target import *
 from tower import *
 
-
+# ToDo adapt to use is_found method
 def tracking(target_location, tower_location, visited, node_pos, distance):
     # Set node colours for the graph
     node_colours = get_node_colours(graph_size, tower_location, target_location, visited_nodes)
@@ -83,7 +83,7 @@ def get_node_colours(number_of_nodes, tower_location, target_location, visited,
 if __name__ == '__main__':
     found = False
     playable = False
-    graph_size = 20
+    graph_size = 10
     tower_count = 3
 
     tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]

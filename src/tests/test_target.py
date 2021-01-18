@@ -25,6 +25,14 @@ class TestTarget(unittest.TestCase):
 
         self.heuristic_move_graph = nx.path_graph(3)
 
+        self.target_test_graph = nx.Graph()
+
+        self.target_test_graph.add_nodes_from([1, 10])
+        self.target_test_graph.add_node(100)
+
+        self.target_test_graph.add_edges_from(
+            [(1, 2), (2, 3), (3, 4), (4, 5), (3, 100), (6, 7), (7, 100), (100, 8), (8, 9), (9, 10)])
+
     def test_random_location_not_tower(self):
         towers = [0, 1, 2]
         location = self.random_target.initial_location(self.test_graph, towers)
@@ -46,11 +54,17 @@ class TestTarget(unittest.TestCase):
 
         self.assertEqual(location, 4)
 
+    def test_heuristic_location_not_tower(self):
+        towers = [0, 1, 4]
+        location = self.heuristic_target.initial_location(self.heuristic_loc_graph, towers)
+
+        self.assertEqual(location, 2)
+
     def test_heuristic_next_move_0_step_single(self):
         graph = self.heuristic_move_graph
         towers = [0]
         visited = [2]
-        distances = [{0:0, 1:1, 2:2}]
+        distances = [{0: 0, 1: 1, 2: 2}]
         possible_moves = [1]
 
         next_move = self.heuristic_target.heuristic_target_next_move(graph, towers, visited, distances, possible_moves)
@@ -99,13 +113,23 @@ class TestTarget(unittest.TestCase):
         self.assertIn(next_move, [4, 5])
 
     def test_optimal_location(self):
-        pass
+        longest_path = [0, 1, 2, 3, 4, 5]
+        location = self.optimal_target.initial_location(self.target_test_graph, longest_path)
+
+        self.assertEqual(location, 0)
 
     def test_optimal_next_moves(self):
-        pass
+        longest_path = [0, 1, 2, 3, 4, 5]
+        next_move = self.optimal_target.next_move(longest_path, 5)
+
+        self.assertEqual(next_move, 5)
 
     def test_optimal_path(self):
-        pass
+        optimal_path = self.optimal_target.optimal_path(self.target_test_graph, 1)
+
+        self.assertEqual(optimal_path, [1, 2, 3, 4, 5])
+
+
 
 if __name__ == '__main__':
     unittest.main()
