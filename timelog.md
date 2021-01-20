@@ -293,3 +293,12 @@
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
 * *0.5 hour* Ensuring plan.md is up-to-date.
+
+### 18 January 2021
+
+* *1 hour* Adding additional unittests
+
+### 19 January 2021
+
+* *0.5 hour* Discussion regarding adaptations to the Optimal Path
+* *3.5 hour* Updating main.py so that the Playable interface still works. And evaluation can be conducted
