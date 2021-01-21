@@ -302,3 +302,7 @@
 
 * *0.5 hour* Discussion regarding adaptations to the Optimal Path
 * *3.5 hour* Updating main.py so that the Playable interface still works. And evaluation can be conducted
+
+### 19 January 2021
+
+* *5 hours* Working on Optimal Path function. Evaluating time taken. Working on spikes in the time taken.
