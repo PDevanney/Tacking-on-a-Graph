@@ -1,3 +1,5 @@
+import time
+
 import matplotlib.pyplot as plt
 import networkx as nx
 
@@ -45,9 +47,9 @@ from playable import *
 # ToDo Fix Bug for a node with no possible movements (Disconnected graph)
 if __name__ == '__main__':
     found = False
-    playable = True
+    playable = False
     graph_size = 30
-    tower_count = 2
+    tower_count = 3
 
     tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
     target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
@@ -90,7 +92,8 @@ if __name__ == '__main__':
         for location in tower_location:
             distance_to_every_node.append(populate_distance_table(graph, location))
 
-        # ToDo Add Optimal Path
+        # ToDo Improve Efficieny
+        # optimal_path = find_optimal_node(graph, tower_location)
 
         while not found:
             found = tracking(graph, target_location, tower_location, visited, node_positions, distance_to_every_node)
@@ -114,8 +117,10 @@ if __name__ == '__main__':
                         print("")
                         value = input("Please enter a Node to move to from the above Possible Moves?\n")
                     elif value == 'o':
-                        optimal = possible_moves[0]
+                        optimal = "Not Configured"
                         print("The Optimal Move is ", optimal)
+                        while int(value) not in possible_moves:
+                            value = input("Please enter a Node to move to from the above Possible Moves?\n")
                     else:
                         try:
                             while int(value) not in possible_moves:
@@ -149,11 +154,18 @@ if __name__ == '__main__':
                 found = False
                 turn_number = 0
                 visited = []
+                target_movement_elapsed_time = 0
+                total_start_time = time.time()
 
-                # Define the initial position of the Tower/Target
+                # Establish initial positioning
+                tower_location_start_time = time.time()
                 tower_location = tower.initial_position(graph, tower_count)
+                tower_location_finish_time = time.time()
+
+                tower_location_elapsed_time = tower_location_finish_time - tower_location_start_time
                 print("Initial Tower Location: ", tower_location)
 
+                target_location_start_time = time.time()
                 if type(target) == OptimalTarget:
                     longest_path = find_optimal_node(graph, tower_location)[1][0]
                     longest_path = list(map(int, longest_path))
@@ -161,6 +173,9 @@ if __name__ == '__main__':
                     target_location = target.initial_location(graph, longest_path)
                 else:
                     target_location = target.initial_location(graph, tower_location)
+
+                target_location_finish_time = time.time()
+                target_location_elapsed_time = target_location_finish_time - target_location_start_time
 
                 print("Initial Target Location: ", target_location)
 
@@ -188,6 +203,7 @@ if __name__ == '__main__':
                         else:
                             turn_number += 1
                             visited.append(target_location)
+                            target_movement_start_time = time.time()
                             if type(target) == OptimalTarget:
                                 target_location = target.next_move(longest_path, turn_number)
                             elif type(target) == HeuristicTarget:
@@ -195,10 +211,24 @@ if __name__ == '__main__':
                                                                                     distance_to_every_node, possible_moves)
                             else:
                                 target_location = target.next_move(possible_moves, turn_number)
+                            target_movement_finish_time = time.time()
+
+                            target_movement_elapsed_time = target_movement_elapsed_time + \
+                                                           (target_movement_finish_time - target_movement_start_time)
+
                     else:
                         print("Found!")
 
+                total_end_time = time.time()
+                total_elapsed_time = total_end_time - total_start_time
+
                 print("Target found in %d turns" % turn_number)
+                print("Tower Location : ", tower_location_elapsed_time, end='')
+                print("\tTarget Location : ", target_location_elapsed_time)
+                print("Target Movement : ", target_movement_elapsed_time)
+                print("Total Time : ", total_elapsed_time)
+
+
                 print("Target visited ", end='')
                 for t in visited[tower_count:]:
                     print("%d -> " % t, end='')

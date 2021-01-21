@@ -68,18 +68,9 @@ class HeuristicTarget:
 class OptimalTarget:
 
     @staticmethod
-    def optimal_path(G, tower_count):
-        tower_combinations = combinations(list(G.nodes), tower_count)
-        longest_path_length = -1
+    def optimal_path(G, towers):
+        return find_optimal_node(G, towers)[1][0]
 
-        for comb in list(tower_combinations):
-            longest_paths = find_optimal_node(G, list(comb))
-
-            path_length = longest_paths[0]
-            if path_length > longest_path_length:
-                ret_path = longest_paths[1][0]
-                longest_path_length = path_length
-        return ret_path
 
     @staticmethod
     def initial_location(G, longest_path):
