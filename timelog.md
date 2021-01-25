@@ -313,3 +313,12 @@
 
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
 * *4.5 hour* Working on Optimal Path Bug - Hanging code.
+
+### 24 January 2021
+
+* *5 hours* Working on Optimal Path Bug. Analzing the code with the same towers. Making amendments - adapting is_found code. Researching A* Combinatorial algorithm approach.
+
+
+### 24 January 2021
+
+* *0.5 hours* Analysis of results. Briefing update sent to Jess
