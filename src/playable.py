@@ -1,7 +1,17 @@
 import matplotlib.pyplot as plt
 import networkx as nx
+from distances import *
+from search import *
 
-from src.movement import is_found
+
+def is_found(graph, target, tower, visited, distances):
+    distance_to_target = []
+    for t in tower:
+        distance_to_target.append(current_distance_to_target(graph, t, target))
+
+    # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
+    s = search(distances, distance_to_target, visited)
+    return len(s) == 1
 
 
 def tracking(graph, target_location, tower_location, visited, node_pos, distance):

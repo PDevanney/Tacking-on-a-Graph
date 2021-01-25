@@ -106,6 +106,10 @@ Week-by-week plan for the whole project. Update this as you go along.
 
 * **Week 14**
   * Dissertation work
+  * Edit:
+    * Completion of Unittests
+    * Completion of main.py driver function
+    * Implementation of Clock Time evaluation
 * **Week 15**
   * First Draft of Dissertation completed
 * **Week 16**
