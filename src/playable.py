@@ -4,16 +4,35 @@ from distances import *
 from search import *
 
 
-def is_found(graph, target, tower, visited, distances):
+# Return a Boolean value indicating if the Target has been found
+# Parameters:
+#   Graph graph
+#   int target_location
+#   List[int] tower_locations
+#   List[int] visited
+#   A List of dictionary distances keyed by Node: distances
+# Output:
+#   Boolean is target found
+def is_found(graph, target_location, tower_locations, visited, distances):
     distance_to_target = []
-    for t in tower:
-        distance_to_target.append(current_distance_to_target(graph, t, target))
+    for t in tower_locations:
+        distance_to_target.append(current_distance_to_target(graph, t, target_location))
 
     # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
     s = search(distances, distance_to_target, visited)
     return len(s) == 1
 
 
+# Return if target is found, draw appropriate graph.
+# Parameters:
+#   Graph graph
+#   int target_location
+#   List[int] tower_location
+#   List[int] visited
+#   A dictionary of positions keyed by node: node_pos
+#   A List of dictionary distances keyed by Node: distances
+# Output:
+#   Boolean is target found
 def tracking(graph, target_location, tower_location, visited, node_pos, distance):
     # Set node colours for the graph
     node_colours = get_node_colours(graph.number_of_nodes(), tower_location, target_location, visited)
@@ -29,8 +48,19 @@ def tracking(graph, target_location, tower_location, visited, node_pos, distance
     return confirmed
 
 
-def get_node_colours(number_of_nodes, tower_location, target_location, visited,
-                     target_colour='blue', tower_colour='red', unvisited_colour='gray', visited_colour= 'green'):
+# Return List of colours for the Graph.
+# Parameters:
+#   int number_of_nodes
+#   List[int] tower_location
+#   int target_location
+#   List[int] visited
+# Output:
+#   List[string] node_colours
+def get_node_colours(number_of_nodes, tower_location, target_location, visited):
+    target_colour = 'blue'
+    tower_colour = 'red'
+    unvisited_colour = 'gray'
+    visited_colour = 'green'
 
     node_colours = []
 

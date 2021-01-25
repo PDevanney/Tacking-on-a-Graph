@@ -4,8 +4,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 
 import src.distances as distances
 import src.search as search
-import src.movement as movement
 import src.main as main
-import src.movement as movement
+import src.optimal as optimal
 import src.tower as tower
 import src.target as target

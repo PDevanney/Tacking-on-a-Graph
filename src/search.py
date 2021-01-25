@@ -1,10 +1,10 @@
-# Return an Array of the Possible target Locations
+# Return a List of the Possible Locations of the Target on the Graph
 # Parameters:
-#   Dictionary of Distance to Every Node from Tower
-#   Array of Distance to Target from each Tower
-#   Array of Visited Nodes
+#   A dictionary of Distance to Every Node from Tower keyed by Node
+#   List[int] Distance to Target from each Tower
+#   List[int] Previously Visited Nodes
 # Output:
-#   Array of Intersection of Input Array
+#   List[int] possible locations (Intersection of Input Array)
 def search(distance_to_every_node, distance_to_target, visited_nodes):
     current_tower = 0
     possible = []

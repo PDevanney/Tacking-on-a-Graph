@@ -1,9 +1,8 @@
 import random
-from itertools import combinations
-
 import numpy as np
+from itertools import combinations
 from distances import populate_distance_table
-from movement import find_optimal_node
+from optimal import find_optimal_node
 
 
 class RandomTower:
