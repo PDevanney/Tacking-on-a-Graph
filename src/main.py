@@ -1,30 +1,44 @@
+import sys
 import time
-
+import csv
 import matplotlib.pyplot as plt
 import networkx as nx
-
 from target import *
 from tower import *
 from playable import *
 
 
 if __name__ == '__main__':
+    output = open('output.csv', 'a', newline='')
+    writer = csv.writer(output)
+    writer.writerow(["Graph Type", "Graph Size", "Tower Count", "RTo RTa", "RTo HTa", "RTo OTa", "HTo RTa", "HTo HTa",
+                     "HTo OTa", "OTo RTa", "OTo HTa", "OTo OTa"])
+
     found = False
-    playable = False
-    graph_size = 30
-    tower_count = 3
+
+    if len(sys.argv) == 4:
+        if (sys.argv[1]) == "True":
+            playable = True
+        else:
+            playable = False
+        graph_size = int(sys.argv[2])
+        tower_count = int(sys.argv[3])
+    else:
+        playable = False
+        graph_size = 20
+        tower_count = 3
 
     tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
     target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
 
     graph_type = [nx.erdos_renyi_graph(graph_size, 0.15), nx.random_tree(graph_size)]
-    graph = graph_type[0]
 
     if playable:
         print("Playable Method")
         print("-----------------")
         print("\n")
 
+        graph = nx.erdos_renyi_graph(graph_size, 0.15)
         turn_number = 0
         visited = []
 
@@ -48,22 +62,22 @@ if __name__ == '__main__':
         for location in tower_location:
             distance_to_every_node.append(populate_distance_table(graph, location))
 
-        # ToDo Improve Efficieny
-        # optimal_path = find_optimal_node(graph, tower_location)
-
         while not found:
             found = tracking(graph, target_location, tower_location, visited, node_positions, distance_to_every_node)
 
             if not found:
                 possible_moves = []
+                print("Possible Moves: ", end='')
                 for i in graph.neighbors(target_location):
                     if i not in visited:
+                        print(i, end=" ")
                         possible_moves.append(i)
 
                 if len(possible_moves) == 0:
                     print("No Moves Available!")
                     found = True
                 else:
+                    print()
                     visited.append(target_location)
                     value = input("Please enter a Node to move to from the above Possible Moves?\n")
 
@@ -96,8 +110,9 @@ if __name__ == '__main__':
         print("Evaluative Method")
         print("-----------------\n")
 
-        # Loop through all combinations of the Tower/Target
+        # Loop through all combinations of the Tower/Target for each Graph Type
         for graph in graph_type:
+            turn_list = []
             for tower in tower_type:
                 for target in target_type:
                     print("Target: ", type(tower).__name__)
@@ -174,6 +189,7 @@ if __name__ == '__main__':
                     total_end_time = time.time()
                     total_elapsed_time = total_end_time - total_start_time
 
+                    turn_list.append(turn_number)
                     print("Target found in %d turns" % turn_number)
                     print("Tower Location : ", tower_location_elapsed_time, end='')
                     print("\tTarget Location : ", target_location_elapsed_time)
@@ -185,3 +201,7 @@ if __name__ == '__main__':
                         print("%d -> " % t, end='')
                     print(target_location)
                     print("\n")
+
+            info = ["Graph Type", graph_size, tower_count]
+            writer.writerow(info + turn_list)
+
