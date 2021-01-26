@@ -127,8 +127,7 @@ class TestTarget(unittest.TestCase):
     def test_optimal_path(self):
         optimal_path = self.optimal_target.optimal_path(self.target_test_graph, [100])
 
-        self.assertEqual(optimal_path, ['1', '2', '3', '4', '5'])
-
+        self.assertEqual(optimal_path, [1, 2, 3, 4, 5])
 
 
 if __name__ == '__main__':

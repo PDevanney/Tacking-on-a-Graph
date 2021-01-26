@@ -7,18 +7,30 @@ from optimal import find_optimal_node
 
 class RandomTower:
 
+    # Return a random List[int] for the tower_locations
+    # Parameters:
+    #   Graph graph
+    #   int tower_count
+    # Output:
+    #   List[int] tower_locations
     @staticmethod
-    def initial_position(G, tower_count):
-        return random.sample(G.nodes, tower_count)
+    def initial_position(graph, tower_count):
+        return random.sample(graph.nodes, tower_count)
 
 
 class HeuristicTower:
 
+    # Return a heuristically chosen value to place the towers. Based on the number of Unique Distances from each Node.
+    # Parameters:
+    #   Graph graph
+    #   int tower_count
+    # Output:
+    #   List[int] tower_locations
     @staticmethod
-    def initial_position(G, tower_count):
+    def initial_position(graph, tower_count):
         unique_distances = []
-        for node in G.nodes:
-            unique_distances.append(len(set((populate_distance_table(G, node)).values())))
+        for node in graph.nodes:
+            unique_distances.append(len(set((populate_distance_table(graph, node)).values())))
 
         optimal = np.argpartition(unique_distances, -tower_count)[-tower_count:]
         return optimal
@@ -26,15 +38,24 @@ class HeuristicTower:
 
 class OptimalTower:
 
+    # Return the Optimal Positions to place the Towers - based on the Minimax approach
+    #   Go through each combination of tower_locations.
+    #   Return the longest possible path for each combination.
+    #   Return the shortest path from the above output.
+    # Parameters:
+    #   Graph graph
+    #   int tower_count
+    # Output:
+    #   List[int] tower_locations
     @staticmethod
-    def initial_position(G, tower_count):
+    def initial_position(graph, tower_count):
         # Get all possible combinations of Tower locations
-        tower_combinations = combinations(list(G.nodes), tower_count)
+        tower_combinations = combinations(list(graph.nodes), tower_count)
 
-        short_tower_path_length = len(G.nodes) + 1
+        short_tower_path_length = len(graph.nodes) + 1
         for comb in list(tower_combinations):
             # Get the longest path for the given Tower combination
-            current_path_length = find_optimal_node(G, list(comb))[0] # Problem here?
+            current_path_length = find_optimal_node(graph, list(comb))[0] # Problem here?
 
             if current_path_length < short_tower_path_length:
                 optimal_comb = list(comb)
