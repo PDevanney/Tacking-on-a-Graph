@@ -322,3 +322,8 @@
 ### 25 January 2021
 
 * *0.5 hours* Analysis of results. Briefing update sent to Jess
+* *4 hours* Continued to work on code. Recapped on Big Oh Notation in preparation for evaluation. Looked into dissertation write-up.
+
+### 26 January 2021
+
+* *3.5 hours* Merged code together. Added additional comments. Added output to .csv file.
