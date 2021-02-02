@@ -25,11 +25,13 @@ if __name__ == '__main__':
         tower_count = int(sys.argv[3])
     else:
         playable = False
-        graph_size = 20
-        tower_count = 3
+        graph_size = 50
+        tower_count = 10
 
-    tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
-    target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
+    #tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
+    #target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
+    tower_type = [RandomTower(), HeuristicTower()]
+    target_type = [RandomTarget(), HeuristicTarget()]
 
     graph_type = [nx.erdos_renyi_graph(graph_size, 0.15), nx.random_tree(graph_size)]
 

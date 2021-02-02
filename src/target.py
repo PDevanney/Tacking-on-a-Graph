@@ -74,7 +74,13 @@ class HeuristicTarget:
         for move in possible_moves:
             if not is_found(graph, move, towers, visited, distances):
                 one_step.append(move)
-                for neighbour in [x for x in graph.neighbors(move) if x not in visited]:
+
+                possible = []
+                for node in graph.neighbors(move):
+                    if node not in visited:
+                        possible.append(node)
+
+                for neighbour in possible:
                     if not is_found(graph, neighbour, towers, visited+[move], distances):
                         two_step.append(move)
                         break
@@ -95,6 +101,7 @@ class OptimalTarget:
     #   List[string] longest_path
     @staticmethod
     def optimal_path(graph, towers):
+        print(find_optimal_node(graph, towers))
         return find_optimal_node(graph, towers)[1][0]
 
     # Return the initial location of the Optimal Path - first value of the List

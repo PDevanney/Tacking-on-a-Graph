@@ -1,3 +1,13 @@
 Graph Type,Graph Size,Tower Count,RTo RTa,RTo HTa,RTo OTa,HTo RTa,HTo HTa,HTo OTa,OTo RTa,OTo HTa,OTo OTa
 Graph Type,20,3,0,1,2,0,0,2,0,0,0
 Graph Type,20,3,0,0,1,0,0,1,0,0,1
+Graph Type,Graph Size,Tower Count,RTo RTa,RTo HTa,RTo OTa,HTo RTa,HTo HTa,HTo OTa,OTo RTa,OTo HTa,OTo OTa
+Graph Type,20,3,0,0,5,0,0,5,0,0,0
+Graph Type,20,3,0,3,1,1,0,1,1,0,1
+Graph Type,Graph Size,Tower Count,RTo RTa,RTo HTa,RTo OTa,HTo RTa,HTo HTa,HTo OTa,OTo RTa,OTo HTa,OTo OTa
+Graph Type,Graph Size,Tower Count,RTo RTa,RTo HTa,RTo OTa,HTo RTa,HTo HTa,HTo OTa,OTo RTa,OTo HTa,OTo OTa
+Graph Type,50,10,0,0,0,0
+Graph Type,50,10,0,0,1,0
+Graph Type,Graph Size,Tower Count,RTo RTa,RTo HTa,RTo OTa,HTo RTa,HTo HTa,HTo OTa,OTo RTa,OTo HTa,OTo OTa
+Graph Type,50,10,0,0,0,0
+Graph Type,50,10,0,0,0,0

@@ -32,8 +32,8 @@ class HeuristicTower:
         for node in graph.nodes:
             unique_distances.append(len(set((populate_distance_table(graph, node)).values())))
 
-        optimal = np.argpartition(unique_distances, -tower_count)[-tower_count:]
-        return optimal
+        heuristic = np.argpartition(unique_distances, -tower_count)[-tower_count:]
+        return heuristic
 
 
 class OptimalTower:
