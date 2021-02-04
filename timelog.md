@@ -335,5 +335,15 @@
 
 ### 31 January 2021
 * *1 hour* Typed up Big O Notation, made corrections to previous calculations. 
-* *4.5 hours* Creating dissertation plan, writing out weekly plan for dissertation work in Semester 2, highlighting various concepts to discuss in each section,, and when each section shuold be completed by.
+* *4.5 hours* Creating dissertation plan, writing out weekly plan for dissertation work in Semester 2, highlighting various concepts to discuss in each section, and when each section shuold be completed by.
 
+### 1 February 2021
+* *2 hours* Made minor changes to code. Updated Unittests and Optimal Path
+
+### 2 February 2021
+* *5 hours* Continued with Big O Calculations
+
+## Week 17
+
+### 04 February 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
