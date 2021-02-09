@@ -1,12 +1,16 @@
+import multiprocessing
 import sys
 import time
 import csv
 import matplotlib.pyplot as plt
 import networkx as nx
+
 from target import *
 from tower import *
 from playable import *
 
+
+TIMEOUT = 300
 
 if __name__ == '__main__':
     output = open('output.csv', 'a', newline='')
@@ -26,12 +30,10 @@ if __name__ == '__main__':
     else:
         playable = False
         graph_size = 50
-        tower_count = 10
+        tower_count = 5
 
-    #tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
-    #target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
-    tower_type = [RandomTower(), HeuristicTower()]
-    target_type = [RandomTarget(), HeuristicTarget()]
+    tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
+    target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
 
     graph_type = [nx.erdos_renyi_graph(graph_size, 0.15), nx.random_tree(graph_size)]
 
@@ -117,8 +119,8 @@ if __name__ == '__main__':
             turn_list = []
             for tower in tower_type:
                 for target in target_type:
-                    print("Target: ", type(tower).__name__)
-                    print("Tower: ", type(target).__name__)
+                    print("Target: ", type(target).__name__)
+                    print("Tower: ", type(tower).__name__)
 
                     found = False
                     turn_number = 0
@@ -127,23 +129,66 @@ if __name__ == '__main__':
                     total_start_time = time.time()
 
                     # Establish initial positioning
+                    # With TimeOut Clause
+                    manager = multiprocessing.Manager()
+                    tower_location = manager.dict()
+                    p = multiprocessing.Process(target=tower.initial_position, name='Tower_Initial_Position',
+                                                args=(graph, tower_count, tower_location))
                     tower_location_start_time = time.time()
-                    tower_location = tower.initial_position(graph, tower_count)
+                    p.start()
+                    p.join(timeout=TIMEOUT)
                     tower_location_finish_time = time.time()
+                    p.terminate()
+
+                    if p.exitcode is None:
+                        print("Function Timeout - %s Initial Position!\n\n" % type(tower).__name__)
+                        continue
+                    if p.exitcode == 0:
+                        print(tower_location.values())
+                        tower_location = tower_location.values()[0]
 
                     tower_location_elapsed_time = tower_location_finish_time - tower_location_start_time
                     print("Initial Tower Location: ", tower_location)
 
-                    target_location_start_time = time.time()
+                    manager = multiprocessing.Manager()
+                    target_location = manager.dict()
                     if type(target) == OptimalTarget:
-                        longest_path = find_optimal_node(graph, tower_location)[1][0]
-                        longest_path = list(map(int, longest_path))
+                        p = multiprocessing.Process(target=target.optimal_path, name='Tower_Initial_Position',
+                                                    args=(graph, tower_location, target_location))
 
-                        target_location = target.initial_location(graph, longest_path)
+                        target_location_start_time = time.time()
+                        p.start()
+                        p.join(timeout=TIMEOUT)
+                        target_location_finish_time = time.time()
+
+                        p.terminate()
+
+                        if p.exitcode is None:
+                            print("Target Function Timeout!\n\n")
+                            continue
+                        if p.exitcode == 0:
+                            longest_path = target_location.values()[0]
+                            target_location = target.initial_location(graph, longest_path)
+
                     else:
-                        target_location = target.initial_location(graph, tower_location)
+                        p = multiprocessing.Process(target=target.initial_location, name='Tower_Initial_Position',
+                                                    args=(graph, tower_location, target_location))
 
-                    target_location_finish_time = time.time()
+                        p.start()
+                        target_location_start_time = time.time()
+
+                        p.join(timeout=TIMEOUT)
+
+                        target_location_finish_time = time.time()
+
+                        p.terminate()
+
+                        if p.exitcode is None:
+                            print("Function Timeout - %s Initial Location!\n\n" % type(target).__name__)
+                            continue
+                        if p.exitcode == 0:
+                            target_location = target_location.values()[0]
+
                     target_location_elapsed_time = target_location_finish_time - target_location_start_time
 
                     print("Initial Target Location: ", target_location)

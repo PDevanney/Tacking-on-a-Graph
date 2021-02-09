@@ -14,8 +14,9 @@ class RandomTower:
     # Output:
     #   List[int] tower_locations
     @staticmethod
-    def initial_position(graph, tower_count):
-        return random.sample(graph.nodes, tower_count)
+    def initial_position(graph, tower_count, tower_location={}):
+        tower_location[0] = random.sample(graph.nodes, tower_count)
+        return tower_location[0]
 
 
 class HeuristicTower:
@@ -27,13 +28,15 @@ class HeuristicTower:
     # Output:
     #   List[int] tower_locations
     @staticmethod
-    def initial_position(graph, tower_count):
+    def initial_position(graph, tower_count, tower_location={}):
         unique_distances = []
         for node in graph.nodes:
             unique_distances.append(len(set((populate_distance_table(graph, node)).values())))
 
         heuristic = np.argpartition(unique_distances, -tower_count)[-tower_count:]
-        return heuristic
+
+        tower_location[0] = heuristic
+        return tower_location[0]
 
 
 class OptimalTower:
@@ -48,7 +51,7 @@ class OptimalTower:
     # Output:
     #   List[int] tower_locations
     @staticmethod
-    def initial_position(graph, tower_count):
+    def initial_position(graph, tower_count, tower_location={}):
         # Get all possible combinations of Tower locations
         tower_combinations = combinations(list(graph.nodes), tower_count)
 
@@ -61,4 +64,5 @@ class OptimalTower:
                 optimal_comb = list(comb)
                 short_tower_path_length = current_path_length
 
-        return optimal_comb
+        tower_location[0] = optimal_comb
+        return tower_location[0]

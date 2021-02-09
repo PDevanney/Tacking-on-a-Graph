@@ -15,14 +15,15 @@ class RandomTarget:
     # Output:
     #   int target_location
     @staticmethod
-    def initial_location(graph, tower_locations):
+    def initial_location(graph, tower_locations, target_location={}):
         number_of_nodes = len(graph.nodes)
         random_location = random.randrange(0, number_of_nodes)
 
         while random_location in tower_locations:
             random_location = random.randrange(0, number_of_nodes)
 
-        return random_location
+        target_location[0] = random_location
+        return target_location[0]
 
     # Return a random integer for the next target move
     # Parameters:
@@ -43,7 +44,7 @@ class HeuristicTarget:
     # Output:
     #   int initial_location
     @staticmethod
-    def initial_location(graph, tower_locations):
+    def initial_location(graph, tower_locations, target_location={}):
         common_distances = []
         for node in graph.nodes:
             common_distances.append(len(set((populate_distance_table(graph, node)).values())))
@@ -54,7 +55,8 @@ class HeuristicTarget:
             common_distances[index] = len(graph.nodes) + 1
             index = np.argmin(common_distances)
 
-        return index
+        target_location[0] = index
+        return target_location[0]
 
     # Return a heuristically chosen value to move the target to.
     #   If the target can move to a neighbour and not be found (1-step neighbour) then move to neighbour of that node
@@ -100,9 +102,9 @@ class OptimalTarget:
     # Output:
     #   List[string] longest_path
     @staticmethod
-    def optimal_path(graph, towers):
-        print(find_optimal_node(graph, towers))
-        return find_optimal_node(graph, towers)[1][0]
+    def optimal_path(graph, towers, target_location={}):
+        target_location[0] = find_optimal_node(graph, towers)[1][0]
+        return target_location[0]
 
     # Return the initial location of the Optimal Path - first value of the List
     # Parameters:

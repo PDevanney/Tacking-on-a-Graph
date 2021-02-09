@@ -1,9 +1,6 @@
 import unittest
 import networkx as nx
 
-from treelib import *
-
-from src.distances import current_distance_to_target
 from src.tests.context import optimal
 
 
