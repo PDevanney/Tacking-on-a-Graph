@@ -347,3 +347,26 @@
 
 ### 04 February 2021
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 06 February 2021
+* *3 hours* Implemetning Timeout functionality on the code base
+* *1 hour* Outputting results correctly to CSV file
+
+### 06 February 2021
+* *3 hours* Implementing Timeout functionality on the code base
+* *1 hours* Fixing unittests to work with Timeout functionality.
+
+### 07 February 2021
+* *1 hour* Working on CSV to Graph Code.
+
+### 09 February 2021
+* *1.5 hours* Completing Big O Notation for Optimal functions. Making corrections to old version
+* *2 hours* Began write-up of Evaluation and Implementation sections of the dissertation. Brief overview of what to write in each section.
+
+## Week 18
+
+### 11 February 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 12 February 2021
+* *0.5 hour* Creating Plan for Reading Week
