@@ -1,5 +1,4 @@
-networkx~=2.5
-matplotlib~=3.3.2
-treelib~=1.6.1
-numpy~=1.19.2
-tabulate~=0.8.7
+networkx>=2.5
+matplotlib>=3.3.2
+treelib>=1.6.1
+numpy>=1.19.2
