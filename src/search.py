@@ -5,7 +5,7 @@
 #   List[int] Previously Visited Nodes
 # Output:
 #   List[int] possible locations (Intersection of Input Array)
-from src.distances import current_distance_to_target
+from distances import current_distance_to_target
 
 
 def search(distance_to_every_node, distance_to_target, visited_nodes):
