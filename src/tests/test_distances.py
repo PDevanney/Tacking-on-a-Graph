@@ -1,7 +1,7 @@
 import unittest
 
 import networkx as nx
-
+import numpy as np
 from unittest import TestCase
 from src.tests.context import distances
 
