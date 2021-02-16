@@ -3,26 +3,6 @@ import networkx as nx
 from distances import *
 from search import *
 
-
-# Return a Boolean value indicating if the Target has been found
-# Parameters:
-#   Graph graph
-#   int target_location
-#   List[int] tower_locations
-#   List[int] visited
-#   A List of dictionary distances keyed by Node: distances
-# Output:
-#   Boolean is target found
-def is_found(graph, target_location, tower_locations, visited, distances):
-    distance_to_target = []
-    for t in tower_locations:
-        distance_to_target.append(current_distance_to_target(graph, t, target_location))
-
-    # return an Array of Dictionary items. Each dictionary is node_name:distance for each tower
-    s = search(distances, distance_to_target, visited)
-    return len(s) == 1
-
-
 # Return if target is found, draw appropriate graph.
 # Parameters:
 #   Graph graph

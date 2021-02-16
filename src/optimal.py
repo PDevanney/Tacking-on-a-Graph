@@ -49,7 +49,6 @@ def build_tree(graph, tree, node, parent, distance_table, tower_locations, dista
         tree.create_node(n, ident, parent=parent)
 
         if not optimal_is_found(n, v, distance_table, distance_to_target):
-            # print(graph.number_of_nodes(), "\t", n, "\t", tree.depth(), "\t", parent)
             build_tree(graph, tree, n, parent + "," + str(n), distance_table, tower_locations, distance_to_target)
 
 
@@ -93,7 +92,7 @@ def optimal_path(graph, target, tower_locations, distance_to_target):
     longest_path_list = depth[max(depth)]
 
     for longest_path_string in longest_path_list:
-        longest_path.append(longest_path_string.split(','))
+        longest_path.append(list(map(int, longest_path_string.split(','))))
 
     return max(depth), longest_path
 
@@ -130,9 +129,9 @@ def find_optimal_node(graph, towers):
                 print("Current Node : ", n, " Elapsed Time : ", elapsed)  # time object
 
     longest_distance = max(path_size, key=operator.itemgetter(0))[0]
-
     return_arr = []
     for d in path_size:
         if d[0] == longest_distance:
-            return_arr = return_arr + (d[1])
+            return_arr = return_arr + d[1]
+
     return longest_distance, return_arr

@@ -1,0 +1,2 @@
+Graph Type,Graph Size,Tower Count,Tower Type,Target Type,Turns,Tower Clock Time,Target Location Clock Time,Target Move Clock Time,Total Time
+ErdosRenyi,4,3,RandomTower,RandomTarget,0,1.1739997863769531,1.109999179840088,0,2.2819995880126953
