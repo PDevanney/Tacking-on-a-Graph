@@ -370,3 +370,17 @@
 
 ### 12 February 2021
 * *0.5 hour* Creating Plan for Reading Week
+
+### 13 February 2021
+* *2 hours* Continued with Implementation of Graph Output of evaluation results
+
+### 14 February 2021
+* *3 hours* 
+
+### 15 February 2021
+* *6 hours* Tidying up code-base by fixing the Main.py file. Fixing bug with the Time-out function causing the CSV write to fail. Re-recording evaluation results. Updating graph output.
+
+### 16 February 2021
+* *1 hour* Analysing output. Drawing conclusions for dissertation.
+* *1 hour* Walking through dissertation marking scheme.
+* *2 hours* Finalising and implementing Tower_count evaluation method. Updating graph output to plot results correctly.
