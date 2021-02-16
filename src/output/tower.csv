@@ -1,0 +1,12 @@
+Graph Type,Graph Size,Tower Count,Tower Type,Target Type,Turns
+Erdos Renyi,100,1,type,type,86
+Erdos Renyi,100,3,type,type,4
+Erdos Renyi,100,4,type,type,4
+Erdos Renyi,100,5,type,type,16
+Erdos Renyi,100,10,type,type,0
+Erdos Renyi,100,15,type,type,0
+Erdos Renyi,100,20,type,type,0
+Erdos Renyi,100,25,type,type,0
+Erdos Renyi,100,50,type,type,0
+Erdos Renyi,100,75,type,type,0
+Erdos Renyi,100,99,type,type,0

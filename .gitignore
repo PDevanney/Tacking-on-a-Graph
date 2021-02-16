@@ -1,0 +1,8 @@
+/src/.idea/
+/src/__pycache__/
+/src/tests/__pycache__/
+/src/practice.py
+
+/.idea/
+*.pyc
+/src/graph_output/

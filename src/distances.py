@@ -3,29 +3,29 @@ import networkx as nx
 
 # Return the distance from a given Tower to the Target
 # Parameters:
-#   Graph G
-#   Tower tower_location
-#   Target target_location
+#   Graph graph
+#   int tower_location
+#   int target_location
 # Output:
 #   int Distance from Tower to Target node.
-def current_distance_to_target(G, tower_location, target_location):
+def current_distance_to_target(graph, tower_location, target_location):
     try:
-        return len(nx.dijkstra_path(G, tower_location, target_location)) - 1
+        return len(nx.dijkstra_path(graph, tower_location, target_location)) - 1
     except nx.NetworkXNoPath:
         return -1
 
 
-# Return Array of dict items of the distance from a given Tower to every other node
+# Return a dictionary of the distance from a given Tower to every other node keyed by Graph Node
 # Parameters:
-#   Graph G
+#   Graph graph
 #   int tower_location
 # Output:
-#   Dict items Distance from Node to Array
-def populate_distance_table(G, tower):
+#   A dictionary of distances keyed by Node
+def populate_distance_table(graph, tower_location):
     tower_distance = {}
-    for node in G.nodes():
+    for node in graph.nodes():
         try:
-            tower_distance[node] = len(nx.dijkstra_path(G, tower, node)) - 1
+            tower_distance[node] = len(nx.dijkstra_path(graph, tower_location, node)) - 1
         except nx.NetworkXNoPath:
             tower_distance[node] = -1
     return tower_distance

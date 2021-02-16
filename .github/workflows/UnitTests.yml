@@ -1,0 +1,29 @@
+name: Test Python Code
+
+on: 
+  push:
+    branches:
+      - master
+      - development
+      - ImplementUnitTests
+  pull_request:
+    branches: 
+       - master
+       - development
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools wheel
+        pip install -r src/requirements.txt
+        pip install numpy --upgrade
+    - name: Build and Run
+      run: python -m unittest discover src/tests
