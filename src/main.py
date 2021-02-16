@@ -113,7 +113,7 @@ if __name__ == '__main__':
         print("Evaluative Method")
         print("-----------------\n")
 
-        with open('output/graph_type.csv', 'w', newline='') as file:
+        with open('../data/output/graph_type.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Graph Type", "Graph Size", "Tower Count", "Tower Type", "Target Type", "Turns",
                              "Tower Clock Time", "Target Location Clock Time", "Target Move Clock Time",
@@ -270,7 +270,7 @@ if __name__ == '__main__':
             file.flush()
             os.fsync(file)
 
-        with open("output/tower.csv", 'w', newline='') as file:
+        with open("../data/output/tower.csv", 'w', newline='') as file:
             tower = RandomTower
             target = RandomTarget
             tower_count_array = [1, 3, 5, 10, 15, 20, 25, 50, 75, 100]
