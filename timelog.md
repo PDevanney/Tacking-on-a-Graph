@@ -374,9 +374,6 @@
 ### 13 February 2021
 * *2 hours* Continued with Implementation of Graph Output of evaluation results
 
-### 14 February 2021
-* *3 hours* 
-
 ### 15 February 2021
 * *6 hours* Tidying up code-base by fixing the Main.py file. Fixing bug with the Time-out function causing the CSV write to fail. Re-recording evaluation results. Updating graph output.
 
