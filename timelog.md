@@ -381,3 +381,11 @@
 * *1 hour* Analysing output. Drawing conclusions for dissertation.
 * *1 hour* Walking through dissertation marking scheme.
 * *2 hours* Finalising and implementing Tower_count evaluation method. Updating graph output to plot results correctly.
+
+### 17 February 2021
+* *0.5 hour* Fixing Mistake in code. Adding a run counter so that the code will evaluate multiple runs rather than a single run.
+
+### 18 February 2021
+* *6 hours* Working on dissertation. Typing up headers for each individual section. Highlighting key points to mention. Evaluated Hall of Fame / Calibration projects.
+
+
