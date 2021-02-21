@@ -388,4 +388,5 @@
 ### 18 February 2021
 * *6 hours* Working on dissertation. Typing up headers for each individual section. Highlighting key points to mention. Evaluated Hall of Fame / Calibration projects.
 
-
+### 19 February 2021
+* *3.5 hours* Working on dissertation. Writing up Background Section. Looking further into the Metric Dimension.
