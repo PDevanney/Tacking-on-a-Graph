@@ -390,3 +390,6 @@
 
 ### 19 February 2021
 * *3.5 hours* Working on dissertation. Writing up Background Section. Looking further into the Metric Dimension.
+
+### 21 February 2021
+* *6 hours* Working on dissertation. Continuing write-up of background section. Looking further into Implementation section - adding additional headers and information.
