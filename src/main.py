@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+import logging
 import multiprocessing
 import sys
 import time
@@ -14,7 +14,11 @@ from playable import *
 
 TIMEOUT = 300
 
+logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
+
 if __name__ == '__main__':
+    logging.info("Code has started Execution")
+
     found = False
 
     if len(sys.argv) == 4:
@@ -110,9 +114,6 @@ if __name__ == '__main__':
         print("\n")
 
     else:
-        print("Evaluative Method")
-        print("-----------------\n")
-
         with open('../data/output/graph_type.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Graph Type", "Graph Size", "Tower Count", "Tower Type", "Target Type", "Turns",
@@ -121,11 +122,12 @@ if __name__ == '__main__':
                              ])
 
             for run in range(0, 10):
+                logging.info("Run %d has started" % run)
                 # Loop through all combinations of the Tower/Target for each Graph Type
                 # Loop through each different Graph Type, Graph Size, Tower, and Target combination.
                 for g in graph_type:
                     for size in graph_size_array:
-                        print("%s of size %d" % (g, size), " (", datetime.now().time(), ")")
+                        logging.info("%s of size %d is being processed" % (g, size))
                         turn_list = []
 
                         if g == "ErdosRenyi":
@@ -134,9 +136,10 @@ if __name__ == '__main__':
                             graph = nx.random_tree(size)
 
                         for tower in tower_type:
-    
                             # Establish initial positioning
                             # With TimeOut Clause
+
+                            starttime = time.asctime()
                             manager = multiprocessing.Manager()
                             tower_location = manager.dict()
                             p = multiprocessing.Process(target=tower.initial_position, name='Tower_Initial_Position',
@@ -152,9 +155,10 @@ if __name__ == '__main__':
                             else:
                                 writer.writerow([g, size, tower_count, type(tower).__name__, "Unknown",
                                                  "Tower Initial Position Timeout", "", "", "", "", run])
+                                logging.info("%s has timed out" % (type(tower)))
 
                                 file.flush()
-                                os.fsync(file)
+                                os.fsync(file.fileno())
 
                                 continue
 
@@ -172,7 +176,8 @@ if __name__ == '__main__':
                                 target_location = manager.dict()
 
                                 if type(target) == OptimalTarget:
-                                    p = multiprocessing.Process(target=target.optimal_path, name='Target_Initial_Position',
+                                    p = multiprocessing.Process(target=target.optimal_path,
+                                                                name='Target_Initial_Position',
                                                                 args=(graph, tower_location, target_location))
 
                                     target_location_start_time = time.time()
@@ -186,11 +191,14 @@ if __name__ == '__main__':
                                         longest_path = target_location.values()[0]
                                         target_location = target.initial_location(graph, longest_path)
                                     else:
-                                        writer.writerow([g, size, tower_count, type(tower).__name__, type(target).__name__,
-                                                         "Target Location Timeout", "", "", "", "", run])
+                                        writer.writerow(
+                                            [g, size, tower_count, type(tower).__name__, type(target).__name__,
+                                             "Target Location Timeout", "", "", "", "", run])
+
+                                        logging.info("%s has timed out" % type(target))
 
                                         file.flush()
-                                        os.fsync(file)
+                                        os.fsync(file.fileno())
 
                                         continue
                                 else:
@@ -207,11 +215,14 @@ if __name__ == '__main__':
                                     if p.exitcode == 0:
                                         target_location = target_location.values()[0]
                                     else:
-                                        writer.writerow([g, size, tower_count, type(tower).__name__, type(target).__name__,
+                                        writer.writerow([g, size, tower_count, type(tower).__name__,
+                                                         type(target).__name__,
                                                          "Target Location Timeout", "", "", "", "", run])
 
+                                        logging.info("%s has timed out" % type(target))
+
                                         file.flush()
-                                        os.fsync(file)
+                                        os.fsync(file.fileno())
 
                                         continue
 
@@ -245,10 +256,12 @@ if __name__ == '__main__':
                                             if type(target) == OptimalTarget:
                                                 target_location = target.next_move(longest_path, turn_number)
                                             elif type(target) == HeuristicTarget:
-                                                target_location = target.heuristic_target_next_move(graph, tower_location,
-                                                                                                    visited,
-                                                                                                    distance_to_every_node,
-                                                                                                    possible_moves)
+                                                target_location = \
+                                                    target.heuristic_target_next_move(graph,
+                                                                                      tower_location,
+                                                                                      visited,
+                                                                                      distance_to_every_node,
+                                                                                      possible_moves)
                                             else:
                                                 target_location = target.next_move(possible_moves, turn_number)
 
@@ -266,24 +279,25 @@ if __name__ == '__main__':
                                                  target_movement_elapsed_time, total_elapsed_time, run])
 
                                 file.flush()
-                                os.fsync(file)
+                                os.fsync(file.fileno())
 
             file.flush()
-            os.fsync(file)
+            os.fsync(file.fileno())
 
         with open("../data/output/tower.csv", 'w', newline='') as file:
+            tower = RandomTower
+            target = RandomTarget
+            tower_count_array = np.arange(1, 31)
+            graph_size = 500
+            writer = csv.writer(file)
+            writer.writerow(["Graph Type", "Graph Size", "Tower Count", "Tower Type", "Target Type", "Turns",
+                             "Run Number"])
+
             for run in range(0, 10):
-                tower = RandomTower
-                target = RandomTarget
-                tower_count_array = [1, 3, 5, 10, 15, 20, 25, 50, 75, 100]
-                graph_size = 1000
-                writer = csv.writer(file)
-                writer.writerow(["Graph Type", "Graph Size", "Tower Count", "Tower Type", "Target Type", "Turns",
-                                 "Run Number"])
-
                 graph = nx.erdos_renyi_graph(graph_size, 0.15)
-
+                logging.info("Tower Run %d has started" % run)
                 for count in tower_count_array:
+                    logging.info("%d is being evaluated" % count)
                     found = False
                     turn_number = 0
                     visited = []
@@ -317,11 +331,12 @@ if __name__ == '__main__':
                                 visited.append(target_location)
                                 target_location = target.next_move(possible_moves, turn_number)
 
+                    logging.info("Node found in %d turns" % turn_number)
                     writer.writerow(["Erdos Renyi", graph_size, count, type(tower).__name__, type(target).__name__,
                                      turn_number, run])
 
                     file.flush()
-                    os.fsync(file)
+                    os.fsync(file.fileno())
 
             file.flush()
-            os.fsync(file)
+            os.fsync(file.fileno())

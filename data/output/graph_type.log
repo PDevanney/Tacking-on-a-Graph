@@ -1,0 +1,1719 @@
+2021-02-19 08:42:33,108 - Code has started Execution
+2021-02-19 08:42:33,108 - Run 0 has started
+2021-02-19 08:42:33,108 - ErdosRenyi of size 4 is being processed
+2021-02-19 08:43:03,023 - ErdosRenyi of size 5 is being processed
+2021-02-19 08:43:30,955 - ErdosRenyi of size 6 is being processed
+2021-02-19 08:43:57,918 - ErdosRenyi of size 7 is being processed
+2021-02-19 08:44:22,998 - ErdosRenyi of size 8 is being processed
+2021-02-19 08:44:49,113 - ErdosRenyi of size 9 is being processed
+2021-02-19 08:45:13,890 - ErdosRenyi of size 10 is being processed
+2021-02-19 08:45:39,562 - ErdosRenyi of size 11 is being processed
+2021-02-19 08:46:05,203 - ErdosRenyi of size 12 is being processed
+2021-02-19 08:46:30,665 - ErdosRenyi of size 13 is being processed
+2021-02-19 08:46:59,697 - ErdosRenyi of size 14 is being processed
+2021-02-19 08:47:28,929 - ErdosRenyi of size 15 is being processed
+2021-02-19 08:48:01,267 - ErdosRenyi of size 16 is being processed
+2021-02-19 08:48:35,222 - ErdosRenyi of size 17 is being processed
+2021-02-19 08:49:18,896 - ErdosRenyi of size 18 is being processed
+2021-02-19 08:50:08,868 - ErdosRenyi of size 19 is being processed
+2021-02-19 08:51:37,275 - ErdosRenyi of size 20 is being processed
+2021-02-19 08:52:45,107 - ErdosRenyi of size 21 is being processed
+2021-02-19 08:54:00,714 - ErdosRenyi of size 22 is being processed
+2021-02-19 08:56:13,957 - ErdosRenyi of size 23 is being processed
+2021-02-19 09:00:57,566 - ErdosRenyi of size 24 is being processed
+2021-02-19 09:04:23,026 - ErdosRenyi of size 25 is being processed
+2021-02-19 09:09:41,813 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:09:41,815 - ErdosRenyi of size 26 is being processed
+2021-02-19 09:14:59,943 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:14:59,945 - ErdosRenyi of size 27 is being processed
+2021-02-19 09:20:19,541 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:20:19,544 - ErdosRenyi of size 28 is being processed
+2021-02-19 09:25:37,848 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:25:37,850 - ErdosRenyi of size 29 is being processed
+2021-02-19 09:30:55,847 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:30:55,849 - ErdosRenyi of size 30 is being processed
+2021-02-19 09:36:14,111 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:36:14,113 - ErdosRenyi of size 31 is being processed
+2021-02-19 09:41:36,081 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:41:36,083 - ErdosRenyi of size 32 is being processed
+2021-02-19 09:46:55,314 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:46:55,316 - ErdosRenyi of size 33 is being processed
+2021-02-19 09:52:22,592 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 09:52:22,594 - ErdosRenyi of size 34 is being processed
+2021-02-19 10:00:12,556 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 10:00:12,558 - ErdosRenyi of size 35 is being processed
+2021-02-19 10:05:38,012 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 10:05:38,014 - ErdosRenyi of size 36 is being processed
+2021-02-19 10:11:46,786 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 10:11:46,788 - ErdosRenyi of size 37 is being processed
+2021-02-19 10:16:54,022 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 10:25:55,322 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 10:25:55,324 - ErdosRenyi of size 38 is being processed
+2021-02-19 10:31:02,785 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 10:36:10,678 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 10:41:11,852 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 10:41:11,854 - ErdosRenyi of size 39 is being processed
+2021-02-19 10:46:19,376 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 10:51:27,599 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 10:56:28,620 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 10:56:28,622 - ErdosRenyi of size 40 is being processed
+2021-02-19 11:01:37,388 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:06:45,228 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:11:46,333 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 11:11:46,335 - ErdosRenyi of size 41 is being processed
+2021-02-19 11:16:54,604 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:22:02,817 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:27:03,931 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 11:27:03,933 - ErdosRenyi of size 42 is being processed
+2021-02-19 11:32:11,955 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:37:19,820 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:42:20,902 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 11:42:20,904 - ErdosRenyi of size 43 is being processed
+2021-02-19 11:47:28,966 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:52:37,024 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 11:57:38,200 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 11:57:38,202 - ErdosRenyi of size 44 is being processed
+2021-02-19 12:02:46,260 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:07:54,139 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:12:55,198 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 12:12:55,200 - ErdosRenyi of size 45 is being processed
+2021-02-19 12:18:04,136 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:23:11,842 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:28:13,197 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 12:28:13,199 - ErdosRenyi of size 46 is being processed
+2021-02-19 12:33:21,175 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:38:29,322 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:43:30,524 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 12:43:30,526 - ErdosRenyi of size 47 is being processed
+2021-02-19 12:48:38,381 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:53:46,448 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 12:58:47,525 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 12:58:47,527 - ErdosRenyi of size 48 is being processed
+2021-02-19 13:03:56,568 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 13:09:05,488 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 13:14:06,618 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 13:14:06,620 - ErdosRenyi of size 49 is being processed
+2021-02-19 13:19:14,550 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 13:24:23,313 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 13:29:24,585 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 13:29:24,587 - ErdosRenyi of size 50 is being processed
+2021-02-19 13:34:32,521 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 13:39:41,895 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 13:44:44,159 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 13:44:44,161 - Tree of size 4 is being processed
+2021-02-19 13:45:09,078 - Tree of size 5 is being processed
+2021-02-19 13:45:34,425 - Tree of size 6 is being processed
+2021-02-19 13:46:00,493 - Tree of size 7 is being processed
+2021-02-19 13:46:25,531 - Tree of size 8 is being processed
+2021-02-19 13:46:51,202 - Tree of size 9 is being processed
+2021-02-19 13:47:16,581 - Tree of size 10 is being processed
+2021-02-19 13:47:41,829 - Tree of size 11 is being processed
+2021-02-19 13:48:08,875 - Tree of size 12 is being processed
+2021-02-19 13:48:34,853 - Tree of size 13 is being processed
+2021-02-19 13:49:03,408 - Tree of size 14 is being processed
+2021-02-19 13:49:32,037 - Tree of size 15 is being processed
+2021-02-19 13:50:02,662 - Tree of size 16 is being processed
+2021-02-19 13:50:36,104 - Tree of size 17 is being processed
+2021-02-19 13:51:15,403 - Tree of size 18 is being processed
+2021-02-19 13:51:56,260 - Tree of size 19 is being processed
+2021-02-19 13:52:46,085 - Tree of size 20 is being processed
+2021-02-19 13:53:46,271 - Tree of size 21 is being processed
+2021-02-19 13:54:55,944 - Tree of size 22 is being processed
+2021-02-19 13:56:29,237 - Tree of size 23 is being processed
+2021-02-19 13:58:09,611 - Tree of size 24 is being processed
+2021-02-19 14:00:16,098 - Tree of size 25 is being processed
+2021-02-19 14:03:23,294 - Tree of size 26 is being processed
+2021-02-19 14:06:30,655 - Tree of size 27 is being processed
+2021-02-19 14:10:22,975 - Tree of size 28 is being processed
+2021-02-19 14:14:56,307 - Tree of size 29 is being processed
+2021-02-19 14:20:14,589 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:20:14,591 - Tree of size 30 is being processed
+2021-02-19 14:25:32,798 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:25:32,800 - Tree of size 31 is being processed
+2021-02-19 14:30:50,450 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:30:50,452 - Tree of size 32 is being processed
+2021-02-19 14:36:09,972 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:36:09,974 - Tree of size 33 is being processed
+2021-02-19 14:41:29,410 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:41:29,412 - Tree of size 34 is being processed
+2021-02-19 14:46:48,004 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:46:48,004 - Tree of size 35 is being processed
+2021-02-19 14:52:06,015 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:52:06,017 - Tree of size 36 is being processed
+2021-02-19 14:57:25,237 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 14:57:25,239 - Tree of size 37 is being processed
+2021-02-19 15:02:43,549 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:02:43,551 - Tree of size 38 is being processed
+2021-02-19 15:08:01,432 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:08:01,434 - Tree of size 39 is being processed
+2021-02-19 15:13:20,489 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:13:20,491 - Tree of size 40 is being processed
+2021-02-19 15:18:40,001 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:18:40,003 - Tree of size 41 is being processed
+2021-02-19 15:23:58,375 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:23:58,377 - Tree of size 42 is being processed
+2021-02-19 15:29:17,214 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:29:17,216 - Tree of size 43 is being processed
+2021-02-19 15:34:36,000 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:34:36,002 - Tree of size 44 is being processed
+2021-02-19 15:39:54,271 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:39:54,273 - Tree of size 45 is being processed
+2021-02-19 15:45:13,152 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:45:13,154 - Tree of size 46 is being processed
+2021-02-19 15:50:32,595 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:50:32,597 - Tree of size 47 is being processed
+2021-02-19 15:55:51,370 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 15:55:51,372 - Tree of size 48 is being processed
+2021-02-19 16:01:10,488 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:01:10,490 - Tree of size 49 is being processed
+2021-02-19 16:06:29,644 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:06:29,646 - Tree of size 50 is being processed
+2021-02-19 16:11:49,399 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:11:49,401 - Run 1 has started
+2021-02-19 16:11:49,401 - ErdosRenyi of size 4 is being processed
+2021-02-19 16:12:14,597 - ErdosRenyi of size 5 is being processed
+2021-02-19 16:12:39,681 - ErdosRenyi of size 6 is being processed
+2021-02-19 16:13:05,351 - ErdosRenyi of size 7 is being processed
+2021-02-19 16:13:29,849 - ErdosRenyi of size 8 is being processed
+2021-02-19 16:13:54,976 - ErdosRenyi of size 9 is being processed
+2021-02-19 16:14:20,794 - ErdosRenyi of size 10 is being processed
+2021-02-19 16:14:46,259 - ErdosRenyi of size 11 is being processed
+2021-02-19 16:15:12,335 - ErdosRenyi of size 12 is being processed
+2021-02-19 16:15:38,719 - ErdosRenyi of size 13 is being processed
+2021-02-19 16:16:05,725 - ErdosRenyi of size 14 is being processed
+2021-02-19 16:16:35,224 - ErdosRenyi of size 15 is being processed
+2021-02-19 16:17:06,463 - ErdosRenyi of size 16 is being processed
+2021-02-19 16:17:44,340 - ErdosRenyi of size 17 is being processed
+2021-02-19 16:18:28,394 - ErdosRenyi of size 18 is being processed
+2021-02-19 16:19:12,678 - ErdosRenyi of size 19 is being processed
+2021-02-19 16:20:10,580 - ErdosRenyi of size 20 is being processed
+2021-02-19 16:21:21,583 - ErdosRenyi of size 21 is being processed
+2021-02-19 16:23:37,416 - ErdosRenyi of size 22 is being processed
+2021-02-19 16:26:09,493 - ErdosRenyi of size 23 is being processed
+2021-02-19 16:28:14,944 - ErdosRenyi of size 24 is being processed
+2021-02-19 16:32:29,186 - ErdosRenyi of size 25 is being processed
+2021-02-19 16:37:47,823 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:37:47,825 - ErdosRenyi of size 26 is being processed
+2021-02-19 16:43:06,023 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:43:06,025 - ErdosRenyi of size 27 is being processed
+2021-02-19 16:48:29,075 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:48:29,077 - ErdosRenyi of size 28 is being processed
+2021-02-19 16:53:47,765 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 16:53:47,767 - ErdosRenyi of size 29 is being processed
+2021-02-19 16:59:14,468 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 17:04:15,665 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:04:15,667 - ErdosRenyi of size 30 is being processed
+2021-02-19 17:09:36,965 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:09:36,967 - ErdosRenyi of size 31 is being processed
+2021-02-19 17:15:10,918 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:15:10,920 - ErdosRenyi of size 32 is being processed
+2021-02-19 17:20:29,250 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:20:29,252 - ErdosRenyi of size 33 is being processed
+2021-02-19 17:29:13,356 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:29:13,358 - ErdosRenyi of size 34 is being processed
+2021-02-19 17:34:21,342 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 17:39:29,284 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 17:44:30,301 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:44:30,303 - ErdosRenyi of size 35 is being processed
+2021-02-19 17:49:37,713 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 17:54:45,202 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 17:59:46,202 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 17:59:46,204 - ErdosRenyi of size 36 is being processed
+2021-02-19 18:05:04,980 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 18:05:04,982 - ErdosRenyi of size 37 is being processed
+2021-02-19 18:12:33,537 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 18:17:34,663 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 18:17:34,665 - ErdosRenyi of size 38 is being processed
+2021-02-19 18:22:42,642 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 18:27:56,078 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 18:27:56,080 - ErdosRenyi of size 39 is being processed
+2021-02-19 18:33:54,898 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 18:38:56,005 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 18:38:56,007 - ErdosRenyi of size 40 is being processed
+2021-02-19 18:44:05,004 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 18:49:12,739 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 18:54:13,873 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 18:54:13,875 - ErdosRenyi of size 41 is being processed
+2021-02-19 18:59:22,187 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:04:30,576 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:09:31,677 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 19:09:31,679 - ErdosRenyi of size 42 is being processed
+2021-02-19 19:14:39,417 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:19:47,527 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:24:48,618 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 19:24:48,620 - ErdosRenyi of size 43 is being processed
+2021-02-19 19:29:57,462 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:35:05,249 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:40:06,281 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 19:40:06,283 - ErdosRenyi of size 44 is being processed
+2021-02-19 19:45:15,330 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:50:23,687 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 19:55:24,903 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 19:55:24,905 - ErdosRenyi of size 45 is being processed
+2021-02-19 20:00:33,187 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:05:41,989 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:10:43,132 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 20:10:43,134 - ErdosRenyi of size 46 is being processed
+2021-02-19 20:15:51,035 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:20:58,874 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:26:00,010 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 20:26:00,022 - ErdosRenyi of size 47 is being processed
+2021-02-19 20:31:09,416 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:36:17,495 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:41:18,609 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 20:41:18,611 - ErdosRenyi of size 48 is being processed
+2021-02-19 20:46:27,810 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:51:36,086 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 20:56:37,183 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 20:56:37,185 - ErdosRenyi of size 49 is being processed
+2021-02-19 21:01:45,298 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 21:06:54,028 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 21:11:55,272 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 21:11:55,274 - ErdosRenyi of size 50 is being processed
+2021-02-19 21:17:03,461 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 21:22:11,861 - <class 'target.OptimalTarget'> has timed out
+2021-02-19 21:27:12,966 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 21:27:12,968 - Tree of size 4 is being processed
+2021-02-19 21:27:39,837 - Tree of size 5 is being processed
+2021-02-19 21:28:04,788 - Tree of size 6 is being processed
+2021-02-19 21:28:31,200 - Tree of size 7 is being processed
+2021-02-19 21:28:56,913 - Tree of size 8 is being processed
+2021-02-19 21:29:21,894 - Tree of size 9 is being processed
+2021-02-19 21:29:48,561 - Tree of size 10 is being processed
+2021-02-19 21:30:13,974 - Tree of size 11 is being processed
+2021-02-19 21:30:41,730 - Tree of size 12 is being processed
+2021-02-19 21:31:08,484 - Tree of size 13 is being processed
+2021-02-19 21:31:35,489 - Tree of size 14 is being processed
+2021-02-19 21:32:06,913 - Tree of size 15 is being processed
+2021-02-19 21:32:39,935 - Tree of size 16 is being processed
+2021-02-19 21:33:15,003 - Tree of size 17 is being processed
+2021-02-19 21:33:53,488 - Tree of size 18 is being processed
+2021-02-19 21:34:38,533 - Tree of size 19 is being processed
+2021-02-19 21:35:35,861 - Tree of size 20 is being processed
+2021-02-19 21:36:35,749 - Tree of size 21 is being processed
+2021-02-19 21:37:45,101 - Tree of size 22 is being processed
+2021-02-19 21:39:12,804 - Tree of size 23 is being processed
+2021-02-19 21:40:51,805 - Tree of size 24 is being processed
+2021-02-19 21:42:54,956 - Tree of size 25 is being processed
+2021-02-19 21:45:48,320 - Tree of size 26 is being processed
+2021-02-19 21:49:29,384 - Tree of size 27 is being processed
+2021-02-19 21:53:20,992 - Tree of size 28 is being processed
+2021-02-19 21:58:33,334 - Tree of size 29 is being processed
+2021-02-19 22:03:50,856 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:03:50,858 - Tree of size 30 is being processed
+2021-02-19 22:09:09,449 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:09:09,451 - Tree of size 31 is being processed
+2021-02-19 22:14:28,846 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:14:28,848 - Tree of size 32 is being processed
+2021-02-19 22:19:46,578 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:19:46,580 - Tree of size 33 is being processed
+2021-02-19 22:25:04,839 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:25:04,841 - Tree of size 34 is being processed
+2021-02-19 22:30:24,704 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:30:24,706 - Tree of size 35 is being processed
+2021-02-19 22:35:44,415 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:35:44,417 - Tree of size 36 is being processed
+2021-02-19 22:41:03,365 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:41:03,367 - Tree of size 37 is being processed
+2021-02-19 22:46:22,284 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:46:22,286 - Tree of size 38 is being processed
+2021-02-19 22:51:41,430 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:51:41,432 - Tree of size 39 is being processed
+2021-02-19 22:57:00,168 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 22:57:00,178 - Tree of size 40 is being processed
+2021-02-19 23:02:18,286 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:02:18,288 - Tree of size 41 is being processed
+2021-02-19 23:07:36,443 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:07:36,445 - Tree of size 42 is being processed
+2021-02-19 23:12:55,810 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:12:55,812 - Tree of size 43 is being processed
+2021-02-19 23:18:15,218 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:18:15,220 - Tree of size 44 is being processed
+2021-02-19 23:23:33,584 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:23:33,586 - Tree of size 45 is being processed
+2021-02-19 23:28:52,794 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:28:52,796 - Tree of size 46 is being processed
+2021-02-19 23:34:11,751 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:34:11,753 - Tree of size 47 is being processed
+2021-02-19 23:39:30,133 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:39:30,135 - Tree of size 48 is being processed
+2021-02-19 23:44:49,312 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:44:49,314 - Tree of size 49 is being processed
+2021-02-19 23:50:09,652 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:50:09,654 - Tree of size 50 is being processed
+2021-02-19 23:55:29,349 - <class 'tower.OptimalTower'> has timed out
+2021-02-19 23:55:29,351 - Run 2 has started
+2021-02-19 23:55:29,351 - ErdosRenyi of size 4 is being processed
+2021-02-19 23:55:54,331 - ErdosRenyi of size 5 is being processed
+2021-02-19 23:56:20,733 - ErdosRenyi of size 6 is being processed
+2021-02-19 23:56:46,292 - ErdosRenyi of size 7 is being processed
+2021-02-19 23:57:12,026 - ErdosRenyi of size 8 is being processed
+2021-02-19 23:57:37,640 - ErdosRenyi of size 9 is being processed
+2021-02-19 23:58:02,820 - ErdosRenyi of size 10 is being processed
+2021-02-19 23:58:29,096 - ErdosRenyi of size 11 is being processed
+2021-02-19 23:58:56,275 - ErdosRenyi of size 12 is being processed
+2021-02-19 23:59:23,096 - ErdosRenyi of size 13 is being processed
+2021-02-19 23:59:50,484 - ErdosRenyi of size 14 is being processed
+2021-02-20 00:00:19,228 - ErdosRenyi of size 15 is being processed
+2021-02-20 00:00:53,437 - ErdosRenyi of size 16 is being processed
+2021-02-20 00:01:32,983 - ErdosRenyi of size 17 is being processed
+2021-02-20 00:02:12,885 - ErdosRenyi of size 18 is being processed
+2021-02-20 00:03:02,125 - ErdosRenyi of size 19 is being processed
+2021-02-20 00:04:10,113 - ErdosRenyi of size 20 is being processed
+2021-02-20 00:05:52,153 - ErdosRenyi of size 21 is being processed
+2021-02-20 00:09:18,430 - ErdosRenyi of size 22 is being processed
+2021-02-20 00:11:23,412 - ErdosRenyi of size 23 is being processed
+2021-02-20 00:13:55,346 - ErdosRenyi of size 24 is being processed
+2021-02-20 00:19:13,126 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:19:13,128 - ErdosRenyi of size 25 is being processed
+2021-02-20 00:24:30,612 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:24:30,614 - ErdosRenyi of size 26 is being processed
+2021-02-20 00:29:48,499 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:29:48,499 - ErdosRenyi of size 27 is being processed
+2021-02-20 00:35:07,293 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:35:07,295 - ErdosRenyi of size 28 is being processed
+2021-02-20 00:40:28,326 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:40:28,328 - ErdosRenyi of size 29 is being processed
+2021-02-20 00:46:09,959 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:46:09,961 - ErdosRenyi of size 30 is being processed
+2021-02-20 00:51:31,691 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:51:31,693 - ErdosRenyi of size 31 is being processed
+2021-02-20 00:56:51,074 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 00:56:51,076 - ErdosRenyi of size 32 is being processed
+2021-02-20 01:02:14,172 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 01:02:14,174 - ErdosRenyi of size 33 is being processed
+2021-02-20 01:07:21,458 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 01:12:33,887 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 01:12:33,889 - ErdosRenyi of size 34 is being processed
+2021-02-20 01:18:53,305 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 01:18:53,307 - ErdosRenyi of size 35 is being processed
+2021-02-20 01:24:00,934 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 01:29:08,324 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 01:34:09,322 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 01:34:09,324 - ErdosRenyi of size 36 is being processed
+2021-02-20 01:39:36,545 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 01:44:37,705 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 01:44:37,707 - ErdosRenyi of size 37 is being processed
+2021-02-20 01:50:37,688 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 01:55:38,703 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 01:55:38,705 - ErdosRenyi of size 38 is being processed
+2021-02-20 02:00:46,560 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:05:54,641 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:10:55,663 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 02:10:55,665 - ErdosRenyi of size 39 is being processed
+2021-02-20 02:18:33,921 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 02:18:33,923 - ErdosRenyi of size 40 is being processed
+2021-02-20 02:23:41,274 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:28:49,766 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:33:51,127 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 02:33:51,129 - ErdosRenyi of size 41 is being processed
+2021-02-20 02:38:58,977 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:44:07,007 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:49:08,210 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 02:49:08,212 - ErdosRenyi of size 42 is being processed
+2021-02-20 02:54:16,238 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 02:59:24,082 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:04:25,225 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 03:04:25,227 - ErdosRenyi of size 43 is being processed
+2021-02-20 03:09:33,902 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:18:05,993 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 03:18:05,995 - ErdosRenyi of size 44 is being processed
+2021-02-20 03:23:14,321 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:28:22,899 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:33:24,015 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 03:33:24,017 - ErdosRenyi of size 45 is being processed
+2021-02-20 03:38:32,424 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:43:40,453 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:48:41,578 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 03:48:41,580 - ErdosRenyi of size 46 is being processed
+2021-02-20 03:53:49,303 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 03:58:57,396 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:03:58,508 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 04:03:58,510 - ErdosRenyi of size 47 is being processed
+2021-02-20 04:09:07,182 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:14:15,378 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:19:16,609 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 04:19:16,611 - ErdosRenyi of size 48 is being processed
+2021-02-20 04:24:24,941 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:29:33,545 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:34:34,670 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 04:34:34,672 - ErdosRenyi of size 49 is being processed
+2021-02-20 04:39:43,678 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:44:52,358 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 04:49:53,439 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 04:49:53,441 - ErdosRenyi of size 50 is being processed
+2021-02-20 04:55:01,266 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 05:00:09,640 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 05:05:10,720 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 05:05:10,722 - Tree of size 4 is being processed
+2021-02-20 05:05:35,844 - Tree of size 5 is being processed
+2021-02-20 05:06:02,186 - Tree of size 6 is being processed
+2021-02-20 05:06:27,121 - Tree of size 7 is being processed
+2021-02-20 05:06:52,155 - Tree of size 8 is being processed
+2021-02-20 05:07:18,607 - Tree of size 9 is being processed
+2021-02-20 05:07:43,641 - Tree of size 10 is being processed
+2021-02-20 05:08:10,084 - Tree of size 11 is being processed
+2021-02-20 05:08:35,934 - Tree of size 12 is being processed
+2021-02-20 05:09:02,740 - Tree of size 13 is being processed
+2021-02-20 05:09:31,265 - Tree of size 14 is being processed
+2021-02-20 05:10:00,003 - Tree of size 15 is being processed
+2021-02-20 05:10:31,021 - Tree of size 16 is being processed
+2021-02-20 05:11:06,478 - Tree of size 17 is being processed
+2021-02-20 05:11:44,597 - Tree of size 18 is being processed
+2021-02-20 05:12:26,266 - Tree of size 19 is being processed
+2021-02-20 05:13:14,181 - Tree of size 20 is being processed
+2021-02-20 05:14:11,057 - Tree of size 21 is being processed
+2021-02-20 05:15:20,356 - Tree of size 22 is being processed
+2021-02-20 05:16:44,000 - Tree of size 23 is being processed
+2021-02-20 05:18:43,760 - Tree of size 24 is being processed
+2021-02-20 05:20:42,172 - Tree of size 25 is being processed
+2021-02-20 05:23:40,413 - Tree of size 26 is being processed
+2021-02-20 05:26:45,144 - Tree of size 27 is being processed
+2021-02-20 05:31:23,455 - Tree of size 28 is being processed
+2021-02-20 05:36:02,939 - Tree of size 29 is being processed
+2021-02-20 05:41:20,991 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 05:41:20,993 - Tree of size 30 is being processed
+2021-02-20 05:46:38,977 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 05:46:38,979 - Tree of size 31 is being processed
+2021-02-20 05:51:57,479 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 05:51:57,481 - Tree of size 32 is being processed
+2021-02-20 05:57:15,503 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 05:57:15,505 - Tree of size 33 is being processed
+2021-02-20 06:02:33,753 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:02:33,755 - Tree of size 34 is being processed
+2021-02-20 06:07:52,972 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:07:52,974 - Tree of size 35 is being processed
+2021-02-20 06:13:12,223 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:13:12,225 - Tree of size 36 is being processed
+2021-02-20 06:18:30,016 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:18:30,018 - Tree of size 37 is being processed
+2021-02-20 06:23:48,422 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:23:48,424 - Tree of size 38 is being processed
+2021-02-20 06:29:07,745 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:29:07,747 - Tree of size 39 is being processed
+2021-02-20 06:34:27,009 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:34:27,011 - Tree of size 40 is being processed
+2021-02-20 06:39:45,697 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:39:45,699 - Tree of size 41 is being processed
+2021-02-20 06:45:04,289 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:45:04,291 - Tree of size 42 is being processed
+2021-02-20 06:50:22,323 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:50:22,325 - Tree of size 43 is being processed
+2021-02-20 06:55:41,225 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 06:55:41,267 - Tree of size 44 is being processed
+2021-02-20 07:01:01,064 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:01:01,066 - Tree of size 45 is being processed
+2021-02-20 07:06:20,227 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:06:20,229 - Tree of size 46 is being processed
+2021-02-20 07:11:38,917 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:11:38,919 - Tree of size 47 is being processed
+2021-02-20 07:16:58,089 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:16:58,091 - Tree of size 48 is being processed
+2021-02-20 07:22:16,817 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:22:16,819 - Tree of size 49 is being processed
+2021-02-20 07:27:35,704 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:27:35,706 - Tree of size 50 is being processed
+2021-02-20 07:32:54,981 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:32:54,983 - Run 3 has started
+2021-02-20 07:32:54,983 - ErdosRenyi of size 4 is being processed
+2021-02-20 07:33:20,288 - ErdosRenyi of size 5 is being processed
+2021-02-20 07:33:44,507 - ErdosRenyi of size 6 is being processed
+2021-02-20 07:34:11,557 - ErdosRenyi of size 7 is being processed
+2021-02-20 07:34:36,327 - ErdosRenyi of size 8 is being processed
+2021-02-20 07:35:02,364 - ErdosRenyi of size 9 is being processed
+2021-02-20 07:35:27,823 - ErdosRenyi of size 10 is being processed
+2021-02-20 07:35:52,436 - ErdosRenyi of size 11 is being processed
+2021-02-20 07:36:19,347 - ErdosRenyi of size 12 is being processed
+2021-02-20 07:36:45,694 - ErdosRenyi of size 13 is being processed
+2021-02-20 07:37:12,911 - ErdosRenyi of size 14 is being processed
+2021-02-20 07:37:41,938 - ErdosRenyi of size 15 is being processed
+2021-02-20 07:38:11,775 - ErdosRenyi of size 16 is being processed
+2021-02-20 07:38:46,492 - ErdosRenyi of size 17 is being processed
+2021-02-20 07:39:29,038 - ErdosRenyi of size 18 is being processed
+2021-02-20 07:40:13,543 - ErdosRenyi of size 19 is being processed
+2021-02-20 07:41:20,269 - ErdosRenyi of size 20 is being processed
+2021-02-20 07:42:21,547 - ErdosRenyi of size 21 is being processed
+2021-02-20 07:43:52,014 - ErdosRenyi of size 22 is being processed
+2021-02-20 07:49:10,448 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 07:49:10,450 - ErdosRenyi of size 23 is being processed
+2021-02-20 07:54:09,155 - ErdosRenyi of size 24 is being processed
+2021-02-20 07:57:00,367 - ErdosRenyi of size 25 is being processed
+2021-02-20 08:00:09,846 - ErdosRenyi of size 26 is being processed
+2021-02-20 08:05:29,666 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:05:29,668 - ErdosRenyi of size 27 is being processed
+2021-02-20 08:10:49,464 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:10:49,466 - ErdosRenyi of size 28 is being processed
+2021-02-20 08:15:56,663 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 08:21:06,876 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:21:06,878 - ErdosRenyi of size 29 is being processed
+2021-02-20 08:26:25,091 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:26:25,093 - ErdosRenyi of size 30 is being processed
+2021-02-20 08:32:12,164 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:32:12,166 - ErdosRenyi of size 31 is being processed
+2021-02-20 08:37:53,799 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:37:53,801 - ErdosRenyi of size 32 is being processed
+2021-02-20 08:45:11,694 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:45:11,696 - ErdosRenyi of size 33 is being processed
+2021-02-20 08:53:47,664 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 08:53:47,666 - ErdosRenyi of size 34 is being processed
+2021-02-20 09:01:53,724 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 09:01:53,726 - ErdosRenyi of size 35 is being processed
+2021-02-20 09:09:14,621 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 09:09:14,623 - ErdosRenyi of size 36 is being processed
+2021-02-20 09:15:30,978 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 09:15:30,980 - ErdosRenyi of size 37 is being processed
+2021-02-20 09:24:03,379 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 09:24:03,381 - ErdosRenyi of size 38 is being processed
+2021-02-20 09:29:27,254 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 09:34:28,243 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 09:34:28,245 - ErdosRenyi of size 39 is being processed
+2021-02-20 09:39:35,603 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 09:44:43,812 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 09:49:44,997 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 09:49:44,999 - ErdosRenyi of size 40 is being processed
+2021-02-20 09:54:52,600 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:00:00,544 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:05:01,641 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 10:05:01,643 - ErdosRenyi of size 41 is being processed
+2021-02-20 10:10:09,441 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:15:18,279 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:20:19,501 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 10:20:19,503 - ErdosRenyi of size 42 is being processed
+2021-02-20 10:25:27,173 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:30:35,543 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:35:36,701 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 10:35:36,703 - ErdosRenyi of size 43 is being processed
+2021-02-20 10:40:44,549 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:45:53,738 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 10:50:54,871 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 10:50:54,873 - ErdosRenyi of size 44 is being processed
+2021-02-20 10:56:03,108 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:01:10,824 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:06:11,922 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 11:06:11,924 - ErdosRenyi of size 45 is being processed
+2021-02-20 11:11:19,805 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:16:28,064 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:21:29,211 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 11:21:29,213 - ErdosRenyi of size 46 is being processed
+2021-02-20 11:26:37,556 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:31:46,025 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:36:47,088 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 11:36:47,090 - ErdosRenyi of size 47 is being processed
+2021-02-20 11:41:55,193 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:47:04,416 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 11:52:05,605 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 11:52:05,607 - ErdosRenyi of size 48 is being processed
+2021-02-20 11:57:13,527 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 12:02:21,621 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 12:07:22,735 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 12:07:22,737 - ErdosRenyi of size 49 is being processed
+2021-02-20 12:12:30,549 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 12:17:38,796 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 12:22:39,913 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 12:22:39,915 - ErdosRenyi of size 50 is being processed
+2021-02-20 12:27:48,196 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 12:32:57,774 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 12:37:58,894 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 12:37:58,896 - Tree of size 4 is being processed
+2021-02-20 12:38:24,772 - Tree of size 5 is being processed
+2021-02-20 12:38:50,478 - Tree of size 6 is being processed
+2021-02-20 12:39:15,830 - Tree of size 7 is being processed
+2021-02-20 12:39:41,353 - Tree of size 8 is being processed
+2021-02-20 12:40:08,167 - Tree of size 9 is being processed
+2021-02-20 12:40:33,748 - Tree of size 10 is being processed
+2021-02-20 12:40:59,787 - Tree of size 11 is being processed
+2021-02-20 12:41:26,818 - Tree of size 12 is being processed
+2021-02-20 12:41:53,013 - Tree of size 13 is being processed
+2021-02-20 12:42:21,880 - Tree of size 14 is being processed
+2021-02-20 12:42:50,798 - Tree of size 15 is being processed
+2021-02-20 12:43:23,100 - Tree of size 16 is being processed
+2021-02-20 12:43:56,592 - Tree of size 17 is being processed
+2021-02-20 12:44:32,025 - Tree of size 18 is being processed
+2021-02-20 12:45:13,570 - Tree of size 19 is being processed
+2021-02-20 12:46:00,633 - Tree of size 20 is being processed
+2021-02-20 12:46:56,986 - Tree of size 21 is being processed
+2021-02-20 12:48:12,681 - Tree of size 22 is being processed
+2021-02-20 12:49:33,255 - Tree of size 23 is being processed
+2021-02-20 12:51:16,206 - Tree of size 24 is being processed
+2021-02-20 12:53:19,496 - Tree of size 25 is being processed
+2021-02-20 12:56:15,772 - Tree of size 26 is being processed
+2021-02-20 12:59:16,524 - Tree of size 27 is being processed
+2021-02-20 13:04:00,355 - Tree of size 28 is being processed
+2021-02-20 13:08:37,391 - Tree of size 29 is being processed
+2021-02-20 13:13:56,555 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:13:56,557 - Tree of size 30 is being processed
+2021-02-20 13:19:14,194 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:19:14,196 - Tree of size 31 is being processed
+2021-02-20 13:24:32,624 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:24:32,629 - Tree of size 32 is being processed
+2021-02-20 13:29:52,414 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:29:52,416 - Tree of size 33 is being processed
+2021-02-20 13:35:12,306 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:35:12,306 - Tree of size 34 is being processed
+2021-02-20 13:40:30,822 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:40:30,824 - Tree of size 35 is being processed
+2021-02-20 13:45:49,263 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:45:49,265 - Tree of size 36 is being processed
+2021-02-20 13:51:06,924 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:51:06,926 - Tree of size 37 is being processed
+2021-02-20 13:56:25,207 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 13:56:25,209 - Tree of size 38 is being processed
+2021-02-20 14:01:43,771 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:01:43,773 - Tree of size 39 is being processed
+2021-02-20 14:07:02,430 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:07:02,432 - Tree of size 40 is being processed
+2021-02-20 14:12:20,677 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:12:20,679 - Tree of size 41 is being processed
+2021-02-20 14:17:39,205 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:17:39,207 - Tree of size 42 is being processed
+2021-02-20 14:22:57,331 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:22:57,333 - Tree of size 43 is being processed
+2021-02-20 14:28:16,099 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:28:16,101 - Tree of size 44 is being processed
+2021-02-20 14:33:35,295 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:33:35,297 - Tree of size 45 is being processed
+2021-02-20 14:38:54,139 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:38:54,141 - Tree of size 46 is being processed
+2021-02-20 14:44:14,562 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:44:14,564 - Tree of size 47 is being processed
+2021-02-20 14:49:33,615 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:49:33,617 - Tree of size 48 is being processed
+2021-02-20 14:54:52,155 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 14:54:52,157 - Tree of size 49 is being processed
+2021-02-20 15:00:11,087 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:00:11,089 - Tree of size 50 is being processed
+2021-02-20 15:05:31,740 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:05:31,742 - Run 4 has started
+2021-02-20 15:05:31,742 - ErdosRenyi of size 4 is being processed
+2021-02-20 15:05:58,851 - ErdosRenyi of size 5 is being processed
+2021-02-20 15:06:23,263 - ErdosRenyi of size 6 is being processed
+2021-02-20 15:06:48,790 - ErdosRenyi of size 7 is being processed
+2021-02-20 15:07:15,307 - ErdosRenyi of size 8 is being processed
+2021-02-20 15:07:40,455 - ErdosRenyi of size 9 is being processed
+2021-02-20 15:08:06,933 - ErdosRenyi of size 10 is being processed
+2021-02-20 15:08:32,150 - ErdosRenyi of size 11 is being processed
+2021-02-20 15:08:58,233 - ErdosRenyi of size 12 is being processed
+2021-02-20 15:09:26,288 - ErdosRenyi of size 13 is being processed
+2021-02-20 15:09:53,801 - ErdosRenyi of size 14 is being processed
+2021-02-20 15:10:23,846 - ErdosRenyi of size 15 is being processed
+2021-02-20 15:10:55,317 - ErdosRenyi of size 16 is being processed
+2021-02-20 15:11:31,239 - ErdosRenyi of size 17 is being processed
+2021-02-20 15:12:14,388 - ErdosRenyi of size 18 is being processed
+2021-02-20 15:13:05,721 - ErdosRenyi of size 19 is being processed
+2021-02-20 15:14:14,203 - ErdosRenyi of size 20 is being processed
+2021-02-20 15:15:44,836 - ErdosRenyi of size 21 is being processed
+2021-02-20 15:17:47,740 - ErdosRenyi of size 22 is being processed
+2021-02-20 15:20:23,274 - ErdosRenyi of size 23 is being processed
+2021-02-20 15:25:41,278 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:25:41,280 - ErdosRenyi of size 24 is being processed
+2021-02-20 15:29:21,857 - ErdosRenyi of size 25 is being processed
+2021-02-20 15:34:39,890 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:34:39,892 - ErdosRenyi of size 26 is being processed
+2021-02-20 15:39:58,815 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:39:58,817 - ErdosRenyi of size 27 is being processed
+2021-02-20 15:45:18,145 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:45:18,147 - ErdosRenyi of size 28 is being processed
+2021-02-20 15:50:38,607 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:50:38,609 - ErdosRenyi of size 29 is being processed
+2021-02-20 15:55:57,367 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 15:55:57,370 - ErdosRenyi of size 30 is being processed
+2021-02-20 16:01:17,033 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 16:01:17,035 - ErdosRenyi of size 31 is being processed
+2021-02-20 16:06:36,828 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 16:06:36,830 - ErdosRenyi of size 32 is being processed
+2021-02-20 16:11:58,176 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 16:11:58,178 - ErdosRenyi of size 33 is being processed
+2021-02-20 16:17:34,907 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 16:22:35,939 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 16:22:35,941 - ErdosRenyi of size 34 is being processed
+2021-02-20 16:27:43,402 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 16:32:51,355 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 16:37:52,385 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 16:37:52,387 - ErdosRenyi of size 35 is being processed
+2021-02-20 16:42:59,769 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 16:48:07,316 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 16:53:08,428 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 16:53:08,430 - ErdosRenyi of size 36 is being processed
+2021-02-20 16:58:16,466 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 17:03:25,891 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 17:08:27,022 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 17:08:27,024 - ErdosRenyi of size 37 is being processed
+2021-02-20 17:16:40,105 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 17:16:40,107 - ErdosRenyi of size 38 is being processed
+2021-02-20 17:21:47,754 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 17:26:55,562 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 17:31:56,564 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 17:31:56,567 - ErdosRenyi of size 39 is being processed
+2021-02-20 17:41:49,480 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 17:46:50,628 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 17:46:50,630 - ErdosRenyi of size 40 is being processed
+2021-02-20 17:52:17,684 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 17:57:18,818 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 17:57:18,820 - ErdosRenyi of size 41 is being processed
+2021-02-20 18:02:26,795 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:07:34,703 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:12:35,783 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 18:12:35,785 - ErdosRenyi of size 42 is being processed
+2021-02-20 18:17:44,793 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:22:53,326 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:27:54,414 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 18:27:54,416 - ErdosRenyi of size 43 is being processed
+2021-02-20 18:33:02,179 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:38:10,776 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:43:11,858 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 18:43:11,860 - ErdosRenyi of size 44 is being processed
+2021-02-20 18:48:19,611 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:53:27,604 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 18:58:28,722 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 18:58:28,724 - ErdosRenyi of size 45 is being processed
+2021-02-20 19:03:37,644 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:08:45,577 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:13:46,789 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 19:13:46,791 - ErdosRenyi of size 46 is being processed
+2021-02-20 19:18:56,383 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:24:04,339 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:29:05,438 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 19:29:05,440 - ErdosRenyi of size 47 is being processed
+2021-02-20 19:34:14,120 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:39:23,104 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:44:24,228 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 19:44:24,230 - ErdosRenyi of size 48 is being processed
+2021-02-20 19:49:32,654 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:54:40,855 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 19:59:41,979 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 19:59:41,981 - ErdosRenyi of size 49 is being processed
+2021-02-20 20:04:49,851 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 20:09:58,716 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 20:15:00,006 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 20:15:00,008 - ErdosRenyi of size 50 is being processed
+2021-02-20 20:20:08,638 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 20:25:17,619 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 20:30:18,708 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 20:30:18,710 - Tree of size 4 is being processed
+2021-02-20 20:30:45,016 - Tree of size 5 is being processed
+2021-02-20 20:31:10,629 - Tree of size 6 is being processed
+2021-02-20 20:31:36,432 - Tree of size 7 is being processed
+2021-02-20 20:32:02,064 - Tree of size 8 is being processed
+2021-02-20 20:32:28,489 - Tree of size 9 is being processed
+2021-02-20 20:32:54,330 - Tree of size 10 is being processed
+2021-02-20 20:33:20,579 - Tree of size 11 is being processed
+2021-02-20 20:33:47,179 - Tree of size 12 is being processed
+2021-02-20 20:34:14,485 - Tree of size 13 is being processed
+2021-02-20 20:34:42,703 - Tree of size 14 is being processed
+2021-02-20 20:35:11,912 - Tree of size 15 is being processed
+2021-02-20 20:35:43,843 - Tree of size 16 is being processed
+2021-02-20 20:36:17,724 - Tree of size 17 is being processed
+2021-02-20 20:36:56,482 - Tree of size 18 is being processed
+2021-02-20 20:37:38,682 - Tree of size 19 is being processed
+2021-02-20 20:38:28,390 - Tree of size 20 is being processed
+2021-02-20 20:39:30,033 - Tree of size 21 is being processed
+2021-02-20 20:40:50,546 - Tree of size 22 is being processed
+2021-02-20 20:42:16,542 - Tree of size 23 is being processed
+2021-02-20 20:44:11,070 - Tree of size 24 is being processed
+2021-02-20 20:46:21,123 - Tree of size 25 is being processed
+2021-02-20 20:49:24,754 - Tree of size 26 is being processed
+2021-02-20 20:52:36,947 - Tree of size 27 is being processed
+2021-02-20 20:57:05,921 - Tree of size 28 is being processed
+2021-02-20 21:01:46,312 - Tree of size 29 is being processed
+2021-02-20 21:07:05,304 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:07:05,306 - Tree of size 30 is being processed
+2021-02-20 21:12:23,868 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:12:23,870 - Tree of size 31 is being processed
+2021-02-20 21:17:43,022 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:17:43,024 - Tree of size 32 is being processed
+2021-02-20 21:23:02,074 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:23:02,074 - Tree of size 33 is being processed
+2021-02-20 21:28:20,713 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:28:20,715 - Tree of size 34 is being processed
+2021-02-20 21:33:39,332 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:33:39,334 - Tree of size 35 is being processed
+2021-02-20 21:38:58,198 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:38:58,200 - Tree of size 36 is being processed
+2021-02-20 21:44:17,483 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:44:17,485 - Tree of size 37 is being processed
+2021-02-20 21:49:36,243 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:49:36,245 - Tree of size 38 is being processed
+2021-02-20 21:54:55,557 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 21:54:55,557 - Tree of size 39 is being processed
+2021-02-20 22:00:14,586 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:00:14,588 - Tree of size 40 is being processed
+2021-02-20 22:05:33,523 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:05:33,525 - Tree of size 41 is being processed
+2021-02-20 22:10:52,301 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:10:52,304 - Tree of size 42 is being processed
+2021-02-20 22:16:11,746 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:16:11,748 - Tree of size 43 is being processed
+2021-02-20 22:21:31,545 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:21:31,547 - Tree of size 44 is being processed
+2021-02-20 22:26:50,414 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:26:50,416 - Tree of size 45 is being processed
+2021-02-20 22:32:09,943 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:32:09,945 - Tree of size 46 is being processed
+2021-02-20 22:37:29,027 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:37:29,029 - Tree of size 47 is being processed
+2021-02-20 22:42:47,595 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:42:47,597 - Tree of size 48 is being processed
+2021-02-20 22:48:07,322 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:48:07,324 - Tree of size 49 is being processed
+2021-02-20 22:53:27,656 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:53:27,658 - Tree of size 50 is being processed
+2021-02-20 22:58:47,127 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 22:58:47,129 - Run 5 has started
+2021-02-20 22:58:47,129 - ErdosRenyi of size 4 is being processed
+2021-02-20 22:59:12,406 - ErdosRenyi of size 5 is being processed
+2021-02-20 22:59:38,375 - ErdosRenyi of size 6 is being processed
+2021-02-20 23:00:04,219 - ErdosRenyi of size 7 is being processed
+2021-02-20 23:00:30,038 - ErdosRenyi of size 8 is being processed
+2021-02-20 23:00:54,567 - ErdosRenyi of size 9 is being processed
+2021-02-20 23:01:20,854 - ErdosRenyi of size 10 is being processed
+2021-02-20 23:01:47,405 - ErdosRenyi of size 11 is being processed
+2021-02-20 23:02:13,754 - ErdosRenyi of size 12 is being processed
+2021-02-20 23:02:40,389 - ErdosRenyi of size 13 is being processed
+2021-02-20 23:03:06,954 - ErdosRenyi of size 14 is being processed
+2021-02-20 23:03:37,347 - ErdosRenyi of size 15 is being processed
+2021-02-20 23:04:09,906 - ErdosRenyi of size 16 is being processed
+2021-02-20 23:04:45,188 - ErdosRenyi of size 17 is being processed
+2021-02-20 23:05:27,245 - ErdosRenyi of size 18 is being processed
+2021-02-20 23:06:09,071 - ErdosRenyi of size 19 is being processed
+2021-02-20 23:07:16,997 - ErdosRenyi of size 20 is being processed
+2021-02-20 23:08:29,152 - ErdosRenyi of size 21 is being processed
+2021-02-20 23:13:47,935 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:13:47,937 - ErdosRenyi of size 22 is being processed
+2021-02-20 23:15:46,271 - ErdosRenyi of size 23 is being processed
+2021-02-20 23:19:10,845 - ErdosRenyi of size 24 is being processed
+2021-02-20 23:24:28,346 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:24:28,348 - ErdosRenyi of size 25 is being processed
+2021-02-20 23:29:47,675 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:29:47,677 - ErdosRenyi of size 26 is being processed
+2021-02-20 23:35:06,609 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:35:06,611 - ErdosRenyi of size 27 is being processed
+2021-02-20 23:40:25,474 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:40:25,476 - ErdosRenyi of size 28 is being processed
+2021-02-20 23:45:48,112 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:45:48,112 - ErdosRenyi of size 29 is being processed
+2021-02-20 23:50:55,299 - <class 'target.OptimalTarget'> has timed out
+2021-02-20 23:56:06,384 - <class 'tower.OptimalTower'> has timed out
+2021-02-20 23:56:06,386 - ErdosRenyi of size 30 is being processed
+2021-02-21 00:02:02,538 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:02:02,540 - ErdosRenyi of size 31 is being processed
+2021-02-21 00:09:36,258 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:09:36,260 - ErdosRenyi of size 32 is being processed
+2021-02-21 00:15:04,424 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:15:04,426 - ErdosRenyi of size 33 is being processed
+2021-02-21 00:20:38,077 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:20:38,077 - ErdosRenyi of size 34 is being processed
+2021-02-21 00:27:10,253 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:27:10,255 - ErdosRenyi of size 35 is being processed
+2021-02-21 00:33:21,960 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 00:38:22,964 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:38:22,966 - ErdosRenyi of size 36 is being processed
+2021-02-21 00:47:41,419 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 00:47:41,421 - ErdosRenyi of size 37 is being processed
+2021-02-21 00:52:49,595 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:01:32,965 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 01:01:32,967 - ErdosRenyi of size 38 is being processed
+2021-02-21 01:07:12,091 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 01:07:12,102 - ErdosRenyi of size 39 is being processed
+2021-02-21 01:12:19,424 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:17:27,379 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:22:28,525 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 01:22:28,527 - ErdosRenyi of size 40 is being processed
+2021-02-21 01:27:36,183 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:32:44,992 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:37:46,163 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 01:37:46,165 - ErdosRenyi of size 41 is being processed
+2021-02-21 01:42:53,887 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:48:02,747 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 01:53:03,884 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 01:53:03,886 - ErdosRenyi of size 42 is being processed
+2021-02-21 01:58:11,665 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:03:19,928 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:08:22,122 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 02:08:22,124 - ErdosRenyi of size 43 is being processed
+2021-02-21 02:13:30,654 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:18:38,498 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:23:39,621 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 02:23:39,623 - ErdosRenyi of size 44 is being processed
+2021-02-21 02:28:48,210 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:33:57,086 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:38:58,156 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 02:38:58,158 - ErdosRenyi of size 45 is being processed
+2021-02-21 02:44:07,203 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:49:15,426 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 02:54:16,525 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 02:54:16,527 - ErdosRenyi of size 46 is being processed
+2021-02-21 02:59:25,069 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:04:33,086 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:09:34,225 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 03:09:34,227 - ErdosRenyi of size 47 is being processed
+2021-02-21 03:14:42,771 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:19:50,770 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:24:51,983 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 03:24:51,985 - ErdosRenyi of size 48 is being processed
+2021-02-21 03:30:00,782 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:35:09,054 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:40:10,248 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 03:40:10,250 - ErdosRenyi of size 49 is being processed
+2021-02-21 03:45:18,126 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:50:27,891 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 03:55:29,025 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 03:55:29,027 - ErdosRenyi of size 50 is being processed
+2021-02-21 04:00:36,983 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 04:05:45,852 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 04:10:47,061 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 04:10:47,063 - Tree of size 4 is being processed
+2021-02-21 04:11:12,711 - Tree of size 5 is being processed
+2021-02-21 04:11:38,656 - Tree of size 6 is being processed
+2021-02-21 04:12:03,874 - Tree of size 7 is being processed
+2021-02-21 04:12:30,610 - Tree of size 8 is being processed
+2021-02-21 04:12:55,892 - Tree of size 9 is being processed
+2021-02-21 04:13:20,864 - Tree of size 10 is being processed
+2021-02-21 04:13:48,123 - Tree of size 11 is being processed
+2021-02-21 04:14:13,940 - Tree of size 12 is being processed
+2021-02-21 04:14:42,245 - Tree of size 13 is being processed
+2021-02-21 04:15:10,038 - Tree of size 14 is being processed
+2021-02-21 04:15:39,646 - Tree of size 15 is being processed
+2021-02-21 04:16:11,377 - Tree of size 16 is being processed
+2021-02-21 04:16:44,645 - Tree of size 17 is being processed
+2021-02-21 04:17:25,029 - Tree of size 18 is being processed
+2021-02-21 04:18:08,792 - Tree of size 19 is being processed
+2021-02-21 04:18:59,632 - Tree of size 20 is being processed
+2021-02-21 04:19:57,662 - Tree of size 21 is being processed
+2021-02-21 04:21:15,543 - Tree of size 22 is being processed
+2021-02-21 04:22:49,743 - Tree of size 23 is being processed
+2021-02-21 04:24:40,369 - Tree of size 24 is being processed
+2021-02-21 04:26:43,406 - Tree of size 25 is being processed
+2021-02-21 04:29:22,577 - Tree of size 26 is being processed
+2021-02-21 04:32:33,482 - Tree of size 27 is being processed
+2021-02-21 04:36:32,499 - Tree of size 28 is being processed
+2021-02-21 04:41:45,746 - Tree of size 29 is being processed
+2021-02-21 04:47:04,847 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 04:47:04,849 - Tree of size 30 is being processed
+2021-02-21 04:52:24,828 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 04:52:24,830 - Tree of size 31 is being processed
+2021-02-21 04:57:42,708 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 04:57:42,710 - Tree of size 32 is being processed
+2021-02-21 05:03:00,987 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:03:00,991 - Tree of size 33 is being processed
+2021-02-21 05:08:19,650 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:08:19,652 - Tree of size 34 is being processed
+2021-02-21 05:13:39,154 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:13:39,156 - Tree of size 35 is being processed
+2021-02-21 05:18:57,970 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:18:57,972 - Tree of size 36 is being processed
+2021-02-21 05:24:16,775 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:24:16,786 - Tree of size 37 is being processed
+2021-02-21 05:29:35,542 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:29:35,542 - Tree of size 38 is being processed
+2021-02-21 05:34:54,004 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:34:54,006 - Tree of size 39 is being processed
+2021-02-21 05:40:12,636 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:40:12,638 - Tree of size 40 is being processed
+2021-02-21 05:45:32,171 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:45:32,173 - Tree of size 41 is being processed
+2021-02-21 05:50:51,822 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:50:51,824 - Tree of size 42 is being processed
+2021-02-21 05:56:11,173 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 05:56:11,176 - Tree of size 43 is being processed
+2021-02-21 06:01:30,057 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:01:30,059 - Tree of size 44 is being processed
+2021-02-21 06:06:48,455 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:06:48,457 - Tree of size 45 is being processed
+2021-02-21 06:12:07,820 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:12:07,822 - Tree of size 46 is being processed
+2021-02-21 06:17:27,008 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:17:27,010 - Tree of size 47 is being processed
+2021-02-21 06:22:46,589 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:22:46,591 - Tree of size 48 is being processed
+2021-02-21 06:28:06,634 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:28:06,636 - Tree of size 49 is being processed
+2021-02-21 06:33:26,203 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:33:26,205 - Tree of size 50 is being processed
+2021-02-21 06:38:45,200 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 06:38:45,202 - Run 6 has started
+2021-02-21 06:38:45,202 - ErdosRenyi of size 4 is being processed
+2021-02-21 06:39:10,274 - ErdosRenyi of size 5 is being processed
+2021-02-21 06:39:36,189 - ErdosRenyi of size 6 is being processed
+2021-02-21 06:40:01,885 - ErdosRenyi of size 7 is being processed
+2021-02-21 06:40:26,920 - ErdosRenyi of size 8 is being processed
+2021-02-21 06:40:53,320 - ErdosRenyi of size 9 is being processed
+2021-02-21 06:41:21,169 - ErdosRenyi of size 10 is being processed
+2021-02-21 06:41:49,526 - ErdosRenyi of size 11 is being processed
+2021-02-21 06:42:17,778 - ErdosRenyi of size 12 is being processed
+2021-02-21 06:42:47,771 - ErdosRenyi of size 13 is being processed
+2021-02-21 06:43:21,263 - ErdosRenyi of size 14 is being processed
+2021-02-21 06:43:54,860 - ErdosRenyi of size 15 is being processed
+2021-02-21 06:44:28,791 - ErdosRenyi of size 16 is being processed
+2021-02-21 06:45:05,522 - ErdosRenyi of size 17 is being processed
+2021-02-21 06:45:46,286 - ErdosRenyi of size 18 is being processed
+2021-02-21 06:46:32,448 - ErdosRenyi of size 19 is being processed
+2021-02-21 06:47:29,988 - ErdosRenyi of size 20 is being processed
+2021-02-21 06:48:45,319 - ErdosRenyi of size 21 is being processed
+2021-02-21 06:51:35,044 - ErdosRenyi of size 22 is being processed
+2021-02-21 06:54:43,470 - ErdosRenyi of size 23 is being processed
+2021-02-21 07:00:02,873 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:00:02,875 - ErdosRenyi of size 24 is being processed
+2021-02-21 07:03:08,124 - ErdosRenyi of size 25 is being processed
+2021-02-21 07:08:26,006 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:08:26,008 - ErdosRenyi of size 26 is being processed
+2021-02-21 07:14:20,869 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:14:20,871 - ErdosRenyi of size 27 is being processed
+2021-02-21 07:19:40,090 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:19:40,092 - ErdosRenyi of size 28 is being processed
+2021-02-21 07:24:58,167 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:24:58,169 - ErdosRenyi of size 29 is being processed
+2021-02-21 07:30:17,240 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:30:17,242 - ErdosRenyi of size 30 is being processed
+2021-02-21 07:35:45,333 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:35:45,335 - ErdosRenyi of size 31 is being processed
+2021-02-21 07:41:13,660 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:41:13,662 - ErdosRenyi of size 32 is being processed
+2021-02-21 07:49:13,885 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:49:13,887 - ErdosRenyi of size 33 is being processed
+2021-02-21 07:56:07,071 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 07:56:07,073 - ErdosRenyi of size 34 is being processed
+2021-02-21 08:01:24,436 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 08:06:25,556 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 08:06:25,558 - ErdosRenyi of size 35 is being processed
+2021-02-21 08:11:52,074 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 08:16:53,243 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 08:16:53,243 - ErdosRenyi of size 36 is being processed
+2021-02-21 08:22:00,661 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 08:27:54,396 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 08:27:54,398 - ErdosRenyi of size 37 is being processed
+2021-02-21 08:33:01,864 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 08:38:09,416 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 08:43:10,652 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 08:43:10,654 - ErdosRenyi of size 38 is being processed
+2021-02-21 08:49:06,355 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 08:49:06,357 - ErdosRenyi of size 39 is being processed
+2021-02-21 08:54:14,456 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 08:59:22,686 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:04:23,759 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 09:04:23,761 - ErdosRenyi of size 40 is being processed
+2021-02-21 09:09:31,250 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:14:39,053 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:19:40,074 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 09:19:40,076 - ErdosRenyi of size 41 is being processed
+2021-02-21 09:24:48,316 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:29:56,119 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:34:57,423 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 09:34:57,433 - ErdosRenyi of size 42 is being processed
+2021-02-21 09:40:06,059 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:45:13,889 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 09:50:15,185 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 09:50:15,187 - ErdosRenyi of size 43 is being processed
+2021-02-21 09:55:22,818 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:00:30,834 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:05:31,961 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 10:05:31,963 - ErdosRenyi of size 44 is being processed
+2021-02-21 10:10:39,764 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:15:48,345 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:20:49,551 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 10:20:49,553 - ErdosRenyi of size 45 is being processed
+2021-02-21 10:25:57,434 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:31:05,397 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:36:06,682 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 10:36:06,682 - ErdosRenyi of size 46 is being processed
+2021-02-21 10:41:14,553 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:46:23,220 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 10:51:24,359 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 10:51:24,361 - ErdosRenyi of size 47 is being processed
+2021-02-21 10:56:32,662 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:01:42,051 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:06:43,145 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 11:06:43,147 - ErdosRenyi of size 48 is being processed
+2021-02-21 11:11:51,027 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:17:00,708 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:22:01,854 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 11:22:01,857 - ErdosRenyi of size 49 is being processed
+2021-02-21 11:27:09,937 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:32:18,195 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:37:19,409 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 11:37:19,411 - ErdosRenyi of size 50 is being processed
+2021-02-21 11:42:28,039 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:47:36,925 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 11:52:38,055 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 11:52:38,055 - Tree of size 4 is being processed
+2021-02-21 11:53:03,934 - Tree of size 5 is being processed
+2021-02-21 11:53:29,444 - Tree of size 6 is being processed
+2021-02-21 11:53:55,789 - Tree of size 7 is being processed
+2021-02-21 11:54:20,838 - Tree of size 8 is being processed
+2021-02-21 11:54:46,206 - Tree of size 9 is being processed
+2021-02-21 11:55:12,256 - Tree of size 10 is being processed
+2021-02-21 11:55:37,702 - Tree of size 11 is being processed
+2021-02-21 11:56:05,373 - Tree of size 12 is being processed
+2021-02-21 11:56:31,957 - Tree of size 13 is being processed
+2021-02-21 11:56:59,415 - Tree of size 14 is being processed
+2021-02-21 11:57:29,358 - Tree of size 15 is being processed
+2021-02-21 11:58:00,836 - Tree of size 16 is being processed
+2021-02-21 11:58:35,899 - Tree of size 17 is being processed
+2021-02-21 11:59:13,787 - Tree of size 18 is being processed
+2021-02-21 11:59:59,186 - Tree of size 19 is being processed
+2021-02-21 12:00:48,911 - Tree of size 20 is being processed
+2021-02-21 12:01:46,852 - Tree of size 21 is being processed
+2021-02-21 12:02:55,710 - Tree of size 22 is being processed
+2021-02-21 12:04:29,019 - Tree of size 23 is being processed
+2021-02-21 12:06:10,614 - Tree of size 24 is being processed
+2021-02-21 12:08:14,748 - Tree of size 25 is being processed
+2021-02-21 12:10:51,960 - Tree of size 26 is being processed
+2021-02-21 12:13:59,830 - Tree of size 27 is being processed
+2021-02-21 12:18:03,618 - Tree of size 28 is being processed
+2021-02-21 12:23:21,036 - Tree of size 29 is being processed
+2021-02-21 12:28:40,193 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 12:28:40,195 - Tree of size 30 is being processed
+2021-02-21 12:33:58,733 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 12:33:58,735 - Tree of size 31 is being processed
+2021-02-21 12:39:17,471 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 12:39:17,473 - Tree of size 32 is being processed
+2021-02-21 12:44:36,340 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 12:44:36,342 - Tree of size 33 is being processed
+2021-02-21 12:49:54,209 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 12:49:54,211 - Tree of size 34 is being processed
+2021-02-21 12:55:12,553 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 12:55:12,553 - Tree of size 35 is being processed
+2021-02-21 13:00:31,193 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:00:31,195 - Tree of size 36 is being processed
+2021-02-21 13:05:49,722 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:05:49,724 - Tree of size 37 is being processed
+2021-02-21 13:11:08,758 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:11:08,760 - Tree of size 38 is being processed
+2021-02-21 13:16:27,652 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:16:27,654 - Tree of size 39 is being processed
+2021-02-21 13:21:46,227 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:21:46,229 - Tree of size 40 is being processed
+2021-02-21 13:27:05,107 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:27:05,109 - Tree of size 41 is being processed
+2021-02-21 13:32:24,258 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:32:24,260 - Tree of size 42 is being processed
+2021-02-21 13:37:43,082 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:37:43,084 - Tree of size 43 is being processed
+2021-02-21 13:43:02,397 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:43:02,399 - Tree of size 44 is being processed
+2021-02-21 13:48:21,994 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:48:21,996 - Tree of size 45 is being processed
+2021-02-21 13:53:40,576 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:53:40,579 - Tree of size 46 is being processed
+2021-02-21 13:58:59,712 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 13:58:59,714 - Tree of size 47 is being processed
+2021-02-21 14:04:18,588 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:04:18,590 - Tree of size 48 is being processed
+2021-02-21 14:09:37,864 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:09:37,866 - Tree of size 49 is being processed
+2021-02-21 14:14:57,703 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:14:57,708 - Tree of size 50 is being processed
+2021-02-21 14:20:17,872 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:20:17,874 - Run 7 has started
+2021-02-21 14:20:17,874 - ErdosRenyi of size 4 is being processed
+2021-02-21 14:20:43,760 - ErdosRenyi of size 5 is being processed
+2021-02-21 14:21:08,945 - ErdosRenyi of size 6 is being processed
+2021-02-21 14:21:34,107 - ErdosRenyi of size 7 is being processed
+2021-02-21 14:21:59,816 - ErdosRenyi of size 8 is being processed
+2021-02-21 14:22:25,242 - ErdosRenyi of size 9 is being processed
+2021-02-21 14:22:51,422 - ErdosRenyi of size 10 is being processed
+2021-02-21 14:23:17,366 - ErdosRenyi of size 11 is being processed
+2021-02-21 14:23:42,890 - ErdosRenyi of size 12 is being processed
+2021-02-21 14:24:10,249 - ErdosRenyi of size 13 is being processed
+2021-02-21 14:24:38,799 - ErdosRenyi of size 14 is being processed
+2021-02-21 14:25:09,240 - ErdosRenyi of size 15 is being processed
+2021-02-21 14:25:40,630 - ErdosRenyi of size 16 is being processed
+2021-02-21 14:26:18,670 - ErdosRenyi of size 17 is being processed
+2021-02-21 14:26:53,269 - ErdosRenyi of size 18 is being processed
+2021-02-21 14:27:48,169 - ErdosRenyi of size 19 is being processed
+2021-02-21 14:28:41,763 - ErdosRenyi of size 20 is being processed
+2021-02-21 14:30:00,321 - ErdosRenyi of size 21 is being processed
+2021-02-21 14:31:29,634 - ErdosRenyi of size 22 is being processed
+2021-02-21 14:33:43,806 - ErdosRenyi of size 23 is being processed
+2021-02-21 14:36:01,012 - ErdosRenyi of size 24 is being processed
+2021-02-21 14:41:19,796 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:41:19,798 - ErdosRenyi of size 25 is being processed
+2021-02-21 14:46:38,695 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:46:38,697 - ErdosRenyi of size 26 is being processed
+2021-02-21 14:51:58,005 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:51:58,007 - ErdosRenyi of size 27 is being processed
+2021-02-21 14:57:16,990 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 14:57:17,000 - ErdosRenyi of size 28 is being processed
+2021-02-21 15:02:34,748 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:02:34,750 - ErdosRenyi of size 29 is being processed
+2021-02-21 15:08:12,654 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:08:12,656 - ErdosRenyi of size 30 is being processed
+2021-02-21 15:13:31,182 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:13:31,184 - ErdosRenyi of size 31 is being processed
+2021-02-21 15:19:16,264 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:19:16,266 - ErdosRenyi of size 32 is being processed
+2021-02-21 15:24:38,412 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:24:38,414 - ErdosRenyi of size 33 is being processed
+2021-02-21 15:29:57,534 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:29:57,536 - ErdosRenyi of size 34 is being processed
+2021-02-21 15:35:05,565 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 15:40:13,744 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 15:45:14,902 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:45:14,904 - ErdosRenyi of size 35 is being processed
+2021-02-21 15:52:43,088 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 15:57:44,252 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 15:57:44,254 - ErdosRenyi of size 36 is being processed
+2021-02-21 16:03:08,410 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 16:03:08,412 - ErdosRenyi of size 37 is being processed
+2021-02-21 16:12:36,648 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 16:17:37,862 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 16:17:37,864 - ErdosRenyi of size 38 is being processed
+2021-02-21 16:22:45,473 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 16:27:53,884 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 16:32:54,890 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 16:32:54,892 - ErdosRenyi of size 39 is being processed
+2021-02-21 16:38:02,573 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 16:43:10,635 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 16:48:11,764 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 16:48:11,766 - ErdosRenyi of size 40 is being processed
+2021-02-21 16:53:20,182 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 16:58:28,206 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:03:29,219 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 17:03:29,229 - ErdosRenyi of size 41 is being processed
+2021-02-21 17:08:37,052 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:13:45,331 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:18:46,418 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 17:18:46,420 - ErdosRenyi of size 42 is being processed
+2021-02-21 17:23:54,736 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:29:03,515 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:34:04,623 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 17:34:04,625 - ErdosRenyi of size 43 is being processed
+2021-02-21 17:39:13,087 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:44:21,568 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:49:22,745 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 17:49:22,745 - ErdosRenyi of size 44 is being processed
+2021-02-21 17:54:31,012 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 17:59:39,092 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:04:40,237 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 18:04:40,240 - ErdosRenyi of size 45 is being processed
+2021-02-21 18:09:48,067 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:14:56,117 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:19:57,221 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 18:19:57,223 - ErdosRenyi of size 46 is being processed
+2021-02-21 18:25:05,081 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:30:13,563 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:35:14,955 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 18:35:14,957 - ErdosRenyi of size 47 is being processed
+2021-02-21 18:40:23,266 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:45:31,278 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 18:50:32,388 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 18:50:32,390 - ErdosRenyi of size 48 is being processed
+2021-02-21 18:55:41,314 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 19:00:49,480 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 19:05:50,584 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 19:05:50,586 - ErdosRenyi of size 49 is being processed
+2021-02-21 19:10:59,320 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 19:16:08,039 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 19:21:09,175 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 19:21:09,177 - ErdosRenyi of size 50 is being processed
+2021-02-21 19:26:17,101 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 19:31:25,737 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 19:36:26,839 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 19:36:26,841 - Tree of size 4 is being processed
+2021-02-21 19:36:52,629 - Tree of size 5 is being processed
+2021-02-21 19:37:17,917 - Tree of size 6 is being processed
+2021-02-21 19:37:43,072 - Tree of size 7 is being processed
+2021-02-21 19:38:08,685 - Tree of size 8 is being processed
+2021-02-21 19:38:34,852 - Tree of size 9 is being processed
+2021-02-21 19:39:00,384 - Tree of size 10 is being processed
+2021-02-21 19:39:25,885 - Tree of size 11 is being processed
+2021-02-21 19:39:52,251 - Tree of size 12 is being processed
+2021-02-21 19:40:19,393 - Tree of size 13 is being processed
+2021-02-21 19:40:47,661 - Tree of size 14 is being processed
+2021-02-21 19:41:16,615 - Tree of size 15 is being processed
+2021-02-21 19:41:47,158 - Tree of size 16 is being processed
+2021-02-21 19:42:21,999 - Tree of size 17 is being processed
+2021-02-21 19:42:59,900 - Tree of size 18 is being processed
+2021-02-21 19:43:43,849 - Tree of size 19 is being processed
+2021-02-21 19:44:33,435 - Tree of size 20 is being processed
+2021-02-21 19:45:35,113 - Tree of size 21 is being processed
+2021-02-21 19:46:50,811 - Tree of size 22 is being processed
+2021-02-21 19:48:14,739 - Tree of size 23 is being processed
+2021-02-21 19:49:59,516 - Tree of size 24 is being processed
+2021-02-21 19:52:09,218 - Tree of size 25 is being processed
+2021-02-21 19:55:03,191 - Tree of size 26 is being processed
+2021-02-21 19:58:12,402 - Tree of size 27 is being processed
+2021-02-21 20:02:07,833 - Tree of size 28 is being processed
+2021-02-21 20:06:56,048 - Tree of size 29 is being processed
+2021-02-21 20:12:14,579 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:12:14,581 - Tree of size 30 is being processed
+2021-02-21 20:17:33,018 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:17:33,020 - Tree of size 31 is being processed
+2021-02-21 20:22:52,092 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:22:52,094 - Tree of size 32 is being processed
+2021-02-21 20:28:10,912 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:28:10,914 - Tree of size 33 is being processed
+2021-02-21 20:33:29,556 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:33:29,558 - Tree of size 34 is being processed
+2021-02-21 20:38:48,248 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:38:48,250 - Tree of size 35 is being processed
+2021-02-21 20:44:06,252 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:44:06,254 - Tree of size 36 is being processed
+2021-02-21 20:49:24,762 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:49:24,764 - Tree of size 37 is being processed
+2021-02-21 20:54:43,828 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 20:54:43,831 - Tree of size 38 is being processed
+2021-02-21 21:00:02,108 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:00:02,110 - Tree of size 39 is being processed
+2021-02-21 21:05:21,586 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:05:21,588 - Tree of size 40 is being processed
+2021-02-21 21:10:40,161 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:10:40,163 - Tree of size 41 is being processed
+2021-02-21 21:15:58,259 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:15:58,261 - Tree of size 42 is being processed
+2021-02-21 21:21:17,507 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:21:17,509 - Tree of size 43 is being processed
+2021-02-21 21:26:37,244 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:26:37,246 - Tree of size 44 is being processed
+2021-02-21 21:31:55,776 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:31:55,778 - Tree of size 45 is being processed
+2021-02-21 21:37:15,711 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:37:15,713 - Tree of size 46 is being processed
+2021-02-21 21:42:35,441 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:42:35,443 - Tree of size 47 is being processed
+2021-02-21 21:47:54,065 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:47:54,067 - Tree of size 48 is being processed
+2021-02-21 21:53:13,978 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:53:13,980 - Tree of size 49 is being processed
+2021-02-21 21:58:34,160 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 21:58:34,162 - Tree of size 50 is being processed
+2021-02-21 22:03:53,215 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:03:53,217 - Run 8 has started
+2021-02-21 22:03:53,217 - ErdosRenyi of size 4 is being processed
+2021-02-21 22:04:18,452 - ErdosRenyi of size 5 is being processed
+2021-02-21 22:04:44,112 - ErdosRenyi of size 6 is being processed
+2021-02-21 22:05:09,471 - ErdosRenyi of size 7 is being processed
+2021-02-21 22:05:35,145 - ErdosRenyi of size 8 is being processed
+2021-02-21 22:06:00,040 - ErdosRenyi of size 9 is being processed
+2021-02-21 22:06:25,927 - ErdosRenyi of size 10 is being processed
+2021-02-21 22:06:52,317 - ErdosRenyi of size 11 is being processed
+2021-02-21 22:07:18,460 - ErdosRenyi of size 12 is being processed
+2021-02-21 22:07:45,933 - ErdosRenyi of size 13 is being processed
+2021-02-21 22:08:12,303 - ErdosRenyi of size 14 is being processed
+2021-02-21 22:08:41,368 - ErdosRenyi of size 15 is being processed
+2021-02-21 22:09:14,434 - ErdosRenyi of size 16 is being processed
+2021-02-21 22:09:52,177 - ErdosRenyi of size 17 is being processed
+2021-02-21 22:10:33,689 - ErdosRenyi of size 18 is being processed
+2021-02-21 22:11:21,436 - ErdosRenyi of size 19 is being processed
+2021-02-21 22:12:26,210 - ErdosRenyi of size 20 is being processed
+2021-02-21 22:13:38,331 - ErdosRenyi of size 21 is being processed
+2021-02-21 22:15:25,720 - ErdosRenyi of size 22 is being processed
+2021-02-21 22:18:30,149 - ErdosRenyi of size 23 is being processed
+2021-02-21 22:22:09,054 - ErdosRenyi of size 24 is being processed
+2021-02-21 22:27:26,949 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:27:26,951 - ErdosRenyi of size 25 is being processed
+2021-02-21 22:32:28,987 - ErdosRenyi of size 26 is being processed
+2021-02-21 22:37:47,649 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:37:47,651 - ErdosRenyi of size 27 is being processed
+2021-02-21 22:43:06,291 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:43:06,291 - ErdosRenyi of size 28 is being processed
+2021-02-21 22:48:24,978 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:48:24,980 - ErdosRenyi of size 29 is being processed
+2021-02-21 22:53:50,362 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:53:50,364 - ErdosRenyi of size 30 is being processed
+2021-02-21 22:59:11,263 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 22:59:11,265 - ErdosRenyi of size 31 is being processed
+2021-02-21 23:04:50,375 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:04:50,377 - ErdosRenyi of size 32 is being processed
+2021-02-21 23:10:16,091 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:10:16,093 - ErdosRenyi of size 33 is being processed
+2021-02-21 23:19:52,575 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:19:52,577 - ErdosRenyi of size 34 is being processed
+2021-02-21 23:25:14,625 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:25:14,627 - ErdosRenyi of size 35 is being processed
+2021-02-21 23:31:28,990 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:31:28,992 - ErdosRenyi of size 36 is being processed
+2021-02-21 23:38:05,075 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:38:05,077 - ErdosRenyi of size 37 is being processed
+2021-02-21 23:44:18,715 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:44:18,717 - ErdosRenyi of size 38 is being processed
+2021-02-21 23:49:37,297 - <class 'target.OptimalTarget'> has timed out
+2021-02-21 23:54:38,322 - <class 'tower.OptimalTower'> has timed out
+2021-02-21 23:54:38,324 - ErdosRenyi of size 39 is being processed
+2021-02-22 00:02:08,836 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:07:09,849 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 00:07:09,851 - ErdosRenyi of size 40 is being processed
+2021-02-22 00:12:17,235 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:17:26,037 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:22:27,341 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 00:22:27,343 - ErdosRenyi of size 41 is being processed
+2021-02-22 00:27:34,956 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:32:43,463 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:37:44,479 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 00:37:44,481 - ErdosRenyi of size 42 is being processed
+2021-02-22 00:42:52,172 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:47:59,792 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 00:53:00,963 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 00:53:00,963 - ErdosRenyi of size 43 is being processed
+2021-02-22 00:58:09,240 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:03:17,651 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:08:18,817 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 01:08:18,819 - ErdosRenyi of size 44 is being processed
+2021-02-22 01:13:26,835 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:18:35,045 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:23:36,127 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 01:23:36,129 - ErdosRenyi of size 45 is being processed
+2021-02-22 01:28:44,502 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:33:52,561 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:38:53,885 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 01:38:53,887 - ErdosRenyi of size 46 is being processed
+2021-02-22 01:44:03,101 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:49:11,387 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 01:54:12,479 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 01:54:12,481 - ErdosRenyi of size 47 is being processed
+2021-02-22 01:59:20,561 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:04:29,540 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:09:30,673 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 02:09:30,675 - ErdosRenyi of size 48 is being processed
+2021-02-22 02:14:38,750 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:19:47,386 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:24:48,507 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 02:24:48,509 - ErdosRenyi of size 49 is being processed
+2021-02-22 02:29:56,391 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:35:04,961 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:40:06,030 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 02:40:06,032 - ErdosRenyi of size 50 is being processed
+2021-02-22 02:45:14,103 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:50:22,602 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 02:55:23,791 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 02:55:23,793 - Tree of size 4 is being processed
+2021-02-22 02:55:49,627 - Tree of size 5 is being processed
+2021-02-22 02:56:15,115 - Tree of size 6 is being processed
+2021-02-22 02:56:40,864 - Tree of size 7 is being processed
+2021-02-22 02:57:06,129 - Tree of size 8 is being processed
+2021-02-22 02:57:31,505 - Tree of size 9 is being processed
+2021-02-22 02:57:57,060 - Tree of size 10 is being processed
+2021-02-22 02:58:23,578 - Tree of size 11 is being processed
+2021-02-22 02:58:50,021 - Tree of size 12 is being processed
+2021-02-22 02:59:16,590 - Tree of size 13 is being processed
+2021-02-22 02:59:44,086 - Tree of size 14 is being processed
+2021-02-22 03:00:13,921 - Tree of size 15 is being processed
+2021-02-22 03:00:45,188 - Tree of size 16 is being processed
+2021-02-22 03:01:19,472 - Tree of size 17 is being processed
+2021-02-22 03:01:59,335 - Tree of size 18 is being processed
+2021-02-22 03:02:42,704 - Tree of size 19 is being processed
+2021-02-22 03:03:31,599 - Tree of size 20 is being processed
+2021-02-22 03:04:30,471 - Tree of size 21 is being processed
+2021-02-22 03:05:40,366 - Tree of size 22 is being processed
+2021-02-22 03:07:11,925 - Tree of size 23 is being processed
+2021-02-22 03:08:56,238 - Tree of size 24 is being processed
+2021-02-22 03:11:09,247 - Tree of size 25 is being processed
+2021-02-22 03:13:40,984 - Tree of size 26 is being processed
+2021-02-22 03:16:50,028 - Tree of size 27 is being processed
+2021-02-22 03:20:52,295 - Tree of size 28 is being processed
+2021-02-22 03:25:45,350 - Tree of size 29 is being processed
+2021-02-22 03:31:03,743 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 03:31:03,745 - Tree of size 30 is being processed
+2021-02-22 03:36:22,119 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 03:36:22,121 - Tree of size 31 is being processed
+2021-02-22 03:41:40,626 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 03:41:40,628 - Tree of size 32 is being processed
+2021-02-22 03:47:00,910 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 03:47:00,912 - Tree of size 33 is being processed
+2021-02-22 03:52:19,406 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 03:52:19,408 - Tree of size 34 is being processed
+2021-02-22 03:57:37,925 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 03:57:37,927 - Tree of size 35 is being processed
+2021-02-22 04:02:56,365 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:02:56,367 - Tree of size 36 is being processed
+2021-02-22 04:08:14,238 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:08:14,240 - Tree of size 37 is being processed
+2021-02-22 04:13:32,970 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:13:32,972 - Tree of size 38 is being processed
+2021-02-22 04:18:52,205 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:18:52,207 - Tree of size 39 is being processed
+2021-02-22 04:24:10,991 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:24:10,993 - Tree of size 40 is being processed
+2021-02-22 04:29:30,598 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:29:30,600 - Tree of size 41 is being processed
+2021-02-22 04:34:49,971 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:34:49,973 - Tree of size 42 is being processed
+2021-02-22 04:40:08,242 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:40:08,245 - Tree of size 43 is being processed
+2021-02-22 04:45:26,779 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:45:26,781 - Tree of size 44 is being processed
+2021-02-22 04:50:46,465 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:50:46,467 - Tree of size 45 is being processed
+2021-02-22 04:56:05,714 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 04:56:05,716 - Tree of size 46 is being processed
+2021-02-22 05:01:25,498 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:01:25,500 - Tree of size 47 is being processed
+2021-02-22 05:06:45,256 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:06:45,256 - Tree of size 48 is being processed
+2021-02-22 05:12:03,878 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:12:03,880 - Tree of size 49 is being processed
+2021-02-22 05:17:22,634 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:17:22,636 - Tree of size 50 is being processed
+2021-02-22 05:22:42,872 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:22:42,874 - Run 9 has started
+2021-02-22 05:22:42,874 - ErdosRenyi of size 4 is being processed
+2021-02-22 05:23:08,818 - ErdosRenyi of size 5 is being processed
+2021-02-22 05:23:33,317 - ErdosRenyi of size 6 is being processed
+2021-02-22 05:23:59,799 - ErdosRenyi of size 7 is being processed
+2021-02-22 05:24:25,141 - ErdosRenyi of size 8 is being processed
+2021-02-22 05:24:51,294 - ErdosRenyi of size 9 is being processed
+2021-02-22 05:25:18,626 - ErdosRenyi of size 10 is being processed
+2021-02-22 05:25:43,440 - ErdosRenyi of size 11 is being processed
+2021-02-22 05:26:10,404 - ErdosRenyi of size 12 is being processed
+2021-02-22 05:26:37,015 - ErdosRenyi of size 13 is being processed
+2021-02-22 05:27:05,391 - ErdosRenyi of size 14 is being processed
+2021-02-22 05:27:35,039 - ErdosRenyi of size 15 is being processed
+2021-02-22 05:28:07,843 - ErdosRenyi of size 16 is being processed
+2021-02-22 05:28:43,496 - ErdosRenyi of size 17 is being processed
+2021-02-22 05:29:28,698 - ErdosRenyi of size 18 is being processed
+2021-02-22 05:30:19,062 - ErdosRenyi of size 19 is being processed
+2021-02-22 05:31:22,189 - ErdosRenyi of size 20 is being processed
+2021-02-22 05:32:44,285 - ErdosRenyi of size 21 is being processed
+2021-02-22 05:34:12,106 - ErdosRenyi of size 22 is being processed
+2021-02-22 05:36:46,591 - ErdosRenyi of size 23 is being processed
+2021-02-22 05:39:04,738 - ErdosRenyi of size 24 is being processed
+2021-02-22 05:44:24,053 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:44:24,055 - ErdosRenyi of size 25 is being processed
+2021-02-22 05:47:52,396 - ErdosRenyi of size 26 is being processed
+2021-02-22 05:53:11,801 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:53:11,803 - ErdosRenyi of size 27 is being processed
+2021-02-22 05:58:31,146 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 05:58:31,148 - ErdosRenyi of size 28 is being processed
+2021-02-22 06:03:49,806 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:03:49,809 - ErdosRenyi of size 29 is being processed
+2021-02-22 06:10:14,267 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:10:14,269 - ErdosRenyi of size 30 is being processed
+2021-02-22 06:15:38,051 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:15:38,053 - ErdosRenyi of size 31 is being processed
+2021-02-22 06:20:56,766 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:20:56,768 - ErdosRenyi of size 32 is being processed
+2021-02-22 06:26:40,739 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 06:31:41,769 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:31:41,771 - ErdosRenyi of size 33 is being processed
+2021-02-22 06:40:51,907 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:40:51,909 - ErdosRenyi of size 34 is being processed
+2021-02-22 06:46:08,427 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 06:51:09,568 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 06:51:09,570 - ErdosRenyi of size 35 is being processed
+2021-02-22 06:56:17,666 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:01:25,354 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:06:26,490 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 07:06:26,492 - ErdosRenyi of size 36 is being processed
+2021-02-22 07:11:34,033 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:18:48,201 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 07:18:48,203 - ErdosRenyi of size 37 is being processed
+2021-02-22 07:23:55,728 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:30:36,545 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 07:30:36,547 - ErdosRenyi of size 38 is being processed
+2021-02-22 07:36:34,059 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:41:35,145 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 07:41:35,155 - ErdosRenyi of size 39 is being processed
+2021-02-22 07:46:42,640 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:51:50,866 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 07:56:52,082 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 07:56:52,084 - ErdosRenyi of size 40 is being processed
+2021-02-22 08:02:00,261 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:07:08,531 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:12:09,550 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 08:12:09,552 - ErdosRenyi of size 41 is being processed
+2021-02-22 08:17:17,060 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:22:24,809 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:27:25,962 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 08:27:25,964 - ErdosRenyi of size 42 is being processed
+2021-02-22 08:32:33,565 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:37:42,363 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:42:43,547 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 08:42:43,549 - ErdosRenyi of size 43 is being processed
+2021-02-22 08:47:51,032 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 08:56:22,670 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 08:56:22,672 - ErdosRenyi of size 44 is being processed
+2021-02-22 09:01:31,096 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:06:39,082 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:11:40,367 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 09:11:40,367 - ErdosRenyi of size 45 is being processed
+2021-02-22 09:16:48,026 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:21:55,968 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:26:57,075 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 09:26:57,075 - ErdosRenyi of size 46 is being processed
+2021-02-22 09:32:04,986 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:37:13,859 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:42:15,088 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 09:42:15,090 - ErdosRenyi of size 47 is being processed
+2021-02-22 09:47:22,832 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:52:31,495 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 09:57:32,614 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 09:57:32,616 - ErdosRenyi of size 48 is being processed
+2021-02-22 10:02:40,572 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 10:07:49,747 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 10:12:50,873 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 10:12:50,876 - ErdosRenyi of size 49 is being processed
+2021-02-22 10:17:59,203 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 10:23:09,067 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 10:28:10,188 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 10:28:10,188 - ErdosRenyi of size 50 is being processed
+2021-02-22 10:33:18,176 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 10:38:27,480 - <class 'target.OptimalTarget'> has timed out
+2021-02-22 10:43:28,742 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 10:43:28,744 - Tree of size 4 is being processed
+2021-02-22 10:43:54,157 - Tree of size 5 is being processed
+2021-02-22 10:44:18,690 - Tree of size 6 is being processed
+2021-02-22 10:44:45,212 - Tree of size 7 is being processed
+2021-02-22 10:45:10,326 - Tree of size 8 is being processed
+2021-02-22 10:45:36,672 - Tree of size 9 is being processed
+2021-02-22 10:46:02,478 - Tree of size 10 is being processed
+2021-02-22 10:46:27,408 - Tree of size 11 is being processed
+2021-02-22 10:46:54,766 - Tree of size 12 is being processed
+2021-02-22 10:47:21,461 - Tree of size 13 is being processed
+2021-02-22 10:47:50,061 - Tree of size 14 is being processed
+2021-02-22 10:48:19,074 - Tree of size 15 is being processed
+2021-02-22 10:48:51,253 - Tree of size 16 is being processed
+2021-02-22 10:49:24,824 - Tree of size 17 is being processed
+2021-02-22 10:50:05,137 - Tree of size 18 is being processed
+2021-02-22 10:50:49,278 - Tree of size 19 is being processed
+2021-02-22 10:51:39,423 - Tree of size 20 is being processed
+2021-02-22 10:52:44,227 - Tree of size 21 is being processed
+2021-02-22 10:53:54,346 - Tree of size 22 is being processed
+2021-02-22 10:55:20,267 - Tree of size 23 is being processed
+2021-02-22 10:57:16,902 - Tree of size 24 is being processed
+2021-02-22 10:59:39,058 - Tree of size 25 is being processed
+2021-02-22 11:02:28,519 - Tree of size 26 is being processed
+2021-02-22 11:05:35,775 - Tree of size 27 is being processed
+2021-02-22 11:09:29,128 - Tree of size 28 is being processed
+2021-02-22 11:14:28,030 - Tree of size 29 is being processed
+2021-02-22 11:19:46,140 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:19:46,142 - Tree of size 30 is being processed
+2021-02-22 11:25:04,335 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:25:04,337 - Tree of size 31 is being processed
+2021-02-22 11:30:23,419 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:30:23,421 - Tree of size 32 is being processed
+2021-02-22 11:35:43,378 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:35:43,380 - Tree of size 33 is being processed
+2021-02-22 11:41:01,973 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:41:01,975 - Tree of size 34 is being processed
+2021-02-22 11:46:19,781 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:46:19,783 - Tree of size 35 is being processed
+2021-02-22 11:51:38,155 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:51:38,157 - Tree of size 36 is being processed
+2021-02-22 11:56:56,177 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 11:56:56,180 - Tree of size 37 is being processed
+2021-02-22 12:02:15,534 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:02:15,536 - Tree of size 38 is being processed
+2021-02-22 12:07:35,144 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:07:35,146 - Tree of size 39 is being processed
+2021-02-22 12:12:54,137 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:12:54,139 - Tree of size 40 is being processed
+2021-02-22 12:18:12,876 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:18:12,879 - Tree of size 41 is being processed
+2021-02-22 12:23:31,813 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:23:31,815 - Tree of size 42 is being processed
+2021-02-22 12:28:50,192 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:28:50,194 - Tree of size 43 is being processed
+2021-02-22 12:34:09,227 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:34:09,229 - Tree of size 44 is being processed
+2021-02-22 12:39:28,562 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:39:28,564 - Tree of size 45 is being processed
+2021-02-22 12:44:48,609 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:44:48,611 - Tree of size 46 is being processed
+2021-02-22 12:50:08,229 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:50:08,231 - Tree of size 47 is being processed
+2021-02-22 12:55:27,314 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 12:55:27,316 - Tree of size 48 is being processed
+2021-02-22 13:00:46,733 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 13:00:46,735 - Tree of size 49 is being processed
+2021-02-22 13:06:06,273 - <class 'tower.OptimalTower'> has timed out
+2021-02-22 13:06:06,275 - Tree of size 50 is being processed
+2021-02-22 13:11:25,449 - <class 'tower.OptimalTower'> has timed out

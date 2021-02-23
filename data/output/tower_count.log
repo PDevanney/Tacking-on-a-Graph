@@ -1,0 +1,611 @@
+2021-02-22 23:03:59,675 - Code has started Execution
+2021-02-22 23:03:59,706 - Tower Run 0 has started
+2021-02-22 23:03:59,706 - 1 is being evaluated
+2021-02-22 23:04:13,703 - Node found in 492 turns
+2021-02-22 23:04:13,718 - 2 is being evaluated
+2021-02-22 23:04:40,462 - Node found in 447 turns
+2021-02-22 23:04:40,462 - 3 is being evaluated
+2021-02-22 23:05:16,204 - Node found in 326 turns
+2021-02-22 23:05:16,204 - 4 is being evaluated
+2021-02-22 23:06:11,050 - Node found in 434 turns
+2021-02-22 23:06:11,050 - 5 is being evaluated
+2021-02-22 23:06:46,745 - Node found in 30 turns
+2021-02-22 23:06:46,745 - 6 is being evaluated
+2021-02-22 23:07:33,093 - Node found in 60 turns
+2021-02-22 23:07:33,093 - 7 is being evaluated
+2021-02-22 23:08:21,191 - Node found in 2 turns
+2021-02-22 23:08:21,207 - 8 is being evaluated
+2021-02-22 23:09:15,991 - Node found in 2 turns
+2021-02-22 23:09:15,991 - 9 is being evaluated
+2021-02-22 23:10:18,741 - Node found in 9 turns
+2021-02-22 23:10:18,757 - 10 is being evaluated
+2021-02-22 23:11:28,272 - Node found in 0 turns
+2021-02-22 23:11:28,288 - 11 is being evaluated
+2021-02-22 23:12:46,800 - Node found in 5 turns
+2021-02-22 23:12:46,816 - 12 is being evaluated
+2021-02-22 23:14:10,171 - Node found in 2 turns
+2021-02-22 23:14:10,171 - 13 is being evaluated
+2021-02-22 23:15:35,776 - Node found in 10 turns
+2021-02-22 23:15:35,792 - 14 is being evaluated
+2021-02-22 23:17:07,208 - Node found in 0 turns
+2021-02-22 23:17:07,223 - 15 is being evaluated
+2021-02-22 23:18:43,388 - Node found in 2 turns
+2021-02-22 23:18:43,388 - 16 is being evaluated
+2021-02-22 23:20:28,519 - Node found in 3 turns
+2021-02-22 23:20:28,535 - 17 is being evaluated
+2021-02-22 23:22:18,478 - Node found in 2 turns
+2021-02-22 23:22:18,493 - 18 is being evaluated
+2021-02-22 23:24:16,731 - Node found in 2 turns
+2021-02-22 23:24:16,731 - 19 is being evaluated
+2021-02-22 23:26:21,701 - Node found in 0 turns
+2021-02-22 23:26:21,701 - 20 is being evaluated
+2021-02-22 23:28:32,358 - Node found in 0 turns
+2021-02-22 23:28:32,358 - 21 is being evaluated
+2021-02-22 23:30:50,060 - Node found in 0 turns
+2021-02-22 23:30:50,060 - 22 is being evaluated
+2021-02-22 23:33:13,635 - Node found in 0 turns
+2021-02-22 23:33:13,635 - 23 is being evaluated
+2021-02-22 23:35:46,787 - Node found in 0 turns
+2021-02-22 23:35:46,787 - 24 is being evaluated
+2021-02-22 23:38:22,266 - Node found in 0 turns
+2021-02-22 23:38:22,266 - 25 is being evaluated
+2021-02-22 23:41:05,961 - Node found in 0 turns
+2021-02-22 23:41:05,961 - 26 is being evaluated
+2021-02-22 23:43:52,890 - Node found in 0 turns
+2021-02-22 23:43:52,890 - 27 is being evaluated
+2021-02-22 23:46:48,692 - Node found in 0 turns
+2021-02-22 23:46:48,692 - 28 is being evaluated
+2021-02-22 23:49:47,869 - Node found in 0 turns
+2021-02-22 23:49:47,869 - 29 is being evaluated
+2021-02-22 23:52:56,121 - Node found in 0 turns
+2021-02-22 23:52:56,121 - 30 is being evaluated
+2021-02-22 23:56:12,356 - Node found in 1 turns
+2021-02-22 23:56:12,403 - Tower Run 1 has started
+2021-02-22 23:56:12,403 - 1 is being evaluated
+2021-02-22 23:56:28,243 - Node found in 482 turns
+2021-02-22 23:56:28,258 - 2 is being evaluated
+2021-02-22 23:56:56,673 - Node found in 445 turns
+2021-02-22 23:56:56,673 - 3 is being evaluated
+2021-02-22 23:57:39,163 - Node found in 442 turns
+2021-02-22 23:57:39,163 - 4 is being evaluated
+2021-02-22 23:58:18,014 - Node found in 192 turns
+2021-02-22 23:58:18,029 - 5 is being evaluated
+2021-02-22 23:59:12,126 - Node found in 234 turns
+2021-02-22 23:59:12,126 - 6 is being evaluated
+2021-02-22 23:59:55,834 - Node found in 21 turns
+2021-02-22 23:59:55,850 - 7 is being evaluated
+2021-02-23 00:00:42,823 - Node found in 12 turns
+2021-02-23 00:00:42,839 - 8 is being evaluated
+2021-02-23 00:01:35,904 - Node found in 2 turns
+2021-02-23 00:01:35,904 - 9 is being evaluated
+2021-02-23 00:02:35,593 - Node found in 1 turns
+2021-02-23 00:02:35,593 - 10 is being evaluated
+2021-02-23 00:03:42,718 - Node found in 10 turns
+2021-02-23 00:03:42,718 - 11 is being evaluated
+2021-02-23 00:04:55,170 - Node found in 1 turns
+2021-02-23 00:04:55,170 - 12 is being evaluated
+2021-02-23 00:06:16,603 - Node found in 3 turns
+2021-02-23 00:06:16,619 - 13 is being evaluated
+2021-02-23 00:07:45,504 - Node found in 15 turns
+2021-02-23 00:07:45,504 - 14 is being evaluated
+2021-02-23 00:09:19,201 - Node found in 3 turns
+2021-02-23 00:09:19,201 - 15 is being evaluated
+2021-02-23 00:10:59,771 - Node found in 0 turns
+2021-02-23 00:10:59,786 - 16 is being evaluated
+2021-02-23 00:12:44,480 - Node found in 1 turns
+2021-02-23 00:12:44,496 - 17 is being evaluated
+2021-02-23 00:14:37,266 - Node found in 0 turns
+2021-02-23 00:14:37,266 - 18 is being evaluated
+2021-02-23 00:16:34,863 - Node found in 0 turns
+2021-02-23 00:16:34,879 - 19 is being evaluated
+2021-02-23 00:18:38,428 - Node found in 0 turns
+2021-02-23 00:18:38,444 - 20 is being evaluated
+2021-02-23 00:21:01,453 - Node found in 0 turns
+2021-02-23 00:21:01,453 - 21 is being evaluated
+2021-02-23 00:23:21,482 - Node found in 0 turns
+2021-02-23 00:23:21,482 - 22 is being evaluated
+2021-02-23 00:25:49,744 - Node found in 0 turns
+2021-02-23 00:25:49,744 - 23 is being evaluated
+2021-02-23 00:28:24,208 - Node found in 0 turns
+2021-02-23 00:28:24,208 - 24 is being evaluated
+2021-02-23 00:31:04,107 - Node found in 0 turns
+2021-02-23 00:31:04,122 - 25 is being evaluated
+2021-02-23 00:33:53,020 - Node found in 0 turns
+2021-02-23 00:33:53,020 - 26 is being evaluated
+2021-02-23 00:36:44,651 - Node found in 0 turns
+2021-02-23 00:36:44,667 - 27 is being evaluated
+2021-02-23 00:39:46,905 - Node found in 0 turns
+2021-02-23 00:39:46,921 - 28 is being evaluated
+2021-02-23 00:42:51,970 - Node found in 0 turns
+2021-02-23 00:42:51,970 - 29 is being evaluated
+2021-02-23 00:46:04,940 - Node found in 0 turns
+2021-02-23 00:46:04,940 - 30 is being evaluated
+2021-02-23 00:49:24,315 - Node found in 0 turns
+2021-02-23 00:49:24,362 - Tower Run 2 has started
+2021-02-23 00:49:24,362 - 1 is being evaluated
+2021-02-23 00:49:38,203 - Node found in 465 turns
+2021-02-23 00:49:38,203 - 2 is being evaluated
+2021-02-23 00:50:06,336 - Node found in 482 turns
+2021-02-23 00:50:06,336 - 3 is being evaluated
+2021-02-23 00:50:36,079 - Node found in 189 turns
+2021-02-23 00:50:36,079 - 4 is being evaluated
+2021-02-23 00:51:10,274 - Node found in 112 turns
+2021-02-23 00:51:10,290 - 5 is being evaluated
+2021-02-23 00:51:46,234 - Node found in 11 turns
+2021-02-23 00:51:46,234 - 6 is being evaluated
+2021-02-23 00:52:28,896 - Node found in 6 turns
+2021-02-23 00:52:28,912 - 7 is being evaluated
+2021-02-23 00:53:32,381 - Node found in 138 turns
+2021-02-23 00:53:32,381 - 8 is being evaluated
+2021-02-23 00:54:29,758 - Node found in 11 turns
+2021-02-23 00:54:29,758 - 9 is being evaluated
+2021-02-23 00:55:33,681 - Node found in 8 turns
+2021-02-23 00:55:33,696 - 10 is being evaluated
+2021-02-23 00:56:44,773 - Node found in 0 turns
+2021-02-23 00:56:44,773 - 11 is being evaluated
+2021-02-23 00:58:02,411 - Node found in 0 turns
+2021-02-23 00:58:02,411 - 12 is being evaluated
+2021-02-23 00:59:25,720 - Node found in 0 turns
+2021-02-23 00:59:25,735 - 13 is being evaluated
+2021-02-23 01:00:50,934 - Node found in 3 turns
+2021-02-23 01:00:50,934 - 14 is being evaluated
+2021-02-23 01:02:23,193 - Node found in 1 turns
+2021-02-23 01:02:23,193 - 15 is being evaluated
+2021-02-23 01:04:01,373 - Node found in 1 turns
+2021-02-23 01:04:01,389 - 16 is being evaluated
+2021-02-23 01:05:46,879 - Node found in 3 turns
+2021-02-23 01:05:46,895 - 17 is being evaluated
+2021-02-23 01:07:37,041 - Node found in 0 turns
+2021-02-23 01:07:37,041 - 18 is being evaluated
+2021-02-23 01:09:35,482 - Node found in 1 turns
+2021-02-23 01:09:35,497 - 19 is being evaluated
+2021-02-23 01:11:39,905 - Node found in 1 turns
+2021-02-23 01:11:39,920 - 20 is being evaluated
+2021-02-23 01:13:49,202 - Node found in 0 turns
+2021-02-23 01:13:49,218 - 21 is being evaluated
+2021-02-23 01:16:06,889 - Node found in 0 turns
+2021-02-23 01:16:06,904 - 22 is being evaluated
+2021-02-23 01:18:31,026 - Node found in 1 turns
+2021-02-23 01:18:31,042 - 23 is being evaluated
+2021-02-23 01:21:01,803 - Node found in 0 turns
+2021-02-23 01:21:01,819 - 24 is being evaluated
+2021-02-23 01:23:37,017 - Node found in 0 turns
+2021-02-23 01:23:37,017 - 25 is being evaluated
+2021-02-23 01:26:21,603 - Node found in 0 turns
+2021-02-23 01:26:21,603 - 26 is being evaluated
+2021-02-23 01:29:10,735 - Node found in 0 turns
+2021-02-23 01:29:10,735 - 27 is being evaluated
+2021-02-23 01:32:08,396 - Node found in 0 turns
+2021-02-23 01:32:08,396 - 28 is being evaluated
+2021-02-23 01:35:11,524 - Node found in 0 turns
+2021-02-23 01:35:11,524 - 29 is being evaluated
+2021-02-23 01:38:18,949 - Node found in 0 turns
+2021-02-23 01:38:18,949 - 30 is being evaluated
+2021-02-23 01:41:33,871 - Node found in 0 turns
+2021-02-23 01:41:33,918 - Tower Run 3 has started
+2021-02-23 01:41:33,918 - 1 is being evaluated
+2021-02-23 01:41:48,508 - Node found in 458 turns
+2021-02-23 01:41:48,508 - 2 is being evaluated
+2021-02-23 01:42:17,080 - Node found in 474 turns
+2021-02-23 01:42:17,080 - 3 is being evaluated
+2021-02-23 01:42:56,992 - Node found in 392 turns
+2021-02-23 01:42:56,992 - 4 is being evaluated
+2021-02-23 01:43:40,232 - Node found in 246 turns
+2021-02-23 01:43:40,232 - 5 is being evaluated
+2021-02-23 01:44:17,051 - Node found in 17 turns
+2021-02-23 01:44:17,051 - 6 is being evaluated
+2021-02-23 01:45:01,431 - Node found in 21 turns
+2021-02-23 01:45:01,431 - 7 is being evaluated
+2021-02-23 01:45:51,482 - Node found in 36 turns
+2021-02-23 01:45:51,482 - 8 is being evaluated
+2021-02-23 01:46:44,626 - Node found in 5 turns
+2021-02-23 01:46:44,642 - 9 is being evaluated
+2021-02-23 01:47:44,940 - Node found in 7 turns
+2021-02-23 01:47:44,955 - 10 is being evaluated
+2021-02-23 01:48:53,533 - Node found in 9 turns
+2021-02-23 01:48:53,548 - 11 is being evaluated
+2021-02-23 01:50:08,437 - Node found in 10 turns
+2021-02-23 01:50:08,437 - 12 is being evaluated
+2021-02-23 01:51:31,167 - Node found in 2 turns
+2021-02-23 01:51:31,167 - 13 is being evaluated
+2021-02-23 01:52:56,522 - Node found in 0 turns
+2021-02-23 01:52:56,538 - 14 is being evaluated
+2021-02-23 01:54:31,390 - Node found in 4 turns
+2021-02-23 01:54:31,390 - 15 is being evaluated
+2021-02-23 01:56:12,929 - Node found in 1 turns
+2021-02-23 01:56:12,929 - 16 is being evaluated
+2021-02-23 01:58:00,950 - Node found in 0 turns
+2021-02-23 01:58:00,966 - 17 is being evaluated
+2021-02-23 01:59:53,658 - Node found in 0 turns
+2021-02-23 01:59:53,658 - 18 is being evaluated
+2021-02-23 02:01:54,254 - Node found in 0 turns
+2021-02-23 02:01:54,269 - 19 is being evaluated
+2021-02-23 02:04:01,271 - Node found in 0 turns
+2021-02-23 02:04:01,271 - 20 is being evaluated
+2021-02-23 02:06:16,286 - Node found in 0 turns
+2021-02-23 02:06:16,286 - 21 is being evaluated
+2021-02-23 02:08:37,408 - Node found in 1 turns
+2021-02-23 02:08:37,408 - 22 is being evaluated
+2021-02-23 02:11:06,858 - Node found in 0 turns
+2021-02-23 02:11:06,874 - 23 is being evaluated
+2021-02-23 02:13:40,822 - Node found in 0 turns
+2021-02-23 02:13:40,837 - 24 is being evaluated
+2021-02-23 02:16:23,549 - Node found in 0 turns
+2021-02-23 02:16:23,549 - 25 is being evaluated
+2021-02-23 02:19:12,540 - Node found in 0 turns
+2021-02-23 02:19:12,540 - 26 is being evaluated
+2021-02-23 02:22:07,671 - Node found in 0 turns
+2021-02-23 02:22:07,671 - 27 is being evaluated
+2021-02-23 02:25:08,394 - Node found in 0 turns
+2021-02-23 02:25:08,409 - 28 is being evaluated
+2021-02-23 02:28:15,943 - Node found in 0 turns
+2021-02-23 02:28:15,943 - 29 is being evaluated
+2021-02-23 02:31:30,584 - Node found in 0 turns
+2021-02-23 02:31:30,600 - 30 is being evaluated
+2021-02-23 02:34:50,912 - Node found in 0 turns
+2021-02-23 02:34:50,959 - Tower Run 4 has started
+2021-02-23 02:34:50,959 - 1 is being evaluated
+2021-02-23 02:35:05,362 - Node found in 488 turns
+2021-02-23 02:35:05,362 - 2 is being evaluated
+2021-02-23 02:35:34,480 - Node found in 482 turns
+2021-02-23 02:35:34,480 - 3 is being evaluated
+2021-02-23 02:36:11,846 - Node found in 397 turns
+2021-02-23 02:36:11,846 - 4 is being evaluated
+2021-02-23 02:36:50,384 - Node found in 190 turns
+2021-02-23 02:36:50,399 - 5 is being evaluated
+2021-02-23 02:37:38,169 - Node found in 167 turns
+2021-02-23 02:37:38,169 - 6 is being evaluated
+2021-02-23 02:38:26,408 - Node found in 92 turns
+2021-02-23 02:38:26,408 - 7 is being evaluated
+2021-02-23 02:39:17,864 - Node found in 43 turns
+2021-02-23 02:39:17,864 - 8 is being evaluated
+2021-02-23 02:40:13,211 - Node found in 0 turns
+2021-02-23 02:40:13,226 - 9 is being evaluated
+2021-02-23 02:41:15,321 - Node found in 2 turns
+2021-02-23 02:41:15,321 - 10 is being evaluated
+2021-02-23 02:42:24,086 - Node found in 2 turns
+2021-02-23 02:42:24,102 - 11 is being evaluated
+2021-02-23 02:43:39,318 - Node found in 3 turns
+2021-02-23 02:43:39,334 - 12 is being evaluated
+2021-02-23 02:45:01,814 - Node found in 7 turns
+2021-02-23 02:45:01,814 - 13 is being evaluated
+2021-02-23 02:46:24,717 - Node found in 0 turns
+2021-02-23 02:46:24,717 - 14 is being evaluated
+2021-02-23 02:47:53,102 - Node found in 0 turns
+2021-02-23 02:47:53,102 - 15 is being evaluated
+2021-02-23 02:49:29,314 - Node found in 0 turns
+2021-02-23 02:49:29,316 - 16 is being evaluated
+2021-02-23 02:51:19,180 - Node found in 0 turns
+2021-02-23 02:51:19,180 - 17 is being evaluated
+2021-02-23 02:53:19,699 - Node found in 1 turns
+2021-02-23 02:53:19,714 - 18 is being evaluated
+2021-02-23 02:55:27,653 - Node found in 0 turns
+2021-02-23 02:55:27,653 - 19 is being evaluated
+2021-02-23 02:57:40,887 - Node found in 0 turns
+2021-02-23 02:57:40,903 - 20 is being evaluated
+2021-02-23 03:00:01,276 - Node found in 0 turns
+2021-02-23 03:00:01,276 - 21 is being evaluated
+2021-02-23 03:02:25,851 - Node found in 0 turns
+2021-02-23 03:02:25,867 - 22 is being evaluated
+2021-02-23 03:05:00,783 - Node found in 0 turns
+2021-02-23 03:05:00,799 - 23 is being evaluated
+2021-02-23 03:07:37,371 - Node found in 0 turns
+2021-02-23 03:07:37,371 - 24 is being evaluated
+2021-02-23 03:10:28,362 - Node found in 0 turns
+2021-02-23 03:10:28,377 - 25 is being evaluated
+2021-02-23 03:13:18,571 - Node found in 0 turns
+2021-02-23 03:13:18,571 - 26 is being evaluated
+2021-02-23 03:16:21,169 - Node found in 0 turns
+2021-02-23 03:16:21,169 - 27 is being evaluated
+2021-02-23 03:19:26,438 - Node found in 0 turns
+2021-02-23 03:19:26,438 - 28 is being evaluated
+2021-02-23 03:22:40,868 - Node found in 0 turns
+2021-02-23 03:22:40,868 - 29 is being evaluated
+2021-02-23 03:26:00,196 - Node found in 0 turns
+2021-02-23 03:26:00,196 - 30 is being evaluated
+2021-02-23 03:29:25,631 - Node found in 0 turns
+2021-02-23 03:29:25,678 - Tower Run 5 has started
+2021-02-23 03:29:25,678 - 1 is being evaluated
+2021-02-23 03:29:40,315 - Node found in 490 turns
+2021-02-23 03:29:40,315 - 2 is being evaluated
+2021-02-23 03:30:05,918 - Node found in 327 turns
+2021-02-23 03:30:05,918 - 3 is being evaluated
+2021-02-23 03:30:33,552 - Node found in 150 turns
+2021-02-23 03:30:33,552 - 4 is being evaluated
+2021-02-23 03:31:08,029 - Node found in 100 turns
+2021-02-23 03:31:08,029 - 5 is being evaluated
+2021-02-23 03:31:43,099 - Node found in 0 turns
+2021-02-23 03:31:43,114 - 6 is being evaluated
+2021-02-23 03:32:27,151 - Node found in 4 turns
+2021-02-23 03:32:27,151 - 7 is being evaluated
+2021-02-23 03:33:27,027 - Node found in 109 turns
+2021-02-23 03:33:27,038 - 8 is being evaluated
+2021-02-23 03:34:18,838 - Node found in 3 turns
+2021-02-23 03:34:18,854 - 9 is being evaluated
+2021-02-23 03:35:17,043 - Node found in 1 turns
+2021-02-23 03:35:17,059 - 10 is being evaluated
+2021-02-23 03:36:23,652 - Node found in 6 turns
+2021-02-23 03:36:23,668 - 11 is being evaluated
+2021-02-23 03:37:35,901 - Node found in 6 turns
+2021-02-23 03:37:35,916 - 12 is being evaluated
+2021-02-23 03:38:55,241 - Node found in 0 turns
+2021-02-23 03:38:55,257 - 13 is being evaluated
+2021-02-23 03:40:18,643 - Node found in 2 turns
+2021-02-23 03:40:18,643 - 14 is being evaluated
+2021-02-23 03:41:49,606 - Node found in 2 turns
+2021-02-23 03:41:49,622 - 15 is being evaluated
+2021-02-23 03:43:28,504 - Node found in 3 turns
+2021-02-23 03:43:28,504 - 16 is being evaluated
+2021-02-23 03:45:14,151 - Node found in 1 turns
+2021-02-23 03:45:14,167 - 17 is being evaluated
+2021-02-23 03:47:04,453 - Node found in 0 turns
+2021-02-23 03:47:04,453 - 18 is being evaluated
+2021-02-23 03:49:01,676 - Node found in 1 turns
+2021-02-23 03:49:01,676 - 19 is being evaluated
+2021-02-23 03:51:07,443 - Node found in 3 turns
+2021-02-23 03:51:07,458 - 20 is being evaluated
+2021-02-23 03:53:19,271 - Node found in 0 turns
+2021-02-23 03:53:19,286 - 21 is being evaluated
+2021-02-23 03:55:37,207 - Node found in 0 turns
+2021-02-23 03:55:37,207 - 22 is being evaluated
+2021-02-23 03:58:01,173 - Node found in 0 turns
+2021-02-23 03:58:01,173 - 23 is being evaluated
+2021-02-23 04:00:33,355 - Node found in 0 turns
+2021-02-23 04:00:33,355 - 24 is being evaluated
+2021-02-23 04:03:09,225 - Node found in 0 turns
+2021-02-23 04:03:09,225 - 25 is being evaluated
+2021-02-23 04:05:53,420 - Node found in 0 turns
+2021-02-23 04:05:53,436 - 26 is being evaluated
+2021-02-23 04:08:59,376 - Node found in 0 turns
+2021-02-23 04:08:59,376 - 27 is being evaluated
+2021-02-23 04:12:23,578 - Node found in 0 turns
+2021-02-23 04:12:23,578 - 28 is being evaluated
+2021-02-23 04:15:25,535 - Node found in 0 turns
+2021-02-23 04:15:25,550 - 29 is being evaluated
+2021-02-23 04:18:33,521 - Node found in 0 turns
+2021-02-23 04:18:33,521 - 30 is being evaluated
+2021-02-23 04:21:48,944 - Node found in 0 turns
+2021-02-23 04:21:48,990 - Tower Run 6 has started
+2021-02-23 04:21:48,990 - 1 is being evaluated
+2021-02-23 04:22:03,612 - Node found in 481 turns
+2021-02-23 04:22:03,612 - 2 is being evaluated
+2021-02-23 04:22:32,058 - Node found in 465 turns
+2021-02-23 04:22:32,074 - 3 is being evaluated
+2021-02-23 04:23:04,848 - Node found in 264 turns
+2021-02-23 04:23:04,863 - 4 is being evaluated
+2021-02-23 04:23:40,386 - Node found in 112 turns
+2021-02-23 04:23:40,386 - 5 is being evaluated
+2021-02-23 04:24:20,861 - Node found in 85 turns
+2021-02-23 04:24:20,861 - 6 is being evaluated
+2021-02-23 04:25:17,972 - Node found in 154 turns
+2021-02-23 04:25:17,972 - 7 is being evaluated
+2021-02-23 04:26:08,007 - Node found in 2 turns
+2021-02-23 04:26:08,007 - 8 is being evaluated
+2021-02-23 04:27:04,322 - Node found in 1 turns
+2021-02-23 04:27:04,322 - 9 is being evaluated
+2021-02-23 04:28:07,714 - Node found in 0 turns
+2021-02-23 04:28:07,714 - 10 is being evaluated
+2021-02-23 04:29:18,837 - Node found in 2 turns
+2021-02-23 04:29:18,837 - 11 is being evaluated
+2021-02-23 04:30:33,023 - Node found in 0 turns
+2021-02-23 04:30:33,023 - 12 is being evaluated
+2021-02-23 04:31:53,051 - Node found in 11 turns
+2021-02-23 04:31:53,067 - 13 is being evaluated
+2021-02-23 04:33:19,218 - Node found in 1 turns
+2021-02-23 04:33:19,218 - 14 is being evaluated
+2021-02-23 04:34:53,399 - Node found in 5 turns
+2021-02-23 04:34:53,415 - 15 is being evaluated
+2021-02-23 04:36:31,954 - Node found in 0 turns
+2021-02-23 04:36:31,954 - 16 is being evaluated
+2021-02-23 04:38:19,038 - Node found in 3 turns
+2021-02-23 04:38:19,038 - 17 is being evaluated
+2021-02-23 04:40:12,714 - Node found in 0 turns
+2021-02-23 04:40:12,730 - 18 is being evaluated
+2021-02-23 04:42:10,514 - Node found in 0 turns
+2021-02-23 04:42:10,530 - 19 is being evaluated
+2021-02-23 04:44:15,828 - Node found in 0 turns
+2021-02-23 04:44:15,828 - 20 is being evaluated
+2021-02-23 04:46:28,891 - Node found in 1 turns
+2021-02-23 04:46:28,906 - 21 is being evaluated
+2021-02-23 04:48:50,092 - Node found in 0 turns
+2021-02-23 04:48:50,092 - 22 is being evaluated
+2021-02-23 04:51:15,791 - Node found in 0 turns
+2021-02-23 04:51:15,791 - 23 is being evaluated
+2021-02-23 04:53:45,131 - Node found in 0 turns
+2021-02-23 04:53:45,147 - 24 is being evaluated
+2021-02-23 04:56:24,390 - Node found in 0 turns
+2021-02-23 04:56:24,390 - 25 is being evaluated
+2021-02-23 04:59:10,023 - Node found in 0 turns
+2021-02-23 04:59:10,023 - 26 is being evaluated
+2021-02-23 05:02:02,575 - Node found in 0 turns
+2021-02-23 05:02:02,575 - 27 is being evaluated
+2021-02-23 05:04:57,393 - Node found in 0 turns
+2021-02-23 05:04:57,393 - 28 is being evaluated
+2021-02-23 05:08:00,007 - Node found in 0 turns
+2021-02-23 05:08:00,007 - 29 is being evaluated
+2021-02-23 05:11:11,274 - Node found in 0 turns
+2021-02-23 05:11:11,274 - 30 is being evaluated
+2021-02-23 05:14:28,930 - Node found in 0 turns
+2021-02-23 05:14:28,977 - Tower Run 7 has started
+2021-02-23 05:14:28,977 - 1 is being evaluated
+2021-02-23 05:14:42,849 - Node found in 490 turns
+2021-02-23 05:14:42,849 - 2 is being evaluated
+2021-02-23 05:15:10,374 - Node found in 436 turns
+2021-02-23 05:15:10,389 - 3 is being evaluated
+2021-02-23 05:15:37,211 - Node found in 173 turns
+2021-02-23 05:15:37,227 - 4 is being evaluated
+2021-02-23 05:16:17,795 - Node found in 230 turns
+2021-02-23 05:16:17,811 - 5 is being evaluated
+2021-02-23 05:17:03,284 - Node found in 197 turns
+2021-02-23 05:17:03,284 - 6 is being evaluated
+2021-02-23 05:17:49,274 - Node found in 71 turns
+2021-02-23 05:17:49,289 - 7 is being evaluated
+2021-02-23 05:18:40,652 - Node found in 38 turns
+2021-02-23 05:18:40,668 - 8 is being evaluated
+2021-02-23 05:19:33,780 - Node found in 0 turns
+2021-02-23 05:19:33,780 - 9 is being evaluated
+2021-02-23 05:20:36,078 - Node found in 15 turns
+2021-02-23 05:20:36,093 - 10 is being evaluated
+2021-02-23 05:21:42,484 - Node found in 0 turns
+2021-02-23 05:21:42,484 - 11 is being evaluated
+2021-02-23 05:22:56,826 - Node found in 10 turns
+2021-02-23 05:22:56,841 - 12 is being evaluated
+2021-02-23 05:24:16,479 - Node found in 1 turns
+2021-02-23 05:24:16,494 - 13 is being evaluated
+2021-02-23 05:25:42,630 - Node found in 3 turns
+2021-02-23 05:25:42,630 - 14 is being evaluated
+2021-02-23 05:27:16,546 - Node found in 0 turns
+2021-02-23 05:27:16,546 - 15 is being evaluated
+2021-02-23 05:28:55,788 - Node found in 2 turns
+2021-02-23 05:28:55,803 - 16 is being evaluated
+2021-02-23 05:30:43,465 - Node found in 1 turns
+2021-02-23 05:30:43,465 - 17 is being evaluated
+2021-02-23 05:32:37,610 - Node found in 0 turns
+2021-02-23 05:32:37,610 - 18 is being evaluated
+2021-02-23 05:34:36,160 - Node found in 1 turns
+2021-02-23 05:34:36,176 - 19 is being evaluated
+2021-02-23 05:36:43,036 - Node found in 1 turns
+2021-02-23 05:36:43,052 - 20 is being evaluated
+2021-02-23 05:38:55,224 - Node found in 0 turns
+2021-02-23 05:38:55,224 - 21 is being evaluated
+2021-02-23 05:41:15,706 - Node found in 1 turns
+2021-02-23 05:41:15,706 - 22 is being evaluated
+2021-02-23 05:43:43,343 - Node found in 0 turns
+2021-02-23 05:43:43,343 - 23 is being evaluated
+2021-02-23 05:46:17,166 - Node found in 1 turns
+2021-02-23 05:46:17,182 - 24 is being evaluated
+2021-02-23 05:48:55,910 - Node found in 0 turns
+2021-02-23 05:48:55,925 - 25 is being evaluated
+2021-02-23 05:51:42,745 - Node found in 0 turns
+2021-02-23 05:51:42,745 - 26 is being evaluated
+2021-02-23 05:54:38,750 - Node found in 0 turns
+2021-02-23 05:54:38,766 - 27 is being evaluated
+2021-02-23 05:57:39,177 - Node found in 0 turns
+2021-02-23 05:57:39,177 - 28 is being evaluated
+2021-02-23 06:00:48,273 - Node found in 0 turns
+2021-02-23 06:00:48,273 - 29 is being evaluated
+2021-02-23 06:04:01,446 - Node found in 0 turns
+2021-02-23 06:04:01,446 - 30 is being evaluated
+2021-02-23 06:07:22,070 - Node found in 0 turns
+2021-02-23 06:07:22,117 - Tower Run 8 has started
+2021-02-23 06:07:22,117 - 1 is being evaluated
+2021-02-23 06:07:37,504 - Node found in 482 turns
+2021-02-23 06:07:37,520 - 2 is being evaluated
+2021-02-23 06:08:06,575 - Node found in 492 turns
+2021-02-23 06:08:06,591 - 3 is being evaluated
+2021-02-23 06:08:44,441 - Node found in 342 turns
+2021-02-23 06:08:44,457 - 4 is being evaluated
+2021-02-23 06:09:36,476 - Node found in 396 turns
+2021-02-23 06:09:36,476 - 5 is being evaluated
+2021-02-23 06:10:17,122 - Node found in 59 turns
+2021-02-23 06:10:17,122 - 6 is being evaluated
+2021-02-23 06:11:00,471 - Node found in 11 turns
+2021-02-23 06:11:00,471 - 7 is being evaluated
+2021-02-23 06:11:48,928 - Node found in 0 turns
+2021-02-23 06:11:48,931 - 8 is being evaluated
+2021-02-23 06:12:53,822 - Node found in 31 turns
+2021-02-23 06:12:53,837 - 9 is being evaluated
+2021-02-23 06:14:03,165 - Node found in 0 turns
+2021-02-23 06:14:03,165 - 10 is being evaluated
+2021-02-23 06:15:19,803 - Node found in 7 turns
+2021-02-23 06:15:19,803 - 11 is being evaluated
+2021-02-23 06:16:40,221 - Node found in 0 turns
+2021-02-23 06:16:40,237 - 12 is being evaluated
+2021-02-23 06:18:09,638 - Node found in 6 turns
+2021-02-23 06:18:09,638 - 13 is being evaluated
+2021-02-23 06:19:44,694 - Node found in 6 turns
+2021-02-23 06:19:44,694 - 14 is being evaluated
+2021-02-23 06:21:25,685 - Node found in 0 turns
+2021-02-23 06:21:25,701 - 15 is being evaluated
+2021-02-23 06:23:15,237 - Node found in 0 turns
+2021-02-23 06:23:15,237 - 16 is being evaluated
+2021-02-23 06:25:14,693 - Node found in 0 turns
+2021-02-23 06:25:14,693 - 17 is being evaluated
+2021-02-23 06:27:16,508 - Node found in 0 turns
+2021-02-23 06:27:16,524 - 18 is being evaluated
+2021-02-23 06:29:27,633 - Node found in 0 turns
+2021-02-23 06:29:27,633 - 19 is being evaluated
+2021-02-23 06:31:46,866 - Node found in 0 turns
+2021-02-23 06:31:46,881 - 20 is being evaluated
+2021-02-23 06:34:10,785 - Node found in 2 turns
+2021-02-23 06:34:10,785 - 21 is being evaluated
+2021-02-23 06:36:44,436 - Node found in 0 turns
+2021-02-23 06:36:44,436 - 22 is being evaluated
+2021-02-23 06:39:23,414 - Node found in 0 turns
+2021-02-23 06:39:23,414 - 23 is being evaluated
+2021-02-23 06:42:09,796 - Node found in 1 turns
+2021-02-23 06:42:09,812 - 24 is being evaluated
+2021-02-23 06:45:03,865 - Node found in 0 turns
+2021-02-23 06:45:03,865 - 25 is being evaluated
+2021-02-23 06:48:03,525 - Node found in 0 turns
+2021-02-23 06:48:03,525 - 26 is being evaluated
+2021-02-23 06:51:09,497 - Node found in 0 turns
+2021-02-23 06:51:09,497 - 27 is being evaluated
+2021-02-23 06:54:25,654 - Node found in 1 turns
+2021-02-23 06:54:25,654 - 28 is being evaluated
+2021-02-23 06:57:51,558 - Node found in 0 turns
+2021-02-23 06:57:51,558 - 29 is being evaluated
+2021-02-23 07:01:22,383 - Node found in 0 turns
+2021-02-23 07:01:22,399 - 30 is being evaluated
+2021-02-23 07:04:57,192 - Node found in 0 turns
+2021-02-23 07:04:57,239 - Tower Run 9 has started
+2021-02-23 07:04:57,239 - 1 is being evaluated
+2021-02-23 07:05:13,094 - Node found in 489 turns
+2021-02-23 07:05:13,110 - 2 is being evaluated
+2021-02-23 07:05:44,681 - Node found in 485 turns
+2021-02-23 07:05:44,681 - 3 is being evaluated
+2021-02-23 07:06:25,749 - Node found in 396 turns
+2021-02-23 07:06:25,749 - 4 is being evaluated
+2021-02-23 07:06:57,991 - Node found in 9 turns
+2021-02-23 07:06:57,991 - 5 is being evaluated
+2021-02-23 07:07:40,388 - Node found in 71 turns
+2021-02-23 07:07:40,388 - 6 is being evaluated
+2021-02-23 07:08:27,908 - Node found in 1 turns
+2021-02-23 07:08:27,908 - 7 is being evaluated
+2021-02-23 07:09:27,222 - Node found in 58 turns
+2021-02-23 07:09:27,237 - 8 is being evaluated
+2021-02-23 07:10:25,270 - Node found in 13 turns
+2021-02-23 07:10:25,270 - 9 is being evaluated
+2021-02-23 07:11:29,864 - Node found in 7 turns
+2021-02-23 07:11:29,864 - 10 is being evaluated
+2021-02-23 07:12:42,019 - Node found in 12 turns
+2021-02-23 07:12:42,019 - 11 is being evaluated
+2021-02-23 07:13:59,376 - Node found in 1 turns
+2021-02-23 07:13:59,376 - 12 is being evaluated
+2021-02-23 07:15:22,387 - Node found in 2 turns
+2021-02-23 07:15:22,403 - 13 is being evaluated
+2021-02-23 07:16:49,820 - Node found in 0 turns
+2021-02-23 07:16:49,820 - 14 is being evaluated
+2021-02-23 07:18:23,110 - Node found in 1 turns
+2021-02-23 07:18:23,126 - 15 is being evaluated
+2021-02-23 07:20:12,148 - Node found in 0 turns
+2021-02-23 07:20:12,148 - 16 is being evaluated
+2021-02-23 07:22:08,855 - Node found in 2 turns
+2021-02-23 07:22:08,855 - 17 is being evaluated
+2021-02-23 07:24:12,185 - Node found in 1 turns
+2021-02-23 07:24:12,185 - 18 is being evaluated
+2021-02-23 07:26:23,998 - Node found in 1 turns
+2021-02-23 07:26:23,998 - 19 is being evaluated
+2021-02-23 07:28:46,261 - Node found in 4 turns
+2021-02-23 07:28:46,261 - 20 is being evaluated
+2021-02-23 07:31:11,679 - Node found in 2 turns
+2021-02-23 07:31:11,679 - 21 is being evaluated
+2021-02-23 07:33:45,987 - Node found in 1 turns
+2021-02-23 07:33:46,002 - 22 is being evaluated
+2021-02-23 07:36:27,105 - Node found in 0 turns
+2021-02-23 07:36:27,121 - 23 is being evaluated
+2021-02-23 07:39:12,925 - Node found in 0 turns
+2021-02-23 07:39:12,925 - 24 is being evaluated
+2021-02-23 07:42:09,977 - Node found in 0 turns
+2021-02-23 07:42:09,977 - 25 is being evaluated
+2021-02-23 07:45:13,887 - Node found in 0 turns
+2021-02-23 07:45:13,887 - 26 is being evaluated
+2021-02-23 07:48:22,186 - Node found in 0 turns
+2021-02-23 07:48:22,202 - 27 is being evaluated
+2021-02-23 07:51:39,749 - Node found in 0 turns
+2021-02-23 07:51:39,764 - 28 is being evaluated
+2021-02-23 07:55:04,919 - Node found in 1 turns
+2021-02-23 07:55:04,935 - 29 is being evaluated
+2021-02-23 07:58:35,869 - Node found in 0 turns
+2021-02-23 07:58:35,885 - 30 is being evaluated
+2021-02-23 08:02:12,490 - Node found in 0 turns
