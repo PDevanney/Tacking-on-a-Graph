@@ -20,7 +20,8 @@ python main.py [ARGUMENTS : playable graph_size tower_count]
 > Will run the script. By default the Evaluation script will be run. With Graph Size of 25 and Tower Count of 3
 ---
 ## Authors and Acknowledgement
-> Patrick Justin Devanney -- patrickdevanney28@gmail.com
+> Patrick Justin Devanney -- Student at the University of Glasgow, Email: patrickdevanney28@gmail.com
+> Supervised by Dr. Jessica Enright -- Lecturer of Computing Science at the University of Glasgow
 ---
 ## Initial Project Specification
 > I am interested in the following pursuit game: imagine that I have a number of tracking towers that I can place on a graph. 
