@@ -3,7 +3,21 @@
 > This Project will create a Python script that will attempt to locate a Target on a graph in the most optimal number of moves possible as per the specification described below.
 ---
 ## Installation
-> ** ToDo Update Installation **
+> The required packages for the project are as follows
+> * Numpy
+> * NetworkX
+> * MatPlotLib
+> * TreeLib
+> Packages can be installed by navigating to the required directory and using command:
+```` 
+pip install -r requirements.txt
+````
+> This will autommatically install all requirements of the project.
+> Upon installation of these packages the command
+````
+python main.py [ARGUMENTS : playable graph_size tower_count]
+````
+> Will run the script. By default the Evaluation script will be run. With Graph Size of 25 and Tower Count of 3
 ---
 ## Authors and Acknowledgement
 > Patrick Justin Devanney -- patrickdevanney28@gmail.com
