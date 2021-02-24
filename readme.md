@@ -21,6 +21,7 @@ python main.py [ARGUMENTS : playable graph_size tower_count]
 ---
 ## Authors and Acknowledgement
 > Patrick Justin Devanney -- Student at the University of Glasgow, Email: patrickdevanney28@gmail.com
+> 
 > Supervised by Dr. Jessica Enright -- Lecturer of Computing Science at the University of Glasgow
 ---
 ## Initial Project Specification
