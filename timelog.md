@@ -393,3 +393,6 @@
 
 ### 21 February 2021
 * *6 hours* Working on dissertation. Continuing write-up of background section. Looking further into Implementation section - adding additional headers and information.
+
+### 22 February 2021
+* *6 hours* Working on dissertation. Continued write-up and research into background section - Metric Dimension. Continued implementation section of the diss. Write up regarding Software Engineering practices.  
