@@ -396,3 +396,12 @@
 
 ### 22 February 2021
 * *6 hours* Working on dissertation. Continued write-up and research into background section - Metric Dimension. Continued implementation section of the diss. Write up regarding Software Engineering practices.
+
+### 23 February 2021
+* *4 hours* Working on Evaluation graph code. Fixing error on Multiple runs. Attempting to add summary evlaution code.
+
+
+## Week 19
+### 25 February 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
