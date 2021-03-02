@@ -405,3 +405,13 @@
 ### 25 February 2021
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
 
+### 27 February 2021
+* *3 hours* Working on evaluation output. Getting run graphs to output correctly.
+
+
+### 28 February 2021
+* *2.5 hours* Working on Dissertation. Correcting Abstract, Introduction. Adding additions to Background section.
+* *4.5 hours* Working on evaluation output. Working on Summary graphs.
+
+### 1 March 2021
+* *6 hours* Working on Dissertation. Working on Background Section. Adding Bullet Points to Design and Analysis sections.
