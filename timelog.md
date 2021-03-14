@@ -396,3 +396,39 @@
 
 ### 22 February 2021
 * *6 hours* Working on dissertation. Continued write-up and research into background section - Metric Dimension. Continued implementation section of the diss. Write up regarding Software Engineering practices.
+
+### 23 February 2021
+* *4 hours* Working on Evaluation graph code. Fixing error on Multiple runs. Attempting to add summary evlaution code.
+
+
+## Week 19
+### 25 February 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 27 February 2021
+* *3 hours* Working on evaluation output. Getting run graphs to output correctly.
+
+### 28 February 2021
+* *2.5 hours* Working on Dissertation. Correcting Abstract, Introduction. Adding additions to Background section.
+* *4.5 hours* Working on evaluation output. Working on Summary graphs.
+
+### 1 March 2021
+* *6 hours* Working on Dissertation. Working on Background Section. Adding Bullet Points to Design and Analysis sections.
+
+### 2 March 2021
+* *3 hours* Working on Graphing code.
+* *4 hours* Further work on Dissertation. Preparing for submission. Adding additional bullet points. Work in the Implementation section.
+
+### 3 March 2021
+* *3 hours* Working on Graphing code.
+
+## Week 20
+### 4 March 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 8 March 2021
+* *0.5 hour* Reviewing Dissertation comments.
+
+## Week 21
+### 11 March 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
