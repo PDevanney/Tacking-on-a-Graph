@@ -432,3 +432,9 @@
 ## Week 21
 ### 11 March 2021
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 13 March 2021
+* *3 hours* Getting final summary graphs. Tidying up code.
+
+### 14 March 2021
+* *2 hours* Fixing comments left on Dissertation. Working on introduction and background sections.
