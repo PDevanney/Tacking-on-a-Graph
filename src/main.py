@@ -114,7 +114,7 @@ if __name__ == '__main__':
         print("\n")
 
     else:
-        with open('../data/output/graph_type.csv', 'w', newline='') as file:
+        with open('../data/raw/graph_type.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Graph Type", "Graph Size", "Tower Count", "Tower Type", "Target Type", "Turns",
                              "Tower Clock Time", "Target Location Clock Time", "Target Move Clock Time",
@@ -284,7 +284,7 @@ if __name__ == '__main__':
             file.flush()
             os.fsync(file.fileno())
 
-        with open("../data/output/tower.csv", 'w', newline='') as file:
+        with open("../data/raw/tower.csv", 'w', newline='') as file:
             tower = RandomTower
             target = RandomTarget
             tower_count_array = np.arange(1, 31)

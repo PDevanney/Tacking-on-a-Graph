@@ -44,7 +44,7 @@ class OptimalTower:
     # Return the Optimal Positions to place the Towers - based on the Minimax approach
     #   Go through each combination of tower_locations.
     #   Return the longest possible path for each combination.
-    #   Return the shortest path from the above output.
+    #   Return the shortest path from the above raw.
     # Parameters:
     #   Graph graph
     #   int tower_count
