@@ -438,3 +438,9 @@
 
 ### 14 March 2021
 * *2 hours* Fixing comments left on Dissertation. Working on introduction and background sections.
+
+### 15 March 2021
+* *4 hours* Completing Analysis and Requirements section. Brief look at Background again.
+
+### 16 March 2021
+* *5 hours* Working on Design Section. Completed design of Search, distance, began Target design.
