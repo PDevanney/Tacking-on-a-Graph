@@ -444,3 +444,16 @@
 
 ### 16 March 2021
 * *5 hours* Working on Design Section. Completed design of Search, distance, began Target design.
+
+## Week 21
+### 18 March 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+
+### 19 March 2021
+* *4 hours* Finishing off Dissertation design section.
+
+### 20 March 2021
+* *3 hours* Adding new sections to the design section. Began adding to the implementation section.
+
+### 21 March 2021
+* *5 hours* Completing design section fully.
