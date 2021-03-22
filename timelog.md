@@ -457,3 +457,6 @@
 
 ### 21 March 2021
 * *5 hours* Completing design section fully.
+
+### 22 March 2021
+* *6 hours* Beginning implementation section of the project. Completing Software Practices section, working on the Game section.
