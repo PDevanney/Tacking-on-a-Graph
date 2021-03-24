@@ -100,7 +100,7 @@ def create_plots(target_type):
 
                     plt.plot(size, turn, label=target[:-6] + " Target", linestyle='--', marker='x')
                 plt.xlabel("Graph Size")
-                plt.ylabel("Turn Count")
+                plt.ylabel("Average Turn Count")
 
                 if graph == "ErdosRenyi":
                     title = tower[:-5] + " Tower on Erdos Renyi"
@@ -108,6 +108,7 @@ def create_plots(target_type):
                     title = tower[:-5] + " Tower on Random Tree"
                 plt.title(title)
                 plt.legend()
+                plt.grid(b=None, which='major', axis='both')
                 f.savefig("graph_output/turn_count/" + run + "_" + title + ".pdf", bbox_inches='tight')
                 plt.close(f)
 
@@ -134,6 +135,7 @@ def create_plots(target_type):
                     title = tower[:-5] + " Tower on Random Tree"
                 plt.title(title)
                 plt.legend()
+                plt.grid(b=None, which='major', axis='both')
                 f.savefig("graph_output/clock_time/" + run + "_" + title + ".pdf", bbox_inches='tight')
                 plt.close(f)
 
@@ -150,8 +152,10 @@ def create_towercountplot(run):
         plt.plot(towercount, turncount, linestyle='--', marker='x')
         plt.xlabel("Tower Count")
         plt.ylabel("Turn Count")
+        plt.grid(b=None, which='major', axis='both')
         plt.title("Tower Count vs. Turn Count")
         f.savefig("graph_output/tower_vs_turncount/" + r + "_TowerVsTurnCount.pdf", bbox_inches='tight')
+        plt.close(f)
 
 
 def average_towercountplot(tower_count):
@@ -161,7 +165,7 @@ def average_towercountplot(tower_count):
 
     f= plt.figure()
     for tower in run:
-        average_towercount.append(tower)
+        average_towercount.append(int(tower))
         total = 0
 
         for r in run[tower]:
@@ -172,7 +176,8 @@ def average_towercountplot(tower_count):
     plt.plot(average_towercount, average_turncount, linestyle='--', marker='x')
     plt.xlabel("Tower Count")
     plt.ylabel("Turn Count")
-    plt.title("Tower Count vs. Average Turn Count")
+    plt.grid(b=None, which='major', axis='both')
+    plt.title("Tower Count vs. Turn Count")
     f.savefig("graph_output/summary_graphs/tower_vs_turncount/Average_TowerVsTurnCount.pdf", bbox_inches='tight')
 
 
@@ -202,7 +207,7 @@ def create_summaryplots(input):
                 plt.plot(size, turn, label=target[:-6] + " Target", linestyle='--', marker='x')
 
             plt.xlabel("Graph Size")
-            plt.ylabel("Turn Count")
+            plt.ylabel("Average Turn Count")
 
             if g == "ErdosRenyi":
                 title = "Summary " + tower[:-5] + " Tower on Erdos Renyi"
@@ -228,7 +233,7 @@ def create_summaryplots(input):
                     size.append(int(s))
                 plt.plot(size, time, label=target[:-6] + " Target", linestyle='--', marker='x')
             plt.xlabel("Graph Size")
-            plt.ylabel("Clock Time")
+            plt.ylabel("Average Clock Time")
 
             if g == "ErdosRenyi":
                 title = "Summary " + tower[:-5] + " Tower on Erdos Renyi"

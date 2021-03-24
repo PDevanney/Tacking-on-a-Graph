@@ -13,10 +13,12 @@ from tower import *
 from playable import *
 
 TIMEOUT = 300
+GRAPHSIZE = 40
+TOWERCOUNT = 3
 
-logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 
 if __name__ == '__main__':
+    logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
     logging.info("Code has started Execution")
 
     found = False
@@ -29,9 +31,9 @@ if __name__ == '__main__':
         graph_size = int(sys.argv[2])
         tower_count = int(sys.argv[3])
     else:
-        playable = False
-        graph_size = 25
-        tower_count = 3
+        playable = True
+        graph_size = GRAPHSIZE
+        tower_count = TOWERCOUNT
 
     tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
     target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
