@@ -460,3 +460,13 @@
 
 ### 22 March 2021
 * *6 hours* Beginning implementation section of the project. Completing Software Practices section, working on the Game section.
+
+### 23 March 2021
+* *4 hours* Dissertation Implementation section - completed Game section. Started Automated Target approach. Added graphs to evaluation section.
+
+### 25 March 2021
+* *6 hours* Completed Implementation sections of Automated Target, Better Approach, and Optimal Approach.
+
+## Week 22
+### 25 March 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
