@@ -224,25 +224,51 @@ def create_summaryplots(input):
                 time = []
                 size = []
                 for s in run[g][tower][target]:
-                    average_time = []
+                    average_target_time = []
                     for r in run[g][tower][target][s]:
                         for data in run[g][tower][target][s][r]:
                             # Clock Time Recordings
-                            average_time.append(float(data[6]) + float(data[7]) + float(data[9]))
-                    time.append(sum(average_time)/len(average_time))
+                            average_target_time.append(float(data[7]) + float(data[9]))
+                    time.append(sum(average_target_time)/len(average_target_time))
                     size.append(int(s))
                 plt.plot(size, time, label=target[:-6] + " Target", linestyle='--', marker='x')
             plt.xlabel("Graph Size")
             plt.ylabel("Average Clock Time")
 
             if g == "ErdosRenyi":
-                title = "Summary " + tower[:-5] + " Tower on Erdos Renyi"
+                title = "Summary " + tower[:-5] + " Tower on Erdos Renyi - Target Recordings"
             else:
-                title = "Summary " + tower[:-5] + " Tower on Random Tree"
+                title = "Summary " + tower[:-5] + " Tower on Random Tree - Target Recordings"
             plt.title(title)
             plt.legend()
             plt.grid(b=None, which='major', axis='both')
-            f.savefig("graph_output/summary_graphs/clock_time/" + title + ".pdf", bbox_inches='tight')
+            f.savefig("graph_output/summary_graphs/clock_time_target/" + title + ".pdf", bbox_inches='tight')
+            plt.close(f)
+
+            f = plt.figure()
+            for target in run[g][tower]:
+                time = []
+                size = []
+                for s in run[g][tower][target]:
+                    average_tower_time = []
+                    for r in run[g][tower][target][s]:
+                        for data in run[g][tower][target][s][r]:
+                            # Clock Time Recordings
+                            average_tower_time.append(float(data[6]))
+                    time.append(sum(average_tower_time)/len(average_tower_time))
+                    size.append(int(s))
+                plt.plot(size, time, label=target[:-6] + " Target", linestyle='--', marker='x')
+            plt.xlabel("Graph Size")
+            plt.ylabel("Average Clock Time")
+
+            if g == "ErdosRenyi":
+                title = "Summary " + tower[:-5] + " Tower on Erdos Renyi - Tower Recordings"
+            else:
+                title = "Summary " + tower[:-5] + " Tower on Random Tree - Tower Recordings"
+            plt.title(title)
+            plt.legend()
+            plt.grid(b=None, which='major', axis='both')
+            f.savefig("graph_output/summary_graphs/clock_time_tower/" + title + ".pdf", bbox_inches='tight')
             plt.close(f)
 
 # Get Run Graphs

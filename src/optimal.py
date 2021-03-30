@@ -117,16 +117,10 @@ def find_optimal_node(graph, towers):
                 i_distance[n] = -1
         distance_to_target.append(i_distance)
 
-    start_time = datetime.now()
-
     for n in graph.nodes():
         if n not in towers:
             opt = optimal_path(graph, n, towers, distance_to_target)
             path_size.append(opt)
-
-            elapsed = datetime.now() - start_time
-            if (elapsed.total_seconds()/60) > 5:
-                print("Current Node : ", n, " Elapsed Time : ", elapsed)  # time object
 
     longest_distance = max(path_size, key=operator.itemgetter(0))[0]
     return_arr = []

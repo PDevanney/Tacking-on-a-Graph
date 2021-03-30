@@ -58,7 +58,7 @@ class OptimalTower:
         short_tower_path_length = len(graph.nodes) + 1
         for comb in list(tower_combinations):
             # Get the longest path for the given Tower combination
-            current_path_length = find_optimal_node(graph, list(comb))[0] # Problem here?
+            current_path_length = find_optimal_node(graph, list(comb))[0]
 
             if current_path_length < short_tower_path_length:
                 optimal_comb = list(comb)

@@ -1,7 +1,7 @@
 import unittest
 import networkx as nx
 
-from src.tests.context import optimal
+from context import optimal
 
 
 def get_distance(g, towers):

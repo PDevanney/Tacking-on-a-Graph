@@ -1,7 +1,7 @@
 import networkx as nx
 
 from unittest import TestCase
-from src.tests.context import search
+from context import search
 
 
 class TestSearch(TestCase):
@@ -27,7 +27,6 @@ class TestSearch(TestCase):
         visited = []
         self.assertEqual([], search.search(target_to_every_node, tower_to_target, visited))
 
-    # ToDo Check Logic of this Test -- Should it return []
     def test_search_some_visited_single_tower(self):
         target_to_every_node = [{0: 1, 1: 1, 2: 1}, {0: 1, 1: 0, 2: 1}]
         tower_to_target = [1, 1]
