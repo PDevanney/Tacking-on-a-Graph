@@ -470,3 +470,20 @@
 ## Week 22
 ### 25 March 2021
 * *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+* *2 hours* Dissertation - working on the completion of the Implementation section of the code.
+
+### 26 March 2021
+* *5.5 hours* Dissertation - working on the completion of the Implementation section of the code.
+
+### 28 March 2021
+* *4.5 hours* Dissertation - working on the Evaluation section of the dissertation. Recreated graphs needed for this section.
+
+### 29 March 2021
+* *6 hours* Dissertation - completing the first draft of the evaluation.
+
+### 30 March 2021
+* *1.5 hours* Dissertation - making changes to the evaluation section.
+* *3.5 hours* Dissertation - re-writing background section Metric Dimension.
+* *0.5 hours* Creating final week plan of action.
+
+
