@@ -1,4 +1,4 @@
-# Tracking on a Graph - Dr. Jessica Enright
+# Tracking on a Graph
 ## Description
 This project has created a evaluative product in python. This project is an implemenation of a alternative approach to the well known "Cops and Robbers" game. Within this approach there are two main entities, one or more towers and a singular target. At the start of the game both objects would be positioned on the graph. Each turn, the tower would assess every node on the graph and be returned a vector D(G) = (d_1, d_2, ..., d_n) where d_i is the distance from the tower to every node on the graph G. The towers would also receive the current distance at that turn to the target. Using this provided information the tower would attempt to assess the current location of the target. If the target is not found then it can move to an adjacent node on the graph. The tower wins if the target is ever located. The specification discussed varying investigations and evaluations into the various aspects of the newly devised game specification.
 
