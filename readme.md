@@ -49,9 +49,10 @@ To install required packages run the following from within the "src" folder.
 
 ---
 ## Authors and Acknowledgement
-Patrick Justin Devanney -- Student at the University of Glasgow, Email: patrickdevanney28@gmail.com
+* Patrick Justin Devanney -- Student at the University of Glasgow, Email: patrickdevanney28@gmail.com
 
-Supervised by Dr. Jessica Enright -- Lecturer of Computing Science at the University of Glasgow
+* Supervised by Dr. Jessica Enright -- Lecturer of Computing Science at the University of Glasgow
+
 ---
 
 ## Initial Project Specification
@@ -60,10 +61,11 @@ On each turn, an opponent is going to move from one vertex to another in the gra
 Then the next turn begins, the opponent moves, and I get to know the distance it *now* is from each of my towers. 
 The opponent is not allowed to visit a vertex it has already visited. 
 If I ever know exactly where the opponent is at the current time, then I win! How can I place my towers so that I am guaranteed to win as quickly as possible? 
-How many moves will the opponent be able to take? Some work on this problem on simple graph classes (e.g. cycles, hypercubes) has already been done that can be shared with a student. 
-### Project
+How many moves will the opponent be able to take? Some work on this problem on simple graph classes (e.g. cycles, hypercubes) has already been done that can be shared with a student.
+
 In this project, a student should investigate this game using computational approaches combined with some formal reasoning. 
 A student might implement a simple search approach to simulate an optimal opponent, and then use that to asses the ability of heuristic approaches to find good tower locations on various 
 kind of graphs. 
 They might also implement a provably-exhaustive search to find the best possible tower locations for various numbers of towers on various graph classes. This topic could be suitable for a L4 (undergrad) or L5 (MSci) project.
+
 ---
