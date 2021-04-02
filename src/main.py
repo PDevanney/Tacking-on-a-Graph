@@ -15,7 +15,7 @@ from playable import *
 TIMEOUT = 300
 GRAPHSIZE = 40
 TOWERCOUNT = 3
-
+PLAYABLE = False
 
 if __name__ == '__main__':
     logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
@@ -31,7 +31,7 @@ if __name__ == '__main__':
         graph_size = int(sys.argv[2])
         tower_count = int(sys.argv[3])
     else:
-        playable = True
+        playable = PLAYABLE
         graph_size = GRAPHSIZE
         tower_count = TOWERCOUNT
 
