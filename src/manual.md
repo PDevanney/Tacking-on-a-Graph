@@ -21,7 +21,7 @@ To install required packages run the following from within the `src` folder.
 * `USAGE : python main.py False 50 3` Will perform the evaluative section on a graph of size 50 with 3 tower nodes.
 * `USAGE : python main.py True 50 3` Will perform the playable section on a graph of size 50 with 3 tower nodes.
 * Note **all** arguments must be passed in or default options will be used
-* The default options are set as False 50 3.
+* The default options are set as `False 50 3`.
 * By default, the code will run and automatically store recorded data in the `data/raw` folder. Logs will be outputted to the users throughout the running of the code.
 
 ### Test steps
