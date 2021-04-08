@@ -486,4 +486,33 @@
 * *3.5 hours* Dissertation - re-writing background section Metric Dimension.
 * *0.5 hours* Creating final week plan of action.
 
+## Week 23
+### 1 April 2021
+* *1 hour* Meeting with Supervisor. Compiling Meeting Minutes
+* *4 hours* Dissertation - Writing the Conclusion section.
 
+### 2 April 2021
+* *3.5 hours* Dissertation - Writing the Conclusion section.
+* *2 hours* Dissertation - Tidying up the Background section.
+
+### 3 April 2021
+* *2 hours* Dissertation - Proof Reading Analysis section.
+* *2 hours* Dissertation - Began proof reading the Design Section.
+* *1 hour* Dissertation - Continued write up of background section.
+
+### 4 April 2021
+* *5 hours* Dissertation - Proof reading of design section.
+
+### 5 April 2021
+* *9 hours* Dissertation - Proof reading of implementation section.
+
+### 6 April 2021
+* *3 hours* Dissertation - Rewrite conclusion based on comments provided.
+* *7 hours* Dissertation - Rewriting the Evaluation section.
+
+### 6 April 2021
+* *9 hours* Dissertation - Proof reading dissertation, redoing introduction, evaluation, implementation.
+
+### 6 April 2021
+* *6.5 hours* Presentation - Writing Script, Recording Video.
+* *4 hours* Dissertation - Proof reading dissertation - introduction, background. Writing abstract.
