@@ -510,9 +510,9 @@
 * *3 hours* Dissertation - Rewrite conclusion based on comments provided.
 * *7 hours* Dissertation - Rewriting the Evaluation section.
 
-### 6 April 2021
+### 7 April 2021
 * *9 hours* Dissertation - Proof reading dissertation, redoing introduction, evaluation, implementation.
 
-### 6 April 2021
+### 8 April 2021
 * *6.5 hours* Presentation - Writing Script, Recording Video.
 * *4 hours* Dissertation - Proof reading dissertation - introduction, background. Writing abstract.
