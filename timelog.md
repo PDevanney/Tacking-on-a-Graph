@@ -516,3 +516,8 @@
 ### 8 April 2021
 * *6.5 hours* Presentation - Writing Script, Recording Video.
 * *4 hours* Dissertation - Proof reading dissertation - introduction, background. Writing abstract.
+
+### 9 April 2021
+* *0.5 hours* Presentation - Editing Presentation
+* *1 hour* Code - Gettiing code, and readmes ready for submission
+* *6.5 hours* Dissertation - Proof reading dissertation
