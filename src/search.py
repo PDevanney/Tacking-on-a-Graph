@@ -1,3 +1,6 @@
+from distances import current_distance_to_target
+
+
 # Return a List of the Possible Locations of the Target on the Graph
 # Parameters:
 #   A dictionary of Distance to Every Node from Tower keyed by Node
@@ -5,9 +8,6 @@
 #   List[int] Previously Visited Nodes
 # Output:
 #   List[int] possible locations (Intersection of Input Array)
-from distances import current_distance_to_target
-
-
 def search(distance_to_every_node, distance_to_target, visited_nodes):
     current_tower = 0
     possible = []

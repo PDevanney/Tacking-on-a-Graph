@@ -12,10 +12,20 @@ from target import *
 from tower import *
 from playable import *
 
+# Global Variables
 TIMEOUT = 300
-GRAPHSIZE = 40
+GRAPHSIZE = 50
 TOWERCOUNT = 3
 PLAYABLE = False
+RUNS = 10
+
+
+# Evaluation Specific Variables
+tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]      # List of Tower approaches to be evaluated
+target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]  # List of Target approaches to be evaluated
+graph_type = ["ErdosRenyi", "Tree"]                                 # Graph Types to evaluate
+graph_size_array = np.arange(TOWERCOUNT+1, GRAPHSIZE+1)             # Graph Size to Evaluate
+
 
 if __name__ == '__main__':
     logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
@@ -23,42 +33,41 @@ if __name__ == '__main__':
 
     found = False
 
+    # Check for Command Line Input
     if len(sys.argv) == 4:
-        if (sys.argv[1]) == "True":
+        if (sys.argv[1]) == "True" or (sys.argv[1]) == "true":
             playable = True
         else:
             playable = False
         graph_size = int(sys.argv[2])
         tower_count = int(sys.argv[3])
+        graph_size_array = np.arange(tower_count+1, graph_size+1)  # Graph Size to Evaluate
     else:
         playable = PLAYABLE
         graph_size = GRAPHSIZE
         tower_count = TOWERCOUNT
-
-    tower_type = [RandomTower(), HeuristicTower(), OptimalTower()]
-    target_type = [RandomTarget(), HeuristicTarget(), OptimalTarget()]
-    graph_type = ["ErdosRenyi", "Tree"]
-    graph_size_array = np.arange(4, 51)
-    test_graph_size = [50, 100, 250, 500, 1000]
 
     # Check if the game mode is Playable (Interactive) or Evaluative
     if playable:
         print("Playable Method")
         print("-----------------")
         print("\n")
-
+        # Create graph
         graph = nx.erdos_renyi_graph(graph_size, 0.15)
         turn_number = 0
         visited = []
 
+        # Get Initial Tower Positions
         tower = RandomTower()
         tower_location = tower.initial_position(graph, tower_count)
 
+        # Draw and Show original gra[h
         node_colours = get_node_colours(graph.number_of_nodes(), tower_location, -1, visited)
         plt.subplot(111)
         nx.draw_networkx(graph, with_labels=True, font_weight='bold', node_color=node_colours)
         plt.show()
 
+        # Get Target location from User
         target_location = int(input("Please enter where you wish to begin?\n"))
 
         for t in tower_location:
@@ -67,10 +76,12 @@ if __name__ == '__main__':
         # Position the Nodes so they do not change each turn
         node_positions = nx.fruchterman_reingold_layout(graph, seed=42)
 
+        # Populate distance table
         distance_to_every_node = []
         for location in tower_location:
             distance_to_every_node.append(populate_distance_table(graph, location))
 
+        # Play out game
         while not found:
             found = tracking(graph, target_location, tower_location, visited, node_positions, distance_to_every_node)
 
@@ -108,6 +119,7 @@ if __name__ == '__main__':
             else:
                 print("Found!")
 
+        # After Target has been found - print out number of turns, path taken
         print("Target found in %d turns" % turn_number)
         print("Target visited ", end='')
         for t in visited[tower_count:]:
@@ -116,6 +128,10 @@ if __name__ == '__main__':
         print("\n")
 
     else:
+        # Conduct Evaluative Section
+
+        # Open output file
+        # Accuracy vs. Time Complexity calculations
         with open('../data/raw/graph_type.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Graph Type", "Graph Size", "Tower Count", "Tower Type", "Target Type", "Turns",
@@ -123,7 +139,7 @@ if __name__ == '__main__':
                              "Total Time", "Run Number"
                              ])
 
-            for run in range(0, 10):
+            for run in range(0, RUNS):
                 logging.info("Run %d has started" % run)
                 # Loop through all combinations of the Tower/Target for each Graph Type
                 # Loop through each different Graph Type, Graph Size, Tower, and Target combination.
@@ -286,6 +302,7 @@ if __name__ == '__main__':
             file.flush()
             os.fsync(file.fileno())
 
+        # Tower Count vs. Accuracy Evaluation
         with open("../data/raw/tower.csv", 'w', newline='') as file:
             tower = RandomTower
             target = RandomTarget
