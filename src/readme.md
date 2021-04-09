@@ -46,8 +46,8 @@ To install required packages run the following from within the `src` folder.
 #### Start the software by running:
 * `python main.py` Will run the program. By default the evaluative section will be run. The following arguments can be passed in to adapt the section
 * `ARGUMENTS : playable graph_size tower_count`
-* `USAGE : python main.py False 50 3` Will perform the evaluative section on a graph of size 50 with 3 tower nodes.
+* `USAGE : python main.py False 50 3` Will perform the evaluative section on a graph of sizes of 4 (tower_count + 1) to 50, with 3 tower nodes.
 * `USAGE : python main.py True 50 3` Will perform the playable section on a graph of size 50 with 3 tower nodes.
-* Note **all** arguments must be passed in or default options will be used
-* The default options are set as `False 50 3`.
+* Note **all** arguments must be passed in or default options will be used 
+* The default options are set as `False 50 3`. The code will run and automatically store recorded data in the `data/raw` folder. Logs will be outputted to the users throughout the running of the code.
 
