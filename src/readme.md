@@ -48,6 +48,7 @@ To install required packages run the following from within the `src` folder.
 * `ARGUMENTS : playable graph_size tower_count`
 * `USAGE : python main.py False 50 3` Will perform the evaluative section on a graph of sizes of 4 (tower_count + 1) to 50, with 3 tower nodes.
 * `USAGE : python main.py True 50 3` Will perform the playable section on a graph of size 50 with 3 tower nodes.
-* Note **all** arguments must be passed in or default options will be used 
+* Note **all** arguments must be passed in or default options will be used.
+* Note ANACONDA will open the graph figure in a separate window - close this figure to proceed.
 * The default options are set as `False 50 3`. The code will run and automatically store recorded data in the `data/raw` folder. Logs will be outputted to the users throughout the running of the code.
 
